@@ -1,0 +1,421 @@
+{
+    "language": "English",
+    "languageCode": "en",
+    "commands": {
+        "help": {
+            "embed1": {
+                "title": "Help Menu",
+                "description": "[name] is a easy-to-use Fortnite bot.\n\n**Links**\n[Privacy Policy]([website]/privacy-policy)\n[Terms of Service]([website]/tos)\n[Support Server]([supportServer])\n[Invite Link]([invite])"
+            }
+        },
+        "2fa": {
+            "embed1": "An unknown error occurred while receiving the reward.",
+            "embed2": {
+                "title": "Claimed Rewards",
+                "description": "Successfully claimed Battle Royale rewards.",
+                "description2": "Successfully claimed Battle Royale and Save the World rewards."
+            }
+        },
+        "island": {
+            "invalid": "[code] is not a valid code.",
+            "embed1": "An unknown error occurred while searching for the island.",
+            "description": "Description",
+            "no_description": "No Description",
+            "version": "Version",
+            "creator": "Creator",
+            "creation": "Creation:",
+            "tags": "Tags",
+            "no_tags": "No Tags",
+            "footer": "Support code: [code]",
+            "embed2": "An unknown error occurred while adding the island to your favorites.",
+            "embed3": {
+                "title": "Island Added to Your Favorites",
+                "description": "[island] is added to your favorites.",
+                "footer": "Note: Playing certain banned game mods may restrict your account. Please keep this risk in mind."
+            }
+        },
+        "anticheat": {
+            "embed1": "Anti-cheat system you are using: [provider]. Anti-cheat providers are random. Some of them are refreshed after the item shop is updated."
+        },
+        "friends": {
+            "global": {
+                "accept": "Accept",
+                "deny": "Deny",
+                "block": "Block",
+                "unblock": "Unblock",
+                "remove": "Remove Friend",
+                "add": "Add Friend",
+                "back": "Withdraw Request",
+                "backed": "Request Withdrawn",
+                "incoming": "Incoming Friend Request",
+                "outgoing": "Outgoing Friend Request",
+                "friends": "Friends with [name]",
+                "notfriends": "Not Friends with [name]",
+                "blocked": "Blocked [name]",
+                "accepted": "Request Accepted",
+                "sent": "Request Sent",
+                "sentdate": "Friend Request Date",
+                "denied": "Request Denied",
+                "blocked2": "[name] Blocked",
+                "blockdate": "Blocking Date",
+                "nickname": "Nickname",
+                "frienddate": "Friendship Date",
+                "changenickname": "Change Nickname",
+                "removed": "[name] Removed from Your Friends",
+                "removef": "Remove Friend",
+                "addfriend": "Add Friend",
+                "sent_w_name": "Request Sent to [name]"
+            },
+            "embed1": "No player found with the name [name].",
+            "embed2": "You can't add yourself as a friend.",
+            "embed3": "Please remove the player from your block list using the friend unblock or friend user command before performing this action.",
+            "embed4": "Friend request can't be sent due to the user's settings.",
+            "embed5": "Friend request could not be sent as the user has exceeded the incoming friend request limit.",
+            "embed6": "An unknown error occurred while sending the friend request.",
+            "embed7": "Friend request from [name] has been accepted.",
+            "embed8": "You have already sent a friend request to [name]. To withdraw the request, use the friend user command.",
+            "embed9": "You are already friends with [name]. To withdraw the request, use the friend user or friend remove command.",
+            "embed10": "Friend request has been sent to [name].",
+            "embed11": "You can't remove yourself as a friend.",
+            "embed12": "[name] has been removed from your friends list.",
+            "embed13": "You are not friends with [name].",
+            "embed14": "You can't block yourself.",
+            "embed15": "[name] has been blocked.",
+            "embed16": "[name] is already blocked in your list. To unblock, use the friend unblock or friend user command.",
+            "embed17": "[name]'s block has been removed.",
+            "embed18": "[name] is not in your blocked list.",
+            "embed19": "You have no friends.",
+            "embed20": {
+                "title": "Your Friends List has been Cleared",
+                "description": "[deleted] users whose accounts have been locked, suspended, or closed have been removed from your friends list."
+            },
+            "modal": {
+                "title": "Change Nickname",
+                "label": "New Nickname"
+            },
+            "embed21": "All friends have been successfully removed.",
+            "embed22": "An unknown error occurred while retrieving your friends list.",
+            "embed23": {
+                "title": "Your Friends",
+                "description": ":x: = Not eligible for gifting",
+                "footer": "Total [friends] friends"
+            }
+        },
+        "battleroyale": {
+            "embed1": {
+                "account": "Account",
+                "creation": "Account creation",
+                "account_level": "Account level",
+                "mfa": "2FA rewards",
+                "claimed": "Claimed [emoji]",
+                "notclaimed": "Not claimed [emoji]",
+                "br": "Battle Royale",
+                "wins": "Wins",
+                "allwins": "All wins",
+                "battlepass": "Battle pass",
+                "bp_active": "Active [emoji]",
+                "bp_notactive": "Not active [emoji]",
+                "level": "Level",
+                "superchargedxp": "Supercharged XP",
+                "xp": "XP",
+                "multiplier": "Multiplier",
+                "season_resources": "Season Resources",
+                "battlestars": "Battle stars",
+                "gold": "Gold",
+                "crown": "Crown",
+                "yescrown": "Owned [emoji]",
+                "nocrown": "Not owned [emoji]",
+                "wins_with_crown": "Wins with crown",
+                "lastmatch": "Last Match Time"
+            }
+        },
+        "whoami": {
+            "embed1": "Your profile wasn't found.",
+            "embed2": "An unknown error occurred while searching for your profile.",
+            "embed3": {
+                "fields": {
+                    "displayname": "Display Name",
+                    "connections": "Connections",
+                    "noconnection": "No Connection",
+                    "isparent": "is Parent Account?",
+                    "isparentverified": "is Parent Verified?"
+                }
+            }
+        },
+        "cloudstorage": {
+            "embed1": "No file found with name: [file].",
+            "name": "Name",
+            "uploaded": "Uploaded",
+            "size": "Size"
+        },
+        "logout": {
+            "embed1": {
+                "title": "Logged Out",
+                "description": "Your account has been successfully removed from the system and logged out."
+            }
+        },
+        "ranked": {
+            "current": "Current rank",
+            "highest": "Highest rank",
+            "progress": "Progress: **[progress]%**",
+            "br": "Ranked Battle Royale",
+            "zb": "Ranked Zero Builds"
+        },
+        "locker": {
+            "nocosmetics": "You don't have any cosmetics.",
+            "toolong": "Your locker wans't loaded because URL was too long.",
+            "locker": "Locker",
+            "viewonfngg": "View Your Locker on Fortnite.GG",
+            "noselectedcosmetics": "You don't have any cosmetics with this type."
+        },
+        "exchangecode": {
+            "expireNotification": "**WARNING: Do not share this code with anyone as it may grant access to your account!**\nThe code will expire [date].",
+            "logintoepicgames": "Login to Epic Games"
+        },
+        "news": {
+            "no_br": "There is no news for Battle Royale mode.",
+            "no_stw": "There is no news for Save the World mode."
+        },
+        "map": {
+            "randomlocation": "Random Location",
+            "embed1": "Battle Royale Map - [version]"
+        },
+        "reminder": {
+            "embed1": "No cosmetic named [cosmetic] found.",
+            "embed2": "You can't add this cosmetic to your reminders.",
+            "embed3": "You can't add more than 50 cosmetics to your reminders.",
+            "embed4": "This cosmetic is already in your reminders.",
+            "embed5": "[cosmetic] successfully added to your reminders.",
+            "embed6": "This cosmetic is not in your reminders already.",
+            "embed7": "[cosmetic] successfully removed from your reminders.",
+            "embed8": "Reminder List",
+            "embed9": "No cosmetic found in your reminders.",
+            "types": {
+                "outfit": "Outfits",
+                "pickaxe": "Pickaxes",
+                "backpack": "Backpacks",
+                "glider": "Gliders",
+                "emote": "Emotes",
+                "loadingscreen": "Loading Screens",
+                "emoji": "Emojis",
+                "wrap": "Wraps",
+                "spray": "Sprays",
+                "contrail": "Contrails",
+                "music": "Music",
+                "toy": "Toys"
+            }
+        },
+        "gift": {
+            "embed1": "Item not found.",
+            "embed2": "No player found with the name [name].",
+            "embed3": "You can't send a gift to yourself.",
+            "embed4": "You need to be friends with [friendName] to send a gift.",
+            "embed5": {
+                "description": "Do you want to gift [item] to [friendName] for [price]?",
+                "footer": "You have 30 seconds to decide. - If a special discount is applied to your friend, it will be gifted at that price."
+            },
+            "embed6": "You need to enable 2FA on your account before sending a gift.",
+            "embed7": "You can't send a gift to [friendName] as you became friends within the last 2 days. Try again [afterTime].",
+            "embed8": "[friendName] doesn't accept gifts.",
+            "embed9": "Gift could not be sent. [friendName] may already have this item.",
+            "embed10": "You need [requiredVB] more to gift this item. You currently have: [currentVB]",
+            "embed11": "You can't send this item as a gift.",
+            "embed12": "An unknown error occurred while sending the gift.",
+            "embed13": {
+                "title": "Item Gifted",
+                "description": "Successfully gifted [item] to [friendName] for [VBspent]."
+            }
+        },
+        "gifthistory": {
+            "embed1": "You haven't sent any gifts to anyone.",
+            "embed2": "Sent Gift History",
+            "embed3": "You haven't received any gifts from anyone.",
+            "embed4": "Received Gift History"
+        },
+        "shop": {
+            "embed1": "Item Shop ([date])"
+        },
+        "progress": {
+            "embed1": "Chapter 4 Season 3 is completed [percent]%. [daysLeft] days left until it finishes."
+        },
+        "cosmetic": {
+            "embed1": "",
+            "partofset": "Part of the [set] set.",
+            "intro": "Introduced in Chapter [chapter] Season [season].",
+            "lastSeen": "Last seen: [lastSeen]",
+            "notpublished": "Never seen"
+        },
+        "creativexp": {
+            "embed1": {
+                "title": "Creative XP",
+                "fields": {
+                    "daily": "Daily",
+                    "gameplay": "Gameplay",
+                    "gainedXp": "Gained XP",
+                    "dailyMultiplier": "Daily excess multiplier",
+                    "bankXp": "Bank XP",
+                    "bankXpMultiplier": "Bank XP multiplier",
+                    "bucketXp": "Bucket XP"
+                },
+                "resetdate": "Reset Date"
+            }
+        },
+        "randomlocation": {
+            "random": "Random location for this match"
+        },
+        "redeem": {
+            "embed1": "Code redeeming has been limited for [seconds] seconds. Please try again later.",
+            "embed2": "[code] is not a valid code.",
+            "embed3": "You already redeemed this code.",
+            "embed4": "An unknown error occurred. If the problem persists, please try another code.",
+            "embed5": "Code Redeemed",
+            "by": "By [codeSeller]"
+        },
+        "sac": {
+            "embed1": "This is not a valid code.",
+            "embed2": "An unknown error occurred. If the issue persists, please try another code.",
+            "embed3": "[supporting] is now supporting.",
+            "supported": "Supported Content Creator",
+            "none": "None",
+            "supportDate": "Support Date",
+            "expire": "Expiration Date"
+        },
+        "buy": {
+            "embed1": "Item not found.",
+            "embed2": {
+                "description": "Do you want to buy [item] for [price]?",
+                "footer": "You have 30 seconds to decide. - If a special discount is applied to you, it will be bought at that price."
+            },
+            "embed3": "You need [requiredVB] more to buy this item. You currently have: [currentVB]",
+            "embed4": "You already have this item.",
+            "embed5": "An unknown error occurred while buying the item.",
+            "embed6": {
+                "title": "Item Bought",
+                "description": "Successfully bought [item] for [VBspent]."
+            }
+        },
+        "stats": {
+            "embed1": "No Epic Games account found with the name [name].",
+            "embed2": "Stats for player [name] are private.",
+            "embed3": "Stats for player [name] could not be retrieved."
+        },
+        "offer": {
+            "embed1": "No offer found associated with the specified Offer ID.",
+            "embed2": "An unknown error occurred. Please try again with a different Offer ID.",
+            "price": "Price",
+            "free": "Free",
+            "buy": "Buy",
+            "status": "Status",
+            "unknown": "Unknown",
+            "by": "By [sellerName]",
+            "releaseDate": "Release Date",
+            "viewableDate": "Viewable Date",
+            "effectiveDate": "Effective Date",
+            "expiryDate": "Expiry Date",
+            "none": "None",
+            "footer": "To purchase in-game packs, Crew Pack, etc., using /offer buy command is required."
+        },
+        "vbucks": {
+            "price": "Price",
+            "buy": "Buy",
+            "vbucks": "[vbucks] V-Bucks",
+            "vbplatform": "V-Bucks Platform",
+            "supported": "Supported Content Creator",
+            "none": "None",
+            "breakdown": "Breakdown",
+            "neverbought": "You have never purchased V-Bucks.",
+            "embed1": {
+                "description": "You have purchased a total of [bought] V-Bucks since [date].",
+                "field": "[vbucks]: [count] times"
+            }
+        },
+        "botinfo": {
+            "botinfo": "Bot Information",
+            "servercount": "Server Count",
+            "usercount": "User Count",
+            "ping": "Ping",
+            "uptime": "Uptime",
+            "ram": "RAM Usage",
+            "invite": "Invite",
+            "click": "Click",
+            "userinfo": "User Information",
+            "totalregistered": "Total Registered Users",
+            "totalregisteredaccounts": "Total Registered Accounts",
+            "blacklistcount": "Number of Users Blacklisted",
+            "times": {
+                "week": "week",
+                "day": "day",
+                "hour": "hour",
+                "minute": "minute",
+                "second": "second"
+            }
+        },
+        "login": {
+            "embed1": {
+                "title": "📲 Login to your Epic Games Account",
+                "description": "**:warning: We recommend logging into accounts that only have email access!**\n1. Visit the link above and find the 'authorizationCode' key.\n2. Copy the entire value next to the key. The code will be valid for 30 seconds, refresh the page to get a new code.\n3. Click the 'Submit' button below and paste the code in the provided field. If the code is 'null', log into your Epic Games account at https://epicgames.com/login and try again.\n\n**Need to switch accounts?**\n[Click Here]([loginurl]])"
+            },
+            "selectmenu1": {
+                "placeholder": "Select Account or Login",
+                "loginanother": "Login with Another Account",
+                "loginnew": "Login with a New Account"
+            },
+            "unknown": "Unknown",
+            "selectaccount": "Select an account from below.",
+            "submit": "Submit",
+            "changed": "Account Changed",
+            "switchedto": "Switched to player [name].",
+            "declinedrules": "You declined the rules.",
+            "cantlogin3": "You can't login to more than three accounts.",
+            "login": "Login",
+            "code": "Code"
+        }
+    },
+    "general": {
+        "didntconnectdb": "Veritabanına bağlanılamadığı için bot bu komutu çalıştırılamadı. Lütfen daha sonra tekrar deneyin ve bilgi almak için [destek sunucumuza]([support]) katılın.",
+        "blacklist": "Botu kullanamazsın! [reason] sebebiyle kara listeye alındın.",
+        "disabled": "Bu komut kısa süreliğine devre dışı bırakılmıştır.",
+        "supserveronly": "Bu komutu sadece [destek sunucumuzda]([support]) kullanabilirsiniz.",
+        "loginreq": "Bu komutu kullanmak için lütfen [command] komutunu kullanarak hesabınıza giriş yapın.",
+        "dataerror": "Verileriniz veri tabanına düzgün işlenmediği için hesabınızdan çıkış yapmak zorunda kaldık. Lütfen tekrar giriş yapın ve sorun devam ederse yardım almak için [destek sunucumuza]([support]) katılın.",
+        "servererror": "Bu komut bir hata nedeniyle çalıştırılamadı. Bu hatanın genel nedeni, Fortnite sunucularının devre dışı olmasıdır.",
+        "hadtologout": "Oturumunuz Kapatıldı! Aşağıdaki nedenlerden biri bunun sebebi olabilir:\n• Session süresi doldu.\n• Epic Games veya siz tüm yetkilendirmeleri sildiniz.\n\nHesabınızdan otomatik olarak çıkış yapıldı. Tekrar giriş yapabilirsiniz.",
+        "missingperms": "Botun hesabınızda yetersiz yetki olmasından dolayı işlem gerçekleştirilemedi.",
+        "error": "Bu komut çalıştırılırken beklenmedik bir hata oluştu ve hata geliştiricilere bildirildi. Yardım almak için [destek sunucumuza]([support]) katılın."
+    },
+    "global": {
+        "yes": "Yes",
+        "no": "No",
+        "account_id": "Account ID",
+        "successTitles": ["Great!", "Successful"],
+        "errorTitles": [":warning: Error!", ":warning: We Hit a Roadblock!", ":warning: Not the Llama You're Looking For!"],
+        "warningTitles": ["Warning"],
+        "ranks": [
+            "Unranked",
+            "Bronze I",
+            "Bronze II",
+            "Bronze III",
+            "Silver I",
+            "Silver II",
+            "Silver III",
+            "Gold I",
+            "Gold II",
+            "Gold III",
+            "Diamond I",
+            "Diamond II",
+            "Diamond III",
+            "Platinum I",
+            "Platinum II",
+            "Platinum III",
+            "Elite",
+            "Champion",
+            "Unreal"
+        ],
+        "rulesMessage": {
+            "title": "Please Read Before Logging in:",
+            "description": "Please Read Before Logging In:\n\n1. We do not share or display your user data to anyone; we take your account security very seriously!\n2. Please use this bot only if you fully accept the potential risks that may come with it.\n3. We do not take responsibility for any actions taken against your account, including but not limited to restrictions, closures, or bans. These situations may arise from the usage or misuse of commands.\n\n**If you agree to these terms, click the 'I Accept' button below!**\n\n[Privacy Policy]([website]/privacy-policy) - [Terms of Service]([website]/tos)",
+            "accept": "I Accept",
+            "deny": "I Deny"
+        }
+    }
+}

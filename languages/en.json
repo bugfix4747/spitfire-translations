@@ -185,9 +185,9 @@
             "embed2": "You can't add this cosmetic to your reminders.",
             "embed3": "You can't add more than 50 cosmetics to your reminders.",
             "embed4": "This cosmetic is already in your reminders.",
-            "embed5": "[cosmetic] successfully added to your reminders.",
+            "embed5": "[cosmetic] is successfully added to your reminders.",
             "embed6": "This cosmetic is not in your reminders already.",
-            "embed7": "[cosmetic] successfully removed from your reminders.",
+            "embed7": "[cosmetic] is successfully removed from your reminders.",
             "embed8": "Reminder List",
             "embed9": "No cosmetic found in your reminders.",
             "types": {

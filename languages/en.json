@@ -243,7 +243,9 @@
             "partofset": "Part of the [set] set.",
             "intro": "Introduced in Chapter [chapter] Season [season].",
             "lastSeen": "Last seen: [lastSeen]",
-            "notpublished": "Never seen"
+            "notpublished": "Never seen",
+            "placeholder": "Select a style",
+            "style": "Style: [style]"
         },
         "creativexp": {
             "embed1": {

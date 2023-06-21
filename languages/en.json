@@ -239,7 +239,7 @@
             "embed1": "Chapter 4 Season 3 is completed [percent]%. [daysLeft] days left until it finishes."
         },
         "cosmetic": {
-            "embed1": "",
+            "embed1": "No cosmetic named [name] found.",
             "partofset": "Part of the [set] set.",
             "intro": "Introduced in Chapter [chapter] Season [season].",
             "lastSeen": "Last seen: [lastSeen]",

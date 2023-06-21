@@ -1,0 +1,449 @@
+{
+    "language": "Türkçe",
+    "languageCode": "tr",
+    "commands": {
+        "help": {
+            "embed1": {
+                "title": "Yardım Menüsü",
+                "description": "[name] kullanımı kolay bir Fortnite botudur.\n\n**Linkler**\n[Gizlilik Şartları]([website]/privacy-policy)\n[Kullanım Koşulları]([website]/tos)\n[Destek Sunucusu]([supportServer])\n[Davet Linki]([invite])"
+            }
+        },
+        "2fa": {
+            "embed1": "Ödül alınırken bilinmeyen bir hata oluştu.",
+            "embed2": {
+                "title": "Ödüller Alındı",
+                "description": "Battle Royale ödülleri başarıyla alındı.",
+                "description2": "Battle Royale ve Dünyayı Kurtar ödülleri başarıyla alındı."
+            }
+        },
+        "island": {
+            "invalid": "[code] geçerli bir kod değil.",
+            "embed1": "Ada aranırken bilinmeyen bir hata oluştu.",
+            "description": "Açıklama",
+            "no_description": "Açıklama Yok",
+            "version": "Sürüm",
+            "creator": "Oluşturan",
+            "creation": "Oluşturma:",
+            "tags": "Etiketler",
+            "no_tags": "Etiket Yok",
+            "footer": "İçerik üreticisi kodu: [code]",
+            "embed2": "Ada favorilerinize eklenirken bilinmeyen bir hata oluştu.",
+            "embed3": {
+                "title": "Ada Favorilerinize Eklendi",
+                "description": "[island] favorilerinize eklendi.",
+                "footer": "Not: Bazı yasak oyun modlarının oynanması sizin hesabınızı kısıtlayabilir. Lütfen bu riski göz önünde bulundurmayı unutmayın."
+            }
+        },
+        "anticheat": {
+            "embed1": "Kullanılan anti-hile sistemi: [provider]. Anti-hile sağlayıcıları rastgeledir. Bazıları içerik mağazası yenilendikten sonra yenilenir."
+        },
+        "friends": {
+            "global": {
+                "accept": "Kabul Et",
+                "deny": "Reddet",
+                "block": "Engelle",
+                "unblock": "Engeli Kaldır",
+                "remove": "Arkadaşlıktan Sil",
+                "add": "Arkadaş Ekle",
+                "back": "İsteği Geri Çek",
+                "backed": "İstek Geri Çekildi",
+                "incoming": "Gelen Arkadaşlık İsteği",
+                "outgoing": "Giden Arkadaşlık İsteği",
+                "friends": "[name] ile Arkadaşsınız",
+                "notfriends": "[name] ile Arkadaş Değilsiniz",
+                "blocked": "[name] Oyuncusunu Engelledin",
+                "accepted": "İstek Kabul Edildi",
+                "sent": "İstek Gönderildi",
+                "sentdate": "Arkadaşlık İsteği Tarihi",
+                "denied": "İstek Reddedildi",
+                "blocked2": "[name] Engellendi",
+                "blockdate": "Engelleme Tarihi",
+                "nickname": "Takma Ad",
+                "frienddate": "Arkadaş Olma Tarihi",
+                "changenickname": "Takma Adı Değiştir",
+                "removed": "[name] Arkadaşlarınızdan Çıkarıldı",
+                "removef": "Arkadaşlıktan Sil",
+                "addfriend": "Arkadaş Ekle",
+                "sent_w_name": "[name] Oyuncusuna İstek Gönderildi"
+            },
+            "embed1": "[name] ismiyle herhangi bir oyuncu bulunamadı.",
+            "embed2": "Kendini arkadaş ekleyemezsin.",
+            "embed3": "Bu işlemi gerçekleştirmeden önce lütfen bu oyuncunun engelini `arkadaş engel-kaldır` veya `arkadaş kullanıcı` komutuyla kaldırın.",
+            "embed4": "Kullanıcının ayarları nedeniyle arkadaşlık isteği gönderilemiyor.",
+            "embed5": "Kullanıcıya gelen arkadaşlık isteği sayısı limiti aştığı için istek gönderilemedi.",
+            "embed6": "Arkadaşlık isteği gönderilirken bilinmeyen bir hata oluştu.",
+            "embed7": "[name] oyuncusunun arkadaşlık isteği kabul edildi.",
+            "embed8": "[name] oyuncusuna zaten arkadaşlık isteği gönderdin. İsteği geri çekmek için `arkadaş kullanıcı` komutunu kullan.",
+            "embed9": "[name] ile zaten arkadaşsın. İsteği geri çekmek için `arkadaş kullanıcı` veya `arkadaş sil` komutunu kullan.",
+            "embed10": "[name] oyuncusuna arkadaşlık isteği gönderildi.",
+            "embed11": "Kendini arkadaşlıktan silemezsin.",
+            "embed12": "[name] arkadaş listenizden silindi.",
+            "embed13": "[name] ile zaten arkadaş değilsin.",
+            "embed14": "Kendini engelleyemezsin.",
+            "embed15": "[name] engellendi.",
+            "embed16": "[name] zaten engellenmiş listenizde. Engeli kaldırmak için `arkadaş engel-kaldır` veya `arkadaş kullanıcı` komutunu kullanın.",
+            "embed17": "[name] oyuncusunun engeli kaldırıldı.",
+            "embed18": "[name] engelli listenizde değil.",
+            "embed19": "Hiçbir arkadaşın yok.",
+            "embed20": {
+                "title": "Arkadaş Listeniz Temizlendi",
+                "description": "Hesabı kilitlenen, askıya alınan, kapatılan [deleted] kişi arkadaş listenizden kaldırıldı."
+            },
+            "modal": {
+                "title": "Takma Ad Değiştir",
+                "label": "Yeni Takma Ad"
+            },
+            "embed21": "Tüm arkadaşların başarıyla silindi.",
+            "embed22": "Arkadaş listeniz alınırken bilinmeyen bir hata oluştu.",
+            "embed23": {
+                "title": "Arkadaşların",
+                "description": ":x: = Hediye için uygun olmayan",
+                "footer": "Toplam [friends] arkadaş"
+            }
+        },
+        "battleroyale": {
+            "embed1": {
+                "account": "Hesap",
+                "creation": "Hesap oluşturma",
+                "account_level": "Hesap seviyesi",
+                "mfa": "2AD ödülleri",
+                "claimed": "Alındı [emoji]",
+                "notclaimed": "Alınmadı [emoji]",
+                "br": "Battle Royale",
+                "wins": "Zaferler",
+                "allwins": "Tüm zaferler",
+                "battlepass": "Savaş bileti",
+                "bp_active": "Aktif [emoji]",
+                "bp_notactive": "Aktif değil [emoji]",
+                "level": "Seviye",
+                "superchargedxp": "Aşırı Yüklenmiş TP",
+                "xp": "TP",
+                "multiplier": "Katlayıcı",
+                "season_resources": "Sezon Kaynakları",
+                "battlestars": "Savaş yıldızları",
+                "gold": "Külçe",
+                "crown": "Zafer tacı",
+                "yescrown": "Sahip [emoji]",
+                "nocrown": "Sahip değil [emoji]",
+                "wins_with_crown": "Zafer tacı ile zaferler",
+                "lastmatch": "Son Maç Tarihi"
+            }
+        },
+        "whoami": {
+            "embed1": "Profiliniz bulunamadı.",
+            "embed2": "Profiliniz bulunurken bilinmeyen bir hata oluştu.",
+            "embed3": {
+                "fields": {
+                    "displayname": "Görünen Ad",
+                    "connections": "Bağlantılar",
+                    "noconnection": "Bağlantı Yok",
+                    "isparent": "Ebeveyn Hesabı mı?",
+                    "isparentverified": "Ebeveyn Onaylı mı?"
+                }
+            }
+        },
+        "cloudstorage": {
+            "embed1": "[file] ismiyle herhangi bir dosya bulunamadı.",
+            "name": "İsim",
+            "uploaded": "Yüklenme",
+            "size": "Boyut"
+        },
+        "logout": {
+            "embed1": {
+                "title": "Çıkış Yapıldı",
+                "description": "Hesabınız başarıyla sistemden kaldırıldı ve çıkış yapıldı."
+            }
+        },
+        "ranked": {
+            "current": "Mevcut derecen",
+            "highest": "En yüksek derecen",
+            "progress": "İlerleme: **%[progress]**",
+            "br": "Dereceli Battle Royale",
+            "zb": "Dereceli Sıfır İnşa"
+        },
+        "locker": {
+            "nocosmetics": "Herhangi bir kozmetiğin yok.",
+            "toolong": "URL çok uzun olduğu için dolabınız yüklenemedi.",
+            "locker": "Dolabım",
+            "viewonfngg": "Dolabını Fortnite.GG Üzerinde Görüntüle",
+            "noselectedcosmetics": "Bu türde hiçbir içeriğe sahip değilsin."
+        },
+        "exchangecode": {
+            "expireNotification": "**DİKKAT: Bu kodu kimseyle paylaşmayın, hesabınıza erişim sağlayabilirler!**\nKodun geçerliliği [date] dolacak.",
+            "logintoepicgames": "Epic Games'e Giriş Yap"
+        },
+        "news": {
+            "no_br": "Battle Royale modu için hiçbir haber bulunmuyor.",
+            "no_stw": "Dünyayı Kurtar modu için hiçbir haber bulunmuyor."
+        },
+        "map": {
+            "randomlocation": "Rastgele Atla",
+            "embed1": "Battle Royale Haritası - [version]"
+        },
+        "reminder": {
+            "embed1": "[cosmetic] isminde herhangi bir kozmetik bulunamadı.",
+            "embed2": "Bu içerik hatırlatıcına ekleyemezsin.",
+            "embed3": "Hatırlatıcına 50'den fazla içerik ekleyemezsin.",
+            "embed4": "Bu içerik zaten hatırlatıcında bulunuyor.",
+            "embed5": "[cosmetic] başarıyla hatırlatıcınıza eklendi.",
+            "embed6": "Bu içerik zaten hatırlatıcında bulunmuyor.",
+            "embed7": "[cosmetic] başarıyla hatırlatıcınızdan kaldırıldı.",
+            "embed8": "Hatırlatıcı Listesi",
+            "embed9": "Hatırlatıcında herhangi bir içerik bulunmuyor.",
+            "types": {
+                "outfit": "Kostümler",
+                "pickaxe": "Toplama Aletleri",
+                "backpack": "Sırt Çantaları",
+                "glider": "Planörler",
+                "emote": "Danslar",
+                "loadingscreen": "Yükleme Ekranları",
+                "emoji": "Emojiler",
+                "wrap": "Kaplamalar",
+                "spray": "Spreyler",
+                "contrail": "Dalış İzleri",
+                "music": "Müzikler",
+                "toy": "Oyuncaklar"
+            }
+        },
+        "gift": {
+            "embed1": "İçerik bulunamadı.",
+            "embed2": "[name] ismiyle herhangi bir oyuncu bulunamadı.",
+            "embed3": "Kendine hediye gönderemezsin.",
+            "embed4": "Hediye göndermek için öncelikle [friendName] arkadaş olmanız gerekir.",
+            "embed5": {
+                "description": "[item] içeriğini [price] karşılığında **[friendName]** arkadaşına hediye etmek istiyor musun?",
+                "footer": "Karar vermek için 30 saniyeniz var. - Eğer arkadaşınıza özel bir indirim uygulandıysa o fiyattan hediye edilecektir."
+            },
+            "embed6": "Hediye göndermek için ilk önce hesabında 2 Aşamalı Doğrulamayı aktif etmelisin.",
+            "embed7": "[friendName] ile 2 günden yeni bir sürede arkadaş olduğunuz için hediye gönderilemiyor. [afterTime] tekrar deneyin",
+            "embed8": "[friendName] hediyeleri kabul etmiyor.",
+            "embed9": "Hediye gönderilemedi. [friendName] zaten bu içeriğe sahip olabilir.",
+            "embed10": "Bu içeriği hediye etmeniz için size [requiredVB] daha gerekiyor. Sizde olan: [currentVB]",
+            "embed11": "Bu içeriği hediye olarak gönderemezsiniz.",
+            "embed12": "Hediye işlemi gerçekleştirilirken bilinmeyen bir hata oluştu.",
+            "embed13": {
+                "title": "İçerik Hediye Edildi",
+                "description": "[item], [VBspent] karşılığında başarıyla **[friendName]** arkadaşına hediye edildi."
+            }
+        },
+        "gifthistory": {
+            "embed1": "Kimseye hediye göndermedin.",
+            "embed2": "Gönderilen Hediye Geçmişin",
+            "embed3": "Kimseden hediye almadın.",
+            "embed4": "Alınan Hediye Ge,çmişin"
+        },
+        "shop": {
+            "embed1": "İçerik Mağazası ([date])"
+        },
+        "progress": {
+            "embed1": "Chapter 4 Season 3 is completed [percent]%. [daysLeft] days left until it finishes."
+        },
+        "cosmetic": {
+            "embed1": "",
+            "partofset": "[set] setinin bir parçası.",
+            "intro": "[chapter]. Bölüm [season]. Sezon'da tanıtıldı.",
+            "lastSeen": "Son görülme: [lastSeen]",
+            "notpublished": "Yayınlanmadı"
+        },
+        "creativexp": {
+            "embed1": {
+                "title": "Kreatif TP",
+                "fields": {
+                    "daily": "Günlük",
+                    "gameplay": "Oynanış",
+                    "gainedXp": "Kazanılan TP",
+                    "dailyMultiplier": "Günlük aşım katlayıcısı",
+                    "bankXp": "Bank TP",
+                    "bankXpMultiplier": "Bank TP katlayıcısı",
+                    "bucketXp": "Bucket TP"
+                },
+                "resetdate": "Sıfırlanma Tarihi"
+            }
+        },
+        "randomlocation": {
+            "random": "Bu maç atlayacağın konum"
+        },
+        "redeem": {
+            "embed1": "Kod okutmanız [seconds] saniye boyunca limitlendi. Lütfen daha sonra tekrar deneyiniz.",
+            "embed2": "[code] geçerli bir kod değil.",
+            "embed3": "Zaten bu kodu kullandın.",
+            "embed4": "Bilinmeyen bir hata oluştu. Sorun devam ederse başka bir kod okutmayı deneyin.",
+            "embed5": "Kod Okutuldu",
+            "by": "[codeSeller] tarafından"
+        },
+        "sac": {
+            "embed1": "Bu kod geçerli bir kod değil.",
+            "embed2": "Bilinmeyen bir hata oluştu. Sorun devam ederse başka bir kod okutmayı deneyin.",
+            "embed3": "[supporting] artık destekleniyor",
+            "supported": "Desteklenen Üretici",
+            "none": "Yok",
+            "supportDate": "Destekleme Tarihi",
+            "expire": "Sona Erme Tarihi"
+        },
+        "buy": {
+            "embed1": "İçerik bulunamadı.",
+            "embed2": {
+                "description": "[item] içeriğini [price] karşılığında satın almak istiyor musunuz?",
+                "footer": "Karar vermek için 30 saniyeniz var. - Eğer size özel bir indirim uygulandıysa o fiyattan alınacaktır."
+            },
+            "embed3": "Bu içeriği almak için size [requiredVB] gerekiyor. Sizde olan: [currentVB]",
+            "embed4": "Bu içeriğe zaten sahipsin.",
+            "embed5": "İçerik satın alınırken bilinmeyen bir hata oluştu.",
+            "embed6": {
+                "title": "İçerik Satın Alındı",
+                "description": "[item], [VBspent] karşılığında satın alındı."
+            }
+        },
+        "battlepass": {
+            "prices": {
+                "bp": "950 • Battle Pass",
+                "b2800pack": "2800 • Battle Pass Bundle",
+                "atier": "150 • 1 Tier",
+                "b25tier": "1850 • 25 Tiers"
+            },
+            "embed1": {
+                "title": "Chapter 4 Season 3 Battle Pass",
+                "yourinfo": "Your Information",
+                "vbucks": "V-Bucks",
+                "level": "Your level"
+            },
+            "embed2": "You need [requiredVB] to purchase the Battle Pass. You currently have: [currentVB]",
+            "embed3": "You have already purchased the Battle Pass.",
+            "embed4": "An unknown error occurred while processing the purchase.",
+            "embed5": "Battle Pass purchased successfully.",
+            "embed6": "You need [requiredVB] to purchase the Battle Pass Bundle. You currently have: [currentVB]",
+            "embed7": "You have already purchased the Battle Pass Bundle.",
+            "embed8": "Battle Pass Bundle purchased successfully.",
+            "embed9": "You need [requiredVB] to purchase the 25 Tier Bundle. You currently have: [currentVB]",
+            "embed10": "You have already purchased the 25 Tier Bundle.",
+            "embed11": "25 Tier Bundle purchased successfully.",
+            "modal": {
+                "title": "Purchase Tier",
+                "label": "Number of Tiers to purchase"
+            }
+        },
+        "stats": {
+            "embed1": "[name] ismiyle herhangi bir Epic Games hesabı bulunamadı.",
+            "embed2": "[name] oyuncusunun istatistikleri gizli.",
+            "embed3": "[name] oyuncusunun istatistikleri alınamadı."
+        },
+        "offer": {
+            "embed1": "Belirtilen Offer ID ile ilişkili herhangi bir teklif bulunamadı.",
+            "embed2": "Bilinmeyen bir hata oluştu. Lütfen başka bir OfferID ile tekrar deneyin.",
+            "price": "Fiyat",
+            "free": "Ücretsiz",
+            "buy": "Satın Al",
+            "status": "Durum",
+            "unknown": "Bilinmiyor",
+            "by": "[sellerName] tarafından",
+            "releaseDate": "Yayınlanma Tarihi",
+            "viewableDate": "Görüntülenme Tarihi",
+            "effectiveDate": "Etkili Tarih",
+            "expiryDate": "Sona Erme Tarihi",
+            "none": "Yok",
+            "footer": "Fortnite Tayfası, sadece oyun-içi paketler vb. satın almak için /teklif satın-al komutunu kullanmanız gerekmektedir."
+        },
+        "vbucks": {
+            "price": "Fiyat",
+            "buy": "Satın Al",
+            "vbucks": "[vbucks] V-Papel",
+            "vbplatform": "V-Papel platformu",
+            "supported": "Desteklenen içerik üreticisi",
+            "none": "Yok",
+            "breakdown": "Dağılım",
+            "neverbought": "Hiç V-Papel satın almadınız.",
+            "embed1": {
+                "description": "[date] tarihinden beri toplamda [bought] V-Papel satın aldınız.",
+                "field": "[vbucks]: [count] adet"
+            }
+        },
+        "botinfo": {
+            "botinfo": "Bot Bilgileri",
+            "servercount": "Sunucu Sayısı",
+            "usercount": "Kullanıcı Sayısı",
+            "ping": "Gecikme",
+            "uptime": "Çalışma Süresi",
+            "ram": "RAM Kullanımı",
+            "invite": "Davet Et",
+            "click": "Tıkla",
+            "userinfo": "Kullanıcı Bilgileri",
+            "totalregistered": "Kayıtlı toplam kullanıcı sayısı",
+            "totalregisteredaccounts": "Kayıtlı hesap sayısı",
+            "blacklistcount": "Kara listeye alınanların sayısı",
+            "times": {
+                "week": "hafta",
+                "day": "gün",
+                "hour": "saat",
+                "minute": "dakika",
+                "second": "saniye"
+            }
+        },
+        "login": {
+            "embed1": {
+                "title": "📲 Epic Games Hesabına Giriş Yap",
+                "description": "**:warning: Sadece e-posta erişimi olduğunuz hesaplara giriş yapmanızı öneriyoruz!**\n1. Yukarıdaki linki ziyaret et ve 'authorizationCode' anahtarını bul.\n2. Anahtarın karşısındaki tüm değeri kopyala.Kod 30 saniye boyunca geçerli olacaktır, yeni kod almak için sayfayı yenileyin.\n3. Aşağıdaki 'Gönder' butonuna tıklayıp karşınıza gelen yere kodu yapıştırın. Eğer kod 'null' ise Epic Games hesabınıza https://epicgames.com/login adresinden giriş yapın ve tekrar deneyin.\n\n**Hesap değiştirmeniz mi gerekiyor?**\n[Bu Linke Tıklayın]([loginurl]]"
+            },
+            "selectmenu1": {
+                "placeholder": "Hesap Seç veya Giriş Yap",
+                "loginanother": "Başka Bir Hesaba Giriş yap",
+                "loginnew": "Yeni bir hesaba giriş yapın"
+            },
+            "unknown": "Bilinmeyen",
+            "selectaccount": "Aşağıdan bir hesap seçin.",
+            "submit": "Gönder",
+            "changed": "Hesap Değiştirildi",
+            "switchedto": "[name] oyuncusuna geçiş yapıldı.",
+            "declinedrules": "Kuralları reddettiniz.",
+            "cantlogin3": "Üçten fazla hesaba giriş yapamazsınız.",
+            "login": "Giriş Yap",
+            "code": "Kod"
+        }
+    },
+    "general": {
+        "didntconnectdb": "The command couldn't be executed because the bot couldn't connect to the database. Please try again later and join our [support server]([support]) for more information.",
+        "blacklist": "You can't use the bot. You were blacklisted with reason: [reason].",
+        "disabled": "This command is disabled temporary.",
+        "supserveronly": "You can only use this command in [our support server]([support]).",
+        "loginreq": "Please login via [command] command to use this command.",
+        "dataerror": "We had to log you out of your account because your data was not properly processed in the database. Please log in again, and if the issue persists, join our [support server]([support]) for assistance.",
+        "servererror": "This command could not be executed due to an error. The common reason for this error is that the Fortnite servers are offline.",
+        "hadtologout": "Your session has been terminated! It could be due to one of the following reasons:\n• Session timeout.\n• Epic Games or yourself revoked all authorizations.\n\nYou have been automatically logged out of your account. You can log in again",
+        "missingperms": "This command couldn't be executed because of missing permissions on your account.",
+        "error": "An unexpected error occurred while executing this command, and the error has been reported to the developers. Please join our [support server]([support]) for assistance."
+    },
+    "global": {
+        "yes": "Evet",
+        "no": "Hayır",
+        "account_id": "Hesap ID",
+        "successTitles": ["Harika!", "Başarılı"],
+        "errorTitles": [":warning: Hata!", ":warning: Bir Engele Çarptık!", ":warning: Aradığın Lama Bu Değil!"],
+        "warningTitles": ["Uyarı"],
+        "ranks": [
+            "Derecesiz",
+            "Bronz I",
+            "Bronz II",
+            "Bronz III",
+            "Gümüş I",
+            "Gümüş II",
+            "Gümüş III",
+            "Altın I",
+            "Altın II",
+            "Altın III",
+            "Elmas I",
+            "Elmas II",
+            "Elmas III",
+            "Platinum I",
+            "Platinum II",
+            "Platinum III",
+            "Elit",
+            "Şampiyon",
+            "Efsane"
+        ],
+        "rulesMessage": {
+            "title": "Lütfen Giriş Yapmadan Önce Okuyun:",
+            "description": "1. Kullanıcı verilerinizi kimseye paylaşmıyoruz veya göstermiyoruz, hesap güvenliğinizi **çok ciddiye alıyoruz!**\n2. Lütfen bu botu yalnızca beraberinde gelebilecek riskleri tam olarak kabul ediyorsanız kullanın.\n3. Hesaba erişiminizin kısıtlanması, hesabınızın kapatılması, hesabınızın yasaklanması vb. dahil olmak üzere hesabınıza karşı gerçekleştirilen herhangi bir işlem için bir sorumluluk kabul etmiyoruz. Bu durumlar komutlardan veya komutların istenmeyen kullanımından kaynaklanabilir.\n\n**Yalnızca belirtilen bu şartları kabul ediyorsanız aşağıdaki 'Kabul Ediyorum' düğmesine tıklayın!**\n\n[Gizlilik Şartları]([website]/privacy-policy) - [Kullanım Koşulları]([website]/tos)",
+            "accept": "Kabul Ediyorum",
+            "deny": "Kabul Etmiyorum"
+        }
+    }
+}

@@ -243,7 +243,9 @@
             "partofset": "[set] setinin bir parçası.",
             "intro": "[chapter]. Bölüm [season]. Sezon'da tanıtıldı.",
             "lastSeen": "Son görülme: [lastSeen]",
-            "notpublished": "Yayınlanmadı"
+            "notpublished": "Yayınlanmadı",
+            "placeholder": "Bir tarz seç",
+            "style": "Tarz: [style]"
         },
         "creativexp": {
             "embed1": {

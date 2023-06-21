@@ -399,25 +399,66 @@
             "code": "Kod"
         }
     },
+    "changenickname": {
+        "error": "Takma ad değiştirilirken bilinmeyen bir hata oluştu.",
+        "okay": "Arkaşının yeni takma adı [name] olarak ayarlandı"
+    },
+    "buytiers": {
+        "invalid": "Lütfen geçerli bir sayı giriniz.",
+        "notenough": "[amount] adet aşama satın almanız için size [requiredVB] daha gerekiyor. Sizde olan: [currentVB]",
+        "unknown": "Satın alım işlenirken bilinmeyen bir hata oluştu.",
+        "okay": {
+            "title": "Aşama Satın Alındı",
+            "description": "[amount] adet aşama, [spentVB] başarıyla satın alındı."
+        }
+    },
     "general": {
-        "didntconnectdb": "The command couldn't be executed because the bot couldn't connect to the database. Please try again later and join our [support server]([support]) for more information.",
-        "blacklist": "You can't use the bot. You were blacklisted with reason: [reason].",
-        "disabled": "This command is disabled temporary.",
-        "supserveronly": "You can only use this command in [our support server]([support]).",
-        "loginreq": "Please login via [command] command to use this command.",
-        "dataerror": "We had to log you out of your account because your data was not properly processed in the database. Please log in again, and if the issue persists, join our [support server]([support]) for assistance.",
-        "servererror": "This command could not be executed due to an error. The common reason for this error is that the Fortnite servers are offline.",
-        "hadtologout": "Your session has been terminated! It could be due to one of the following reasons:\n• Session timeout.\n• Epic Games or yourself revoked all authorizations.\n\nYou have been automatically logged out of your account. You can log in again",
-        "missingperms": "This command couldn't be executed because of missing permissions on your account.",
-        "error": "An unexpected error occurred while executing this command, and the error has been reported to the developers. Please join our [support server]([support]) for assistance."
+        "didntconnectdb": "Veritabanına bağlanılamadığı için bot bu komutu çalıştırılamadı. Lütfen daha sonra tekrar deneyin ve bilgi almak için [destek sunucumuza]([support]) katılın.",
+        "blacklist": "Botu kullanamazsın! [reason] sebebiyle kara listeye alındın.",
+        "disabled": "Bu komut kısa süreliğine devre dışı bırakılmıştır.",
+        "supserveronly": "Bu komutu sadece [destek sunucumuzda]([support]) kullanabilirsiniz.",
+        "loginreq": "Bu komutu kullanmak için lütfen [command] komutunu kullanarak hesabınıza giriş yapın.",
+        "dataerror": "Verileriniz veri tabanına düzgün işlenmediği için hesabınızdan çıkış yapmak zorunda kaldık. Lütfen tekrar giriş yapın ve sorun devam ederse yardım almak için [destek sunucumuza]([support]) katılın.",
+        "servererror": "Bu komut bir hata nedeniyle çalıştırılamadı. Bu hatanın genel nedeni, Fortnite sunucularının devre dışı olmasıdır.",
+        "hadtologout": "Oturumunuz Kapatıldı! Aşağıdaki nedenlerden biri bunun sebebi olabilir:\n• Session süresi doldu.\n• Epic Games veya siz tüm yetkilendirmeleri sildiniz.\n\nHesabınızdan otomatik olarak çıkış yapıldı. Tekrar giriş yapabilirsiniz.",
+        "missingperms": "Botun hesabınızda yetersiz yetki olmasından dolayı işlem gerçekleştirilemedi.",
+        "error": "Bu komut çalıştırılırken beklenmedik bir hata oluştu ve hata geliştiricilere bildirildi. Yardım almak için [destek sunucumuza]([support]) katılın.",
+        "acceptedtryagain": "Kuralları kabul ettiniz. Devam etmek için butona yeniden tıklayın.",
+        "loginbruh": "Lütfen rolünüzü almadan önce Hesabını Bağla düğmesini veya [command] komutunu kullanarak giriş yapın.",
+        "norank": "Hesabını bağladın ancak herhangi bir rütbeye sahip değilsin. Rütbe atlamak için şimdi bir maç tamamla! Tamamladıktan sonra, 'Rütbeni Yenile' düğmesi ile rolünü alabilirsin.",
+        "rank": "Hesabını bağladın ve [currentrank] rütbesinde olduğun için [role] rolünü kaptın! Şimdi daha çok rütbe atla ve 'Rütbeni Yenile' düğmesi ile sunucudaki rolünü güncelle.",
+        "hellouser": "Merhaba, [name]",
+        "crank": "Derece",
+        "chighestrank": "En Yüksek Derece",
+        "alreadyloggedin": "Bu hesapla zaten giriş yaptınız.",
+        "welcomeuser": "Hoşgeldin, [name]!",
+        "help": "Yardım almaya ihtiyacınız varsa [destek sunucumuza]([support]) katılın",
+        "deviceidcreated": {
+            "title": "Cihaz Bağlantısı Oluşturuldu",
+            "deviceId": "Cihaz ID",
+            "secret": "Secret (Sakın Paylaşma!)",
+            "footer": "Çıkış yapmak ve hesap bilgilerinizi bottan silmek için /çıkış-yap komutunu kullanın."
+        },
+        "dontuseanother": "Lütfen bota sadece botun size verdiği bağlantıyı kullanarak giriş yapın.",
+        "expiredAuthCode": "Giriş yaparken bir sorun oluştu. Yetkilendirme kodu geçerliliğini yitirmiş olabilir. Lütfen tekrar deneyin.",
+        "expiredExchange": "Giriş yaparken bir sorun oluştu. Exchange Code geçerliliğini yitirmiş olabilir. Lütfen tekrar deneyin."
     },
     "global": {
         "yes": "Evet",
         "no": "Hayır",
         "account_id": "Hesap ID",
-        "successTitles": ["Harika!", "Başarılı"],
-        "errorTitles": [":warning: Hata!", ":warning: Bir Engele Çarptık!", ":warning: Aradığın Lama Bu Değil!"],
-        "warningTitles": ["Uyarı"],
+        "successTitles": [
+            "Harika!",
+            "Başarılı"
+        ],
+        "errorTitles": [
+            ":warning: Hata!",
+            ":warning: Bir Engele Çarptık!",
+            ":warning: Aradığın Lama Bu Değil!"
+        ],
+        "warningTitles": [
+            "Uyarı"
+        ],
         "ranks": [
             "Derecesiz",
             "Bronz I",
@@ -439,7 +480,7 @@
             "Şampiyon",
             "Efsane"
         ],
-        "rulesMessage": {
+        "rules": {
             "title": "Lütfen Giriş Yapmadan Önce Okuyun:",
             "description": "1. Kullanıcı verilerinizi kimseye paylaşmıyoruz veya göstermiyoruz, hesap güvenliğinizi **çok ciddiye alıyoruz!**\n2. Lütfen bu botu yalnızca beraberinde gelebilecek riskleri tam olarak kabul ediyorsanız kullanın.\n3. Hesaba erişiminizin kısıtlanması, hesabınızın kapatılması, hesabınızın yasaklanması vb. dahil olmak üzere hesabınıza karşı gerçekleştirilen herhangi bir işlem için bir sorumluluk kabul etmiyoruz. Bu durumlar komutlardan veya komutların istenmeyen kullanımından kaynaklanabilir.\n\n**Yalnızca belirtilen bu şartları kabul ediyorsanız aşağıdaki 'Kabul Ediyorum' düğmesine tıklayın!**\n\n[Gizlilik Şartları]([website]/privacy-policy) - [Kullanım Koşulları]([website]/tos)",
             "accept": "Kabul Ediyorum",

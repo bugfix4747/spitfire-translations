@@ -395,7 +395,7 @@
         "login": {
             "embed1": {
                 "title": "📲 Epic Games Hesabına Giriş Yap",
-                "description": "**:warning: Sadece e-posta erişimi olduğunuz hesaplara giriş yapmanızı öneriyoruz!**\n1. Yukarıdaki linki ziyaret et ve 'authorizationCode' anahtarını bul.\n2. Anahtarın karşısındaki tüm değeri kopyala.Kod 30 saniye boyunca geçerli olacaktır, yeni kod almak için sayfayı yenileyin.\n3. Aşağıdaki 'Gönder' butonuna tıklayıp karşınıza gelen yere kodu yapıştırın. Eğer kod 'null' ise Epic Games hesabınıza https://epicgames.com/login adresinden giriş yapın ve tekrar deneyin.\n\n**Hesap değiştirmeniz mi gerekiyor?**\n[Bu Linke Tıklayın]([loginurl]]"
+                "description": "**:warning: Sadece e-posta erişimi olduğunuz hesaplara giriş yapmanızı öneriyoruz!**\n1. Yukarıdaki linki ziyaret et ve 'authorizationCode' anahtarını bul.\n2. Anahtarın karşısındaki tüm değeri kopyala.Kod 30 saniye boyunca geçerli olacaktır, yeni kod almak için sayfayı yenileyin.\n3. Aşağıdaki 'Gönder' butonuna tıklayıp karşınıza gelen yere kodu yapıştırın. Eğer kod 'null' ise Epic Games hesabınıza https://epicgames.com/login adresinden giriş yapın ve tekrar deneyin.\n\n**Hesap değiştirmeniz mi gerekiyor?**\n[Bu Linke Tıklayın]([loginurl]"
             },
             "selectmenu1": {
                 "placeholder": "Hesap Seç veya Giriş Yap",

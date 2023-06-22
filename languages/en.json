@@ -419,6 +419,16 @@
             "reachedlimit": "You have reached your registered account limit ([limit]).",
             "login": "Login",
             "code": "Code"
+        },
+        "dailyquests": {
+            "embed1": {
+                "title": "Daily Quests",
+                "gold": "[emoji] [amount] × Gold",
+                "vbucks": "[emoji] [amount] × V-Bucks",
+                "xray": "[emoji] [amount] × X-Ray Tickets",
+                "battlepassxp": "[emoji] [amount] × Battle Pass XP"
+            },
+            "embed2": "You don't have any daily quest."
         }
     },
     "changenickname": {

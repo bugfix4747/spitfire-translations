@@ -419,6 +419,16 @@
             "reachedlimit": "Kayıtlı hesap limitinize ulaştınız ([limit]).",
             "login": "Giriş Yap",
             "code": "Kod"
+        },
+        "dailyquests": {
+            "embed1": {
+                "title": "Günlük Görevler",
+                "gold": "[emoji] [amount] × Altın",
+                "vbucks": "[emoji] [amount] × V-Papel",
+                "xray": "[emoji] [amount] × İçi Dışı Bir Biletleri",
+                "battlepassxp": "[emoji] [amount] × Savaş Bileti TP'si"
+            },
+            "embed2": "Hiçbir günlük göreviniz yok."
         }
     },
     "changenickname": {

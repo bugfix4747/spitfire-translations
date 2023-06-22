@@ -183,7 +183,7 @@
         "reminder": {
             "embed1": "[cosmetic] isminde herhangi bir kozmetik bulunamadı.",
             "embed2": "Bu içeriği hatırlatıcına ekleyemezsin.",
-            "embed3": "Hatırlatıcına 50'den fazla içerik ekleyemezsin.",
+            "reachedlimit": "Hatırlatıcı limitinize ulaştınız ([limit]).",
             "embed4": "Bu içerik zaten hatırlatıcında bulunuyor.",
             "embed5": "[cosmetic] başarıyla hatırlatıcınıza eklendi.",
             "embed6": "Bu içerik zaten hatırlatıcında bulunmuyor.",
@@ -280,7 +280,19 @@
             "supported": "Desteklenen Üretici",
             "none": "Yok",
             "supportDate": "Destekleme Tarihi",
-            "expire": "Sona Erme Tarihi"
+            "expire": "Sona Erme Tarihi",
+            "embed4": "Bu kod ile ilgili hiçbir bilgi bulunamadı. Lütfen doğru yazdığınızdan emin olun.",
+            "embed5": "Bilinmeyen bir hata oluştu.",
+            "active": "Aktif",
+            "disabled": "Devre Dışı",
+            "embed6": {
+                "title": "Kod Bilgileri",
+                "codeinfo": "Kod Bilgileri",
+                "code": "Kod",
+                "status": "Durum",
+                "creatorinfo": "İçerik Üreticisi Bilgileri",
+                "displayname": "Görünen adı"
+            }
         },
         "buy": {
             "embed1": "İçerik bulunamadı.",
@@ -298,30 +310,30 @@
         },
         "battlepass": {
             "prices": {
-                "bp": "950 • Battle Pass",
-                "b2800pack": "2800 • Battle Pass Bundle",
-                "atier": "150 • 1 Tier",
-                "b25tier": "1850 • 25 Tiers"
+                "bp": "950 • Savaş Bileti",
+                "b2800pack": "2800 • Savaş Bileti Paketi",
+                "atier": "150 • 1 Aşama",
+                "b25tier": "1850 • 25 Aşama"
             },
             "embed1": {
-                "title": "Chapter 4 Season 3 Battle Pass",
-                "yourinfo": "Your Information",
-                "vbucks": "V-Bucks",
-                "level": "Your level"
+                "title": "4. Bölüm 3. Sezon Savaş Bileti",
+                "yourinfo": "Bilgileriniz",
+                "vbucks": "V-Papel",
+                "level": "Seviyeniz"
             },
-            "embed2": "You need [requiredVB] to purchase the Battle Pass. You currently have: [currentVB]",
-            "embed3": "You have already purchased the Battle Pass.",
-            "embed4": "An unknown error occurred while processing the purchase.",
-            "embed5": "Battle Pass purchased successfully.",
-            "embed6": "You need [requiredVB] to purchase the Battle Pass Bundle. You currently have: [currentVB]",
-            "embed7": "You have already purchased the Battle Pass Bundle.",
-            "embed8": "Battle Pass Bundle purchased successfully.",
-            "embed9": "You need [requiredVB] to purchase the 25 Tier Bundle. You currently have: [currentVB]",
-            "embed10": "You have already purchased the 25 Tier Bundle.",
-            "embed11": "25 Tier Bundle purchased successfully.",
+            "embed2": "Savaş Biletini satın almak için [requiredVB] v-papel'e ihtiyacınız var. Sizde olan: [currentVB]",
+            "embed3": "Savaş Biletini zaten satın aldınız.",
+            "embed4": "Satın alım işlenirken bilinmeyen bir hata oluştu.",
+            "embed5": "Savaş Bileti başarıyla satın alındı.",
+            "embed6": "Savaş Bileti Paketini satın almak için [requiredVB] v-papel'e ihtiyacınız var. Sizde olan: [currentVB]",
+            "embed7": "Savaş Bileti Paketini zaten satın aldınız.",
+            "embed8": "Savaş Bileti Paketi başarıyla satın alındı.",
+            "embed9": "25 Aşama Paketini satın almak için [requiredVB] v-papel'e ihtiyacınız var. Sizde olan: [currentVB]",
+            "embed10": "25 Aşama Paketini zaten satın aldın.",
+            "embed11": "25 Aşama Paketi başarıyla satın alındı.",
             "modal": {
-                "title": "Purchase Tier",
-                "label": "Number of Tiers to purchase"
+                "title": "Aşama Satın Al",
+                "label": "Alınacak Aşama Sayısı"
             }
         },
         "stats": {
@@ -396,7 +408,7 @@
             "changed": "Hesap Değiştirildi",
             "switchedto": "[name] oyuncusuna geçiş yapıldı.",
             "declinedrules": "Kuralları reddettiniz.",
-            "cantlogin3": "Üçten fazla hesaba giriş yapamazsınız.",
+            "reachedlimit": "Kayıtlı hesap limitinize ulaştınız ([limit]).",
             "login": "Giriş Yap",
             "code": "Kod"
         }
@@ -488,5 +500,628 @@
             "accept": "Kabul Ediyorum",
             "deny": "Kabul Etmiyorum"
         }
-    }
+    },
+    "commandData": [
+        {
+            "name": "ping",
+            "localizedName": "ping",
+            "localizedDescription": "Bot ve API gecikmesini döndürür"
+        },
+        {
+            "name": "help",
+            "localizedName": "yardım",
+            "localizedDescription": "Bot hakkında bilgi verir",
+            "options": [
+                {
+                    "name": "command",
+                    "localizedName": "komut",
+                    "localizedDescription": "Bir komut hakkında bilgi al"
+                }
+            ]
+        },
+        {
+            "name": "claim2fa",
+            "localizedName": "2ad-ödüllerini-al",
+            "localizedDescription": "2 Aşamalı Doğrulama ödüllerinizi alın",
+            "options": [
+                {
+                    "name": "stw",
+                    "localizedName": "dünyayı-kurtar",
+                    "localizedDescription": "Dünyayı kurtar ödüllerini al veya alma. Varsayılan: True (al)"
+                }
+            ]
+        },
+        {
+            "name": "island",
+            "localizedName": "ada",
+            "localizedDescription": "Bir kreatif adası arayın veya favorilerinize ekleyin",
+            "options": [
+                {
+                    "name": "search",
+                    "localizedName": "ara",
+                    "localizedDescription": "Bir ada ara",
+                    "options": [
+                        {
+                            "name": "code",
+                            "description": "Island code",
+                            "localizedName": "kod",
+                            "localizedDescription": "Ada kodu"
+                        }
+                    ]
+                },
+                {
+                    "name": "favorite",
+                    "localizedName": "favorile",
+                    "localizedDescription": "Bir adayı favorilerine ekle",
+                    "options": [
+                        {
+                            "name": "code",
+                            "description": "Island code",
+                            "localizedName": "kod",
+                            "localizedDescription": "Ada kodu"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "anti-cheat",
+            "localizedName": "anti-hile",
+            "localizedDescription": "Kullandığınız anti-hile sağlayıcısını gösterir"
+        },
+        {
+            "name": "friends",
+            "localizedName": "arkadaş",
+            "localizedDescription": "Arkadaş listenizi yönetin",
+            "options": [
+                {
+                    "name": "user",
+                    "localizedName": "kullanıcı",
+                    "localizedDescription": "Bir oyuncuyla arkadaşlık durumunu kontrol et",
+                    "options": [
+                        {
+                            "name": "name",
+                            "localizedName": "ad",
+                            "localizedDescription": "Oyuncunun görünen adı"
+                        }
+                    ]
+                },
+                {
+                    "name": "remove-all",
+                    "localizedName": "herkesi-sil",
+                    "localizedDescription": "Tüm arkadaşlarını sil"
+                },
+                {
+                    "name": "list",
+                    "localizedName": "listem",
+                    "localizedDescription": "Arkadaş listeni görüntüle"
+                },
+                {
+                    "name": "cleanup",
+                    "localizedName": "temizle",
+                    "localizedDescription": "Hesabı kapatılan oyuncuları arkadaşlık listenden kaldır"
+                },
+                {
+                    "name": "add",
+                    "localizedName": "ekle",
+                    "localizedDescription": "Bir oyuncuyu arkadaş ekle",
+                    "options": [
+                        {
+                            "name": "name",
+                            "localizedName": "isim",
+                            "localizedDescription": "Oyuncunun görünen adı"
+                        }
+                    ]
+                },
+                {
+                    "name": "remove",
+                    "localizedName": "sil",
+                    "localizedDescription": "Bir oyuncuyu arkadaşlıktan sil",
+                    "options": [
+                        {
+                            "name": "isim",
+                            "localizedName": "isim",
+                            "localizedDescription": "Oyuncunun görünen adı"
+                        }
+                    ]
+                },
+                {
+                    "name": "block",
+                    "localizedName": "engelle",
+                    "localizedDescription": "Bir oyuncuyu engelle",
+                    "options": [
+                        {
+                            "name": "name",
+                            "localizedName": "isim",
+                            "localizedDescription": "Oyuncunun görünen adı"
+                        }
+                    ]
+                },
+                {
+                    "name": "unblock",
+                    "localizedName": "engel-kaldır",
+                    "localizedDescription": "Bir oyuncunun engelini kaldır",
+                    "options": [
+                        {
+                            "name": "name",
+                            "localizedName": "isim",
+                            "localizedDescription": "Oyuncunun görünen adı"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "battle-royale",
+            "localizedName": "battle-royale",
+            "localizedDescription": "Battle Royale bilgilerinizi verir"
+        },
+        {
+            "name": "whoami",
+            "localizedName": "ben-kimim",
+            "localizedDescription": "Hesap bilgilerini görüntüle"
+        },
+        {
+            "name": "cloud-storage",
+            "localizedName": "bulut-depolama",
+            "localizedDescription": "Bulut depolamanı kontrol et",
+            "options": [
+                {
+                    "name": "download",
+                    "localizedName": "indir",
+                    "localizedDescription": "Oyun dosyalarından bir dosya indir",
+                    "options": [
+                        {
+                            "name": "file-name",
+                            "localizedName": "dosya-adı",
+                            "localizedDescription": "İndirilecek dosya adı"
+                        }
+                    ]
+                },
+                {
+                    "name": "list",
+                    "localizedName": "liste",
+                    "localizedDescription": "Oyun dosyalarını listele"
+                }
+            ]
+        },
+        {
+            "name": "logout",
+            "localizedName": "çıkış-yap",
+            "localizedDescription": "Bottan çıkış yaparsınız"
+        },
+        {
+            "name": "ranked",
+            "localizedName": "dereceli",
+            "localizedDescription": "Dereceli durumunuzu görüntüleyin",
+            "options": [
+                {
+                    "name": "mode",
+                    "localizedName": "mod",
+                    "localizedDescription": "İstatistiklerinizin alınacağı mod"
+                }
+            ]
+        },
+        {
+            "name": "locker",
+            "localizedName": "dolabım",
+            "localizedDescription": "Dolabınızı görüntülersiniz",
+            "options": [
+                {
+                    "name": "fortnitegg",
+                    "localizedName": "fortnitegg",
+                    "localizedDescription": "Dolabını Fortnite.GG üzerinde görüntüle"
+                },
+                {
+                    "name": "image",
+                    "localizedName": "resim",
+                    "localizedDescription": "Dolabını bir resim olarak görüntüle",
+                    "options": [
+                        {
+                            "choices": [
+                                {
+                                    "name": "Outfit",
+                                    "localizedName": "Outfit",
+                                    "value": "character"
+                                },
+                                {
+                                    "name": "Backpack",
+                                    "localizedName": "Backpack",
+                                    "value": "backpack"
+                                },
+                                {
+                                    "name": "Glider",
+                                    "localizedName": "Glider",
+                                    "value": "glider"
+                                },
+                                {
+                                    "name": "Pickaxe",
+                                    "localizedName": "Pickaxe",
+                                    "value": "pickaxe"
+                                },
+                                {
+                                    "name": "Dance",
+                                    "localizedName": "Dance",
+                                    "value": "dance"
+                                },
+                                {
+                                    "name": "Wrap",
+                                    "localizedName": "Wrap",
+                                    "value": "itemwrap"
+                                },
+                                {
+                                    "name": "Toy",
+                                    "localizedName": "Toy",
+                                    "value": "toys"
+                                },
+                                {
+                                    "name": "Loading Screen",
+                                    "localizedName": "Loading Screen",
+                                    "value": "loadingscreen"
+                                },
+                                {
+                                    "name": "Spray",
+                                    "localizedName": "Spray",
+                                    "value": "spray"
+                                },
+                                {
+                                    "name": "Emoji",
+                                    "localizedName": "Emoji",
+                                    "value": "emoji"
+                                },
+                                {
+                                    "name": "Contrail",
+                                    "localizedName": "Contrail",
+                                    "value": "skydivecontrail"
+                                },
+                                {
+                                    "name": "Music",
+                                    "localizedName": "Music",
+                                    "value": "musicpack"
+                                }
+                            ],
+                            "name": "type",
+                            "localizedName": "tip",
+                            "localizedDescription": "Görüntülenecek kozmetik tipi"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "exchange-code",
+            "localizedName": "exchange-code",
+            "localizedDescription": "Başka bir yerden giriş yapmak için bir kod oluşturur"
+        },
+        {
+            "name": "login",
+            "localizedName": "giriş-yap",
+            "localizedDescription": "Epic Games hesabına giriş yap",
+            "options": [
+                {
+                    "name": "auth-type",
+                    "localizedName": "yetkilendirme-tipi",
+                    "localizedDescription": "Hesabınıza nasıl giriş yapacağınızı seçin",
+                    "choices": [
+                        {
+                            "name": "Authorization Code (Default)",
+                            "localizedName": "Authorization Code (Default)",
+                            "value": "authorization_code"
+                        },
+                        {
+                            "name": "Exchange Code",
+                            "localizedName": "Exchange Code",
+                            "value": "exchange_code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "daily-quests",
+            "localizedName": "günlük-görevler",
+            "localizedDescription": "Günlük Dünyayı Kurtar görevlerinizi görüntüleyin"
+        },
+        {
+            "name": "news",
+            "localizedName": "haberler",
+            "localizedDescription": "Mevcut Battle Royale haberlerini görüntülersiniz",
+            "options": [
+                {
+                    "name": "mode",
+                    "localizedName": "mod",
+                    "localizedDescription": "Haberleri görüntülenecek oyun modu",
+                    "choices": [
+                        {
+                            "name": "Battle Royale",
+                            "value": "br"
+                        },
+                        {
+                            "name": "Save the World",
+                            "value": "stw"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "map",
+            "localizedName": "harita",
+            "localizedDescription": "Fortnite haritasını görüntüle"
+        },
+        {
+            "name": "reminder",
+            "localizedName": "hatırlatıcı",
+            "localizedDescription": "İçerik Mağazasına bir kozmetik geldiğinde haberdar ol",
+            "options": [
+                {
+                    "name": "add",
+                    "localizedName": "ekle",
+                    "localizedDescription": "Hatırlatıcına bir kozmetik ekle",
+                    "options": [
+                        {
+                            "name": "cosmetic",
+                            "localizedName": "kozmetik",
+                            "localizedDescription": "Hatırlatıcına eklenecek kozmetiğin adı"
+                        },
+                        {
+                            "name": "type",
+                            "localizedName": "çeşit",
+                            "localizedDescription": "Aranacak kozmetik çeşidi"
+                        },
+                        {
+                            "name": "search-language",
+                            "localizedName": "arama-dili",
+                            "localizedDescription": "Kozmetiği arama dilini belirle"
+                        }
+                    ]
+                },
+                {
+                    "name": "remove",
+                    "localizedName": "kaldır",
+                    "localizedDescription": "Hatırlatıcından bir kozmetik kaldır",
+                    "options": [
+                        {
+                            "name": "cosmetic",
+                            "localizedName": "kozmetik",
+                            "localizedDescription": "Hatırlatıcımdan kaldırılacak kozmetiğin adı"
+                        },
+                        {
+                            "name": "type",
+                            "localizedName": "çeşit",
+                            "localizedDescription": "Hatırlatıcından kaldırılacak kozmetik çeşidi"
+                        },
+                        {
+                            "name": "search-language",
+                            "localizedName": "arama-dili",
+                            "localizedDescription": "Kozmetiği arama dilini belirle"
+                        }
+                    ]
+                },
+                {
+                    "name": "list",
+                    "localizedName": "liste",
+                    "localizedDescription": "Hatırlatıcını görüntüle"
+                }
+            ]
+        },
+        {
+            "name": "gift",
+            "localizedName": "hediye-et",
+            "localizedDescription": "Bir arkadaşına bir içerik hediye et",
+            "options": [
+                {
+                    "name": "friend-name",
+                    "localizedName": "arkadaş-ismi",
+                    "localizedDescription": "Hediyeyi göndereceğin arkadaşının görünen adı"
+                },
+                {
+                    "name": "item",
+                    "localizedName": "içerik",
+                    "localizedDescription": "İçerik mağazası resminde gözüken sol alttaki sayı veya içerik ismi"
+                }
+            ]
+        },
+        {
+            "name": "gift-history",
+            "localizedName": "hediye-geçmişi",
+            "localizedDescription": "Hediye geçmişini görüntüle",
+            "options": [
+                {
+                    "name": "received",
+                    "localizedName": "alınan",
+                    "localizedDescription": "Sana kimlerin hediye attığını görüntüle"
+                },
+                {
+                    "name": "sent",
+                    "localizedName": "gönderilen",
+                    "localizedDescription": "Kimlere hediye attığını görüntüle"
+                }
+            ]
+        },
+        {
+            "name": "shop",
+            "localizedName": "içerik-mağazası",
+            "localizedDescription": "Bugünün içerik mağazasının bir resmini gönderir"
+        },
+        {
+            "name": "progress",
+            "localizedName": "ilerleme",
+            "localizedDescription": "Sezon ilerlemesini gönderir"
+        },
+        {
+            "name": "cosmetic",
+            "localizedName": "kozmetik",
+            "localizedDescription": "Bir kozmetik ara",
+            "options": [
+                {
+                    "name": "name",
+                    "localizedName": "isim",
+                    "localizedDescription": "Aranacak kozmetiğin ismi"
+                },
+                {
+                    "name": "search-language",
+                    "localizedName": "arama-dili",
+                    "localizedDescription": "Kozmetiği arama dilini belirle"
+                },
+                {
+                    "name": "output-languae",
+                    "localizedName": "sonuç-dili",
+                    "localizedDescription": "Kozmetiğin adının, açıklamasının vb. görünüm dili"
+                }
+            ]
+        },
+        {
+            "name": "creative-xp",
+            "localizedName": "kreatif-xp",
+            "localizedDescription": "Günlük Kreatif XP limitlerinizi ve kullanma miktarınızı görüntüleyin"
+        },
+        {
+            "name": "random-location",
+            "localizedName": "rastgele-konum",
+            "localizedDescription": "Size atlamanız için rastgele bir konum verir"
+        },
+        {
+            "name": "redeem",
+            "localizedName": "kod-okut",
+            "localizedDescription": "Epic Games için bir kod doğrula",
+            "options": [
+                {
+                    "name": "code",
+                    "localizedName": "kod",
+                    "localizedDescription": "Taranacak kod"
+                }
+            ]
+        },
+        {
+            "name": "sac",
+            "localizedName": "sac",
+            "localizedDescription": "Desteklediğin içerik üreticisini yönet",
+            "options": [
+                {
+                    "name": "change",
+                    "localizedName": "değiştir",
+                    "localizedDescription": "Desteklediğin içerik üreticisini değiştir",
+                    "options": [
+                        {
+                            "name": "code",
+                            "localizedName": "kod",
+                            "localizedDescription": "Destekleyeceğiniz içerik üreticisi kodu"
+                        }
+                    ]
+                },
+                {
+                    "name": "supported",
+                    "localizedName": "desteklenen",
+                    "localizedDescription": "Desteklediğin içerik üreticisini görüntüle"
+                },
+                {
+                    "name": "search",
+                    "localizedName": "ara",
+                    "localizedDescription": "Bir kodun sahibini ve bilgilerini görüntüle",
+                    "options": [
+                        {
+                            "name": "code",
+                            "localizedName": "kod",
+                            "localizedDescription": "Aranacak kod"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "buy",
+            "localizedName": "satın-al",
+            "localizedDescription": "İçerik mağazasından bir içerik satın alın",
+            "options": [
+                {
+                    "name": "item",
+                    "localizedName": "içerik",
+                    "localizedDescription": "İçerik mağazası resminde gözüken sol alttaki sayı veya içerik ismi"
+                }
+            ]
+        },
+        {
+            "name": "battle-pass",
+            "localizedName": "savaş-bileti",
+            "localizedDescription": "Savaş biletini ve diğer paketleri satın al"
+        },
+        {
+            "name": "stats",
+            "localizedName": "stats",
+            "localizedDescription": "Bir Fortnite oyuncusunun istatistiklerini görüntülersiniz",
+            "options": [
+                {
+                    "name": "name",
+                    "localizedName": "isim",
+                    "localizedDescription": "Oyunucunun Epic görünen adı"
+                }
+            ]
+        },
+        {
+            "name": "offer",
+            "localizedName": "teklif",
+            "localizedDescription": "Offer ID girerek bir teklif satın alın veya aratın",
+            "options": [
+                {
+                    "name": "search",
+                    "localizedName": "ara",
+                    "localizedDescription": "Bir teklif ara",
+                    "options": [
+                        {
+                            "name": "offer-id",
+                            "localizedName": "offer-id",
+                            "localizedDescription": "Arayacağınız teklifin OfferID'si"
+                        }
+                    ]
+                },
+                {
+                    "name": "buy",
+                    "localizedName": "satın-al",
+                    "localizedDescription": "Bir teklif satın al",
+                    "options": [
+                        {
+                            "name": "offer-id",
+                            "localizedName": "offer-id",
+                            "localizedDescription": "Satın alacağınız teklifin OfferID'si"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "vbucks",
+            "localizedName": "vpapel",
+            "localizedDescription": "Belirli bir miktar için v-papel linki oluşturun, bakiyenizi ya da geçmişinizi görüntüleyin",
+            "options": [
+                {
+                    "name": "buy",
+                    "localizedName": "satın-al",
+                    "localizedDescription": "Belirli miktarda bir v-papel satın alma linki oluştur",
+                    "options": [
+                        {
+                            "name": "amount",
+                            "localizedName": "miktar",
+                            "localizedDescription": "Oluşturulacak miktar"
+                        }
+                    ]
+                },
+                {
+                    "name": "balance",
+                    "localizedName": "bakiyem",
+                    "localizedDescription": "Ne kadar v-papele sahip olduğunu görüntüle"
+                },
+                {
+                    "name": "history",
+                    "localizedName": "geçmişi",
+                    "localizedDescription": "V-papel satın alma geçmişinizi görüntüle"
+                }
+            ]
+        },
+        {
+            "name": "bot-info",
+            "localizedName": "bot-bilgi",
+            "localizedDescription": "Bot hakkında bilgi verir"
+        }
+    ]
 }

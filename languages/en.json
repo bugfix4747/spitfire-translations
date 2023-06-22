@@ -183,7 +183,7 @@
         "reminder": {
             "embed1": "No cosmetic named [cosmetic] found.",
             "embed2": "You can't add this cosmetic to your reminders.",
-            "embed3": "You can't add more than 50 cosmetics to your reminders.",
+            "embed3": "You have reached your reminder limit ([limit]).",
             "embed4": "This cosmetic is already in your reminders.",
             "embed5": "[cosmetic] is successfully added to your reminders.",
             "embed6": "This cosmetic is not in your reminders already.",
@@ -280,7 +280,19 @@
             "supported": "Supported Content Creator",
             "none": "None",
             "supportDate": "Support Date",
-            "expire": "Expiration Date"
+            "expire": "Expiration Date",
+            "embed4": "No information found for this code. Please make sure you typed it correctly.",
+            "embed5": "An unknown error occurred.",
+            "active": "Active",
+            "disabled": "Disabled",
+            "embed6": {
+                "title": "Code Info",
+                "codeinfo": "Code Info",
+                "code": "Code",
+                "status": "Status",
+                "creatorinfo": "Content Creator Info",
+                "displayname": "Display Name"
+            }
         },
         "buy": {
             "embed1": "Item not found.",
@@ -294,6 +306,34 @@
             "embed6": {
                 "title": "Item Bought",
                 "description": "Successfully bought [item] for [VBspent]."
+            }
+        },
+        "battlepass": {
+            "prices": {
+                "bp": "950 • Battle Pass",
+                "b2800pack": "2800 • Battle Pass Bundle",
+                "atier": "150 • 1 Tier",
+                "b25tier": "1850 • 25 Tiers"
+            },
+            "embed1": {
+                "title": "Chapter 4 Season 3 Battle Pass",
+                "yourinfo": "Your Information",
+                "vbucks": "V-Bucks",
+                "level": "Your level"
+            },
+            "embed2": "You need [requiredVB] to purchase the Battle Pass. You currently have: [currentVB]",
+            "embed3": "You have already purchased the Battle Pass.",
+            "embed4": "An unknown error occurred while processing the purchase.",
+            "embed5": "Battle Pass purchased successfully.",
+            "embed6": "You need [requiredVB] to purchase the Battle Pass Bundle. You currently have: [currentVB]",
+            "embed7": "You have already purchased the Battle Pass Bundle.",
+            "embed8": "Battle Pass Bundle purchased successfully.",
+            "embed9": "You need [requiredVB] to purchase the 25 Tier Bundle. You currently have: [currentVB]",
+            "embed10": "You have already purchased the 25 Tier Bundle.",
+            "embed11": "25 Tier Bundle purchased successfully.",
+            "modal": {
+                "title": "Purchase Tier",
+                "label": "Number of Tiers to purchase"
             }
         },
         "stats": {
@@ -368,7 +408,7 @@
             "changed": "Account Changed",
             "switchedto": "Switched to player [name].",
             "declinedrules": "You declined the rules.",
-            "cantlogin3": "You can't login to more than three accounts.",
+            "reachedlimit": "You have reached your registered account limit ([limit]).",
             "login": "Login",
             "code": "Code"
         }
@@ -460,5 +500,627 @@
             "accept": "I Accept",
             "deny": "I Deny"
         }
-    }
+    },
+    "commandData": [
+        {
+            "name": "ping",
+            "localizedName": "ping",
+            "localizedDescription": "Returns bot and API latency"
+        },
+        {
+            "name": "help",
+            "localizedName": "help",
+            "localizedDescription": "Gives info about the bot",
+            "options": [
+                {
+                    "name": "command",
+                    "localizedName": "command",
+                    "localizedDescription": "Get info about a command"
+                }
+            ]
+        },
+        {
+            "name": "claim2fa",
+            "localizedName": "claim-2fa-rewards",
+            "localizedDescription": "Claim your 2FA rewards",
+            "options": [
+                {
+                    "name": "stw",
+                    "localizedName": "stw",
+                    "localizedDescription": "Claim or don't claim the Save the World rewards. Default: True (claim)"
+                }
+            ]
+        },
+        {
+            "name": "island",
+            "localizedName": "island",
+            "localizedDescription": "Search a Creative island or add to your favorites",
+            "options": [
+                {
+                    "name": "search",
+                    "localizedName": "search",
+                    "localizedDescription": "Search an island",
+                    "options": [
+                        {
+                            "name": "code",
+                            "localizedName": "code",
+                            "localizedDescription": "Island code"
+                        }
+                    ]
+                },
+                {
+                    "name": "favorite",
+                    "description": "Add an island to your favorites",
+                    "localizedName": "favorite",
+                    "localizedDescription": "Add an island to your favorites",
+                    "options": [
+                        {
+                            "name": "code",
+                            "description": "Island code",
+                            "localizedName": "code",
+                            "localizedDescription": "Island code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "anti-cheat",
+            "localizedName": "anti-cheat",
+            "localizedDescription": "Shows the anti-cheat provider you are using"
+        },
+        {
+            "name": "friends",
+            "localizedName": "friends",
+            "localizedDescription": "Manage your friends list",
+            "options": [
+                {
+                    "name": "user",
+                    "localizedName": "user",
+                    "localizedDescription": "Check friendship status with a player",
+                    "options": [
+                        {
+                            "name": "name",
+                            "localizedName": "name",
+                            "localizedDescription": "Player's display name"
+                        }
+                    ]
+                },
+                {
+                    "name": "remove-all",
+                    "localizedName": "remove-all",
+                    "localizedDescription": "Remove all of your friends"
+                },
+                {
+                    "name": "list",
+                    "localizedName": "list",
+                    "localizedDescription": "View your friend list"
+                },
+                {
+                    "name": "cleanup",
+                    "localizedName": "cleanup",
+                    "localizedDescription": "Remove players whose accounts have been closed from your friends list"
+                },
+                {
+                    "name": "add",
+                    "localizedName": "add",
+                    "localizedDescription": "Add a friend to your friend list",
+                    "options": [
+                        {
+                            "name": "name",
+                            "localizedName": "name",
+                            "localizedDescription": "Player's display name"
+                        }
+                    ]
+                },
+                {
+                    "name": "remove",
+                    "localizedName": "remove",
+                    "localizedDescription": "Remove a friend from your friend list",
+                    "options": [
+                        {
+                            "name": "name",
+                            "localizedName": "name",
+                            "localizedDescription": "Player's display name"
+                        }
+                    ]
+                },
+                {
+                    "name": "block",
+                    "localizedName": "block",
+                    "localizedDescription": "Block a player",
+                    "options": [
+                        {
+                            "name": "name",
+                            "localizedName": "name",
+                            "localizedDescription": "Player's display name"
+                        }
+                    ]
+                },
+                {
+                    "name": "unblock",
+                    "localizedName": "unblock",
+                    "localizedDescription": "Unblock a player",
+                    "options": [
+                        {
+                            "name": "name",
+                            "localizedName": "name",
+                            "localizedDescription": "Player's display name"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "battle-royale",
+            "localizedName": "battle-royale",
+            "localizedDescription": "Gives your battle-royale info"
+        },
+        {
+            "name": "whoami",
+            "localizedName": "whoami",
+            "localizedDescription": "View your account info"
+        },
+        {
+            "name": "cloud-storage",
+            "localizedName": "cloud-storage",
+            "localizedDescription": "View your cloud storage",
+            "options": [
+                {
+                    "name": "download",
+                    "localizedName": "download",
+                    "localizedDescription": "Download a file from your game files",
+                    "options": [
+                        {
+                            "name": "file-name",
+                            "localizedName": "file-name",
+                            "localizedDescription": "File name to be downloaded"
+                        }
+                    ]
+                },
+                {
+                    "name": "list",
+                    "localizedName": "list",
+                    "localizedDescription": "List your game files"
+                }
+            ]
+        },
+        {
+            "name": "logout",
+            "localizedName": "logout",
+            "localizedDescription": "Logs you out of the bot"
+        },
+        {
+            "name": "ranked",
+            "localizedName": "ranked",
+            "localizedDescription": "View your ranked status",
+            "options": [
+                {
+                    "name": "mode",
+                    "localizedName": "mode",
+                    "localizedDescription": "Mode to get your stats of"
+                }
+            ]
+        },
+        {
+            "name": "locker",
+            "localizedName": "locker",
+            "localizedDescription": "View your locker",
+            "options": [
+                {
+                    "name": "fortnitegg",
+                    "localizedName": "fortnitegg",
+                    "localizedDescription": "View your locker on Fortnite.GG"
+                },
+                {
+                    "name": "image",
+                    "localizedName": "image",
+                    "localizedDescription": "View your locker as an image",
+                    "options": [
+                        {
+                            "choices": [
+                                {
+                                    "name": "Outfit",
+                                    "localizedName": "Outfit",
+                                    "value": "character"
+                                },
+                                {
+                                    "name": "Backpack",
+                                    "localizedName": "Backpack",
+                                    "value": "backpack"
+                                },
+                                {
+                                    "name": "Glider",
+                                    "localizedName": "Glider",
+                                    "value": "glider"
+                                },
+                                {
+                                    "name": "Pickaxe",
+                                    "localizedName": "Pickaxe",
+                                    "value": "pickaxe"
+                                },
+                                {
+                                    "name": "Dance",
+                                    "localizedName": "Dance",
+                                    "value": "dance"
+                                },
+                                {
+                                    "name": "Wrap",
+                                    "localizedName": "Wrap",
+                                    "value": "itemwrap"
+                                },
+                                {
+                                    "name": "Toy",
+                                    "localizedName": "Toy",
+                                    "value": "toys"
+                                },
+                                {
+                                    "name": "Loading Screen",
+                                    "localizedName": "Loading Screen",
+                                    "value": "loadingscreen"
+                                },
+                                {
+                                    "name": "Spray",
+                                    "localizedName": "Spray",
+                                    "value": "spray"
+                                },
+                                {
+                                    "name": "Emoji",
+                                    "localizedName": "Emoji",
+                                    "value": "emoji"
+                                },
+                                {
+                                    "name": "Contrail",
+                                    "localizedName": "Contrail",
+                                    "value": "skydivecontrail"
+                                },
+                                {
+                                    "name": "Music",
+                                    "localizedName": "Music",
+                                    "value": "musicpack"
+                                }
+                            ],
+                            "name": "type",
+                            "description": "Cosmetic type to view"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "exchange-code",
+            "localizedName": "exchange-code",
+            "localizedDescription": "Generates an exhange code to login from another location"
+        },
+        {
+            "name": "login",
+            "localizedName": "login",
+            "localizedDescription": "Login to your Epic Games account",
+            "options": [
+                {
+                    "name": "auth-type",
+                    "localizedName": "auth-type",
+                    "localizedDescription": "Choose how you want to log in to your account",
+                    "choices": [
+                        {
+                            "name": "Authorization Code (Default)",
+                            "localizedName": "Authorization Code (Default)",
+                            "value": "authorization_code"
+                        },
+                        {
+                            "name": "Exchange Code",
+                            "localizedName": "Exchange Code",
+                            "value": "exchange_code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "daily-quests",
+            "localizedName": "daily-quests",
+            "localizedDescription": "View your Daily Save the World quests"
+        },
+        {
+            "name": "news",
+            "localizedName": "news",
+            "localizedDescription": "View latest Battle Royale news",
+            "options": [
+                {
+                    "name": "mode",
+                    "localizedName": "mode",
+                    "localizedDescription": "Mode to view news of",
+                    "choices": [
+                        {
+                            "name": "Battle Royale",
+                            "value": "br"
+                        },
+                        {
+                            "name": "Save the World",
+                            "value": "stw"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "map",
+            "localizedName": "map",
+            "localizedDescription": "View the Fortnite map"
+        },
+        {
+            "name": "reminder",
+            "localizedName": "reminder",
+            "localizedDescription": "Be notified when a cosmetic comes to the Item Shop",
+            "options": [
+                {
+                    "name": "add",
+                    "localizedName": "add",
+                    "localizedDescription": "Add a cosmetic to your reminder list",
+                    "options": [
+                        {
+                            "name": "cosmetic",
+                            "localizedName": "cosmetic",
+                            "localizedDescription": "Cosmetic name to add to your reminder list"
+                        },
+                        {
+                            "name": "type",
+                            "localizedName": "type",
+                            "localizedDescription": "Cosmetic type to search"
+                        },
+                        {
+                            "name": "search-language",
+                            "localizedName": "search-language",
+                            "localizedDescription": "Set the cosmetic search language"
+                        }
+                    ]
+                },
+                {
+                    "name": "remove",
+                    "localizedName": "remove",
+                    "localizedDescription": "Remove a cosmetic from your reminder list",
+                    "options": [
+                        {
+                            "name": "cosmetic",
+                            "localizedName": "cosmetic",
+                            "localizedDescription": "Cosmetic name to remove from your reminder list"
+                        },
+                        {
+                            "name": "type",
+                            "localizedName": "type",
+                            "localizedDescription": "Cosmetic type to search"
+                        },
+                        {
+                            "name": "search-language",
+                            "localizedName": "search-language",
+                            "localizedDescription": "Set the cosmetic search language"
+                        }
+                    ]
+                },
+                {
+                    "name": "list",
+                    "localizedName": "list",
+                    "localizedDescription": "View your reminder list"
+                }
+            ]
+        },
+        {
+            "name": "gift",
+            "localizedName": "gift",
+            "localizedDescription": "Send a gift to your friends",
+            "options": [
+                {
+                    "name": "friend-name",
+                    "localizedName": "friend-name",
+                    "localizedDescription": "The display name of your friend"
+                },
+                {
+                    "name": "item",
+                    "localizedName": "item",
+                    "localizedDescription": "The number or item name at the bottom left that appears in the Item Shop image"
+                }
+            ]
+        },
+        {
+            "name": "gift-history",
+            "localizedName": "gift-history",
+            "localizedDescription": "View your gift history",
+            "options": [
+                {
+                    "name": "received",
+                    "localizedName": "received",
+                    "localizedDescription": "View who sent gifts to you"
+                },
+                {
+                    "name": "sent",
+                    "localizedName": "sent",
+                    "localizedDescription": "View gifts you sent"
+                }
+            ]
+        },
+        {
+            "name": "shop",
+            "localizedName": "shop",
+            "localizedDescription": "Sends an image of today's item shop"
+        },
+        {
+            "name": "progress",
+            "localizedName": "progress",
+            "localizedDescription": "Sends season progress"
+        },
+        {
+            "name": "cosmetic",
+            "localizedName": "cosmetic",
+            "localizedDescription": "Search a cosmetic",
+            "options": [
+                {
+                    "name": "name",
+                    "localizedName": "name",
+                    "localizedDescription": "Cosmetic name to search"
+                },
+                {
+                    "name": "search-language",
+                    "localizedName": "search-language",
+                    "localizedDescription": "Set the cosmetic search language"
+                },
+                {
+                    "name": "output-languae",
+                    "localizedName": "output-language",
+                    "localizedDescription": "The language of appearance of the cosmetic's name, description, etc."
+                }
+            ]
+        },
+        {
+            "name": "creative-xp",
+            "localizedName": "creative-xp",
+            "localizedDescription": "View your daily Creative XP limits and usage"
+        },
+        {
+            "name": "random-location",
+            "localizedName": "random-location",
+            "localizedDescription": "Gives you a random location to jump to"
+        },
+        {
+            "name": "redeem",
+            "localizedName": "redeem",
+            "localizedDescription": "Redeem a code for Epic Games",
+            "options": [
+                {
+                    "name": "code",
+                    "localizedName": "code",
+                    "localizedDescription": "Code to scan"
+                }
+            ]
+        },
+        {
+            "name": "sac",
+            "localizedName": "sac",
+            "localizedDescription": "Manage the content creator you are supporting",
+            "options": [
+                {
+                    "name": "change",
+                    "localizedName": "change",
+                    "localizedDescription": "Change the content creator you are supporting",
+                    "options": [
+                        {
+                            "name": "code",
+                            "localizedName": "kod",
+                            "localizedDescription": "Creator code to support"
+                        }
+                    ]
+                },
+                {
+                    "name": "supported",
+                    "localizedName": "supported",
+                    "localizedDescription": "View the content creator you support"
+                },
+                {
+                    "name": "search",
+                    "localizedName": "search",
+                    "localizedDescription": "View the owner and information of a code",
+                    "options": [
+                        {
+                            "name": "code",
+                            "localizedName": "code",
+                            "localizedDescription": "Code to scan"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "buy",
+            "localizedName": "buy",
+            "localizedDescription": "Buy an item from the item shop",
+            "options": [
+                {
+                    "name": "item",
+                    "localizedName": "item",
+                    "localizedDescription": "The number or item name at the bottom left that appears in the Item Shop image"
+                }
+            ]
+        },
+        {
+            "name": "battle-pass",
+            "localizedName": "battle-pass",
+            "localizedDescription": "Buy the battle pass or other packs"
+        },
+        {
+            "name": "stats",
+            "localizedName": "stats",
+            "localizedDescription": "View a Fortnite player's stats",
+            "options": [
+                {
+                    "name": "name",
+                    "localizedName": "name",
+                    "localizedDescription": "Player's Epic display name"
+                }
+            ]
+        },
+        {
+            "name": "offer",
+            "localizedName": "offer",
+            "localizedDescription": "Buy or search for an offer by entering Offer ID",
+            "options": [
+                {
+                    "name": "search",
+                    "localizedName": "search",
+                    "localizedDescription": "Search an offer",
+                    "options": [
+                        {
+                            "name": "offer-id",
+                            "localizedName": "offer-id",
+                            "localizedDescription": "OfferID of the offer you will search for"
+                        }
+                    ]
+                },
+                {
+                    "name": "buy",
+                    "localizedName": "buy",
+                    "localizedDescription": "Buy an offer",
+                    "options": [
+                        {
+                            "name": "offer-id",
+                            "localizedName": "offer-id",
+                            "localizedDescription": "OfferID of the offer you will buy"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "vbucks",
+            "localizedName": "vbucks",
+            "localizedDescription": "Create a v-bucks purchase link for a specific amount, view your balance or your buy history",
+            "options": [
+                {
+                    "name": "buy",
+                    "localizedName": "buy",
+                    "localizedDescription": "Creates a link to buy a certain amount of v-bucks",
+                    "options": [
+                        {
+                            "name": "amount",
+                            "localizedName": "amount",
+                            "localizedDescription": "Amount to be generated"
+                        }
+                    ]
+                },
+                {
+                    "name": "balance",
+                    "localizedName": "balance",
+                    "localizedDescription": "View how much v-bucks you have"
+                },
+                {
+                    "name": "history",
+                    "localizedName": "history",
+                    "localizedDescription": "View your v-bucks buy history"
+                }
+            ]
+        },
+        {
+            "name": "bot-info",
+            "localizedName": "bot-info",
+            "localizedDescription": "Gives info about the bot"
+        }
+    ]
 }

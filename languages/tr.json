@@ -429,6 +429,11 @@
                 "battlepassxp": "[emoji] [amount] × Savaş Bileti TP'si"
             },
             "embed2": "Hiçbir günlük göreviniz yok."
+        },
+        "banned": {
+            "message1": "Bilinmeyen bir hata oluştu.",
+            "message2": "Yasaklı değilsiniz!",
+            "message3": "Yasaklısın."
         }
     },
     "changenickname": {
@@ -1140,6 +1145,11 @@
             "name": "bot-info",
             "localizedName": "bot-bilgi",
             "localizedDescription": "Bot hakkında bilgi verir"
+        },
+        {
+            "name": "banned",
+            "localizedName": "yasaklı-mıyım",
+            "localizedDescription": "Hesabınız banlı mı değil mi kontrol edin"
         }
     ]
 }

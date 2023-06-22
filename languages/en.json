@@ -429,6 +429,11 @@
                 "battlepassxp": "[emoji] [amount] × Battle Pass XP"
             },
             "embed2": "You don't have any daily quest."
+        },
+        "banned": {
+            "message1": "An unknown error occurred.",
+            "message2": "You are not banned!",
+            "message3": "You are banned."
         }
     },
     "changenickname": {
@@ -1139,6 +1144,11 @@
             "name": "bot-info",
             "localizedName": "bot-info",
             "localizedDescription": "Gives info about the bot"
+        },
+        {
+            "name": "banned",
+            "localizedName": "banned",
+            "localizedDescription": "Check if your account is banned or not"
         }
     ]
 }

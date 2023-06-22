@@ -6,7 +6,15 @@
             "embed1": {
                 "title": "Help Menu",
                 "description": "[name] is a easy-to-use Fortnite bot.\n\n**Links**\n[Privacy Policy]([website]/privacy-policy)\n[Terms of Service]([website]/tos)\n[Support Server]([supportServer])\n[Invite Link]([invite])"
-            }
+            },
+            "notfound": "No command with the name [command] was found.",
+            "command": "Command",
+            "description": "Description",
+            "category": "Category",
+            "loginreq": "is Login Required?",
+            "slowmode": "Slowmode",
+            "slowmode2": "[seconds] seconds",
+            "disabled": "is Disabled?"
         },
         "2fa": {
             "embed1": "An unknown error occurred while receiving the reward.",

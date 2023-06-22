@@ -6,7 +6,15 @@
             "embed1": {
                 "title": "Yardım Menüsü",
                 "description": "[name] kullanımı kolay bir Fortnite botudur.\n\n**Linkler**\n[Gizlilik Şartları]([website]/privacy-policy)\n[Kullanım Koşulları]([website]/tos)\n[Destek Sunucusu]([supportServer])\n[Davet Linki]([invite])"
-            }
+            },
+            "notfound": "[command] ismiyle herhangi bir komut bulunamadı.",
+            "command": "Komut",
+            "description": "Açıklama",
+            "category": "Kategori",
+            "loginreq": "Giriş Gerekli mi?",
+            "slowmode": "Yavaş Mod",
+            "slowmode2": "[seconds] saniye",
+            "disabled": "Devre Dışı mı?"
         },
         "2fa": {
             "embed1": "Ödül alınırken bilinmeyen bir hata oluştu.",

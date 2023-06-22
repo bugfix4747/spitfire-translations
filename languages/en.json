@@ -395,7 +395,7 @@
         "login": {
             "embed1": {
                 "title": "📲 Login to your Epic Games Account",
-                "description": "**:warning: We recommend logging into accounts that only have email access!**\n1. Visit the link above and find the 'authorizationCode' key.\n2. Copy the entire value next to the key. The code will be valid for 30 seconds, refresh the page to get a new code.\n3. Click the 'Submit' button below and paste the code in the provided field. If the code is 'null', log into your Epic Games account at https://epicgames.com/login and try again.\n\n**Need to switch accounts?**\n[Click Here]([loginurl]])"
+                "description": "**:warning: We recommend logging into accounts that only have email access!**\n1. Visit the link above and find the 'authorizationCode' key.\n2. Copy the entire value next to the key. The code will be valid for 30 seconds, refresh the page to get a new code.\n3. Click the 'Submit' button below and paste the code in the provided field. If the code is 'null', log into your Epic Games account at https://epicgames.com/login and try again.\n\n**Need to switch accounts?**\n[Click Here]([loginurl])"
             },
             "selectmenu1": {
                 "placeholder": "Select Account or Login",

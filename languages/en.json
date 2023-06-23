@@ -431,12 +431,19 @@
                 "xray": "[emoji] [amount] × X-Ray Tickets",
                 "battlepassxp": "[emoji] [amount] × Battle Pass XP"
             },
-            "embed2": "You don't have any daily quest."
+            "embed2": "You don't have any daily quest.",
+            "reroll": "Reroll a daily quest"
         },
         "banned": {
             "message1": "An unknown error occurred.",
             "message2": "You are not banned!",
             "message3": "You are banned."
+        },
+        "refreshprofile": {
+            "embed1": {
+                "title": "Profile Refreshed [count]",
+                "description": "Your Battle Royale and Save the World profile has been refreshed."
+            }
         }
     },
     "changenickname": {
@@ -1158,6 +1165,11 @@
             "name": "creative-xp",
             "localizedName": "creative-xp",
             "localizedDescription": "View your daily Creative XP limits and usage"
+        },
+        {
+            "name": "refresh-profile",
+            "localizedName": "refresh-profile",
+            "localizedDescription": "Refreshes your Battle Royale and Save the World profile"
         }
     ]
 }

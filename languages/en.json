@@ -1153,6 +1153,11 @@
             "name": "banned",
             "localizedName": "banned",
             "localizedDescription": "Check if your account is banned or not"
+        },
+        {
+            "name": "creative-xp",
+            "localizedName": "creative-xp",
+            "localizedDescription": "View your daily Creative XP limits and usage"
         }
     ]
 }

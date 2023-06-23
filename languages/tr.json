@@ -431,12 +431,19 @@
                 "xray": "[emoji] [amount] × İçi Dışı Bir Biletleri",
                 "battlepassxp": "[emoji] [amount] × Savaş Bileti TP'si"
             },
-            "embed2": "Hiçbir günlük göreviniz yok."
+            "embed2": "Hiçbir günlük göreviniz yok.",
+            "reroll": "Bir günlük görevi değiştirin"
         },
         "banned": {
             "message1": "Bilinmeyen bir hata oluştu.",
             "message2": "Yasaklı değilsiniz!",
             "message3": "Yasaklısın."
+        },
+        "refreshprofile": {
+            "embed1": {
+                "title": "Profiliniz Yenilendi [count]",
+                "description": "Battle Royale ve Dünyayı Kurtar profiliniz yenilendi."
+            }
         }
     },
     "changenickname": {
@@ -1159,6 +1166,11 @@
             "name": "creative-xp",
             "localizedName": "kreatif-xp",
             "localizedDescription": "Kreatif TP limitinizi ve kullanımınızı görüntüleyin"
+        },
+        {
+            "name": "refresh-profile",
+            "localizedName": "profil-yenile",
+            "localizedDescription": "Battle Royale ve Dünyayı Kurtar profilinizi yeniler"
         }
     ]
 }

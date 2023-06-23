@@ -478,7 +478,8 @@
         },
         "dontuseanother": "Please log in to the bot using only the link provided by the bot.",
         "expiredAuthCode": "An error occurred while logging in. The authorization code may have expired. Please try again.",
-        "expiredExchange": "An error occurred while logging in. The Exchange Code may have expired. Please try again."
+        "expiredExchange": "An error occurred while logging in. The Exchange Code may have expired. Please try again.",
+        "noresults": "No results found! Try changing the search and result languages."
     },
     "global": {
         "yes": "Yes",

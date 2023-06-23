@@ -478,7 +478,8 @@
         },
         "dontuseanother": "Lütfen bota sadece botun size verdiği bağlantıyı kullanarak giriş yapın.",
         "expiredAuthCode": "Giriş yaparken bir sorun oluştu. Yetkilendirme kodu geçerliliğini yitirmiş olabilir. Lütfen tekrar deneyin.",
-        "expiredExchange": "Giriş yaparken bir sorun oluştu. Exchange Code geçerliliğini yitirmiş olabilir. Lütfen tekrar deneyin."
+        "expiredExchange": "Giriş yaparken bir sorun oluştu. Exchange Code geçerliliğini yitirmiş olabilir. Lütfen tekrar deneyin.",
+        "noresults": "Sonuç bulunamadı! Arama ve sonuç dillerini değiştirmeyi deneyin."
     },
     "global": {
         "yes": "Evet",

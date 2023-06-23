@@ -1154,6 +1154,11 @@
             "name": "banned",
             "localizedName": "yasaklı-mıyım",
             "localizedDescription": "Hesabınız banlı mı değil mi kontrol edin"
+        },
+        {
+            "name": "creative-xp",
+            "localizedName": "kreatif-xp",
+            "localizedDescription": "Kreatif TP limitinizi ve kullanımınızı görüntüleyin"
         }
     ]
 }

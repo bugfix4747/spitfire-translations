@@ -253,7 +253,10 @@
             "lastSeen": "Last seen: [lastSeen]",
             "notpublished": "Never seen",
             "placeholder": "Select a style",
-            "style": "Style: [style]"
+            "style": "Style: [style]",
+            "shophistory": "Shop History [total]",
+            "firstseen": "First seen",
+            "lastseen": "Last seen"
         },
         "creativexp": {
             "embed1": {

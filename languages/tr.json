@@ -40,7 +40,8 @@
                 "title": "Ada Favorilerinize Eklendi",
                 "description": "[island] favorilerinize eklendi.",
                 "footer": "Not: Bazı yasak oyun modlarının oynanması sizin hesabınızı kısıtlayabilir. Lütfen bu riski göz önünde bulundurmayı unutmayın."
-            }
+            },
+            "notallowed": "Şu anda [code] koduna erişilmeye izin verilmiyor."
         },
         "anticheat": {
             "embed1": "Kullanılan anti-hile sistemi: [provider]. Anti-hile sağlayıcıları rastgeledir. Bazıları içerik mağazası yenilendikten sonra yenilenir."

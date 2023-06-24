@@ -40,7 +40,8 @@
                 "title": "Island Added to Your Favorites",
                 "description": "[island] is added to your favorites.",
                 "footer": "Note: Playing certain banned game mods may restrict your account. Please keep this risk in mind."
-            }
+            },
+            "notallowed": "[code] is currently not allowed to matchmake."
         },
         "anticheat": {
             "embed1": "Anti-cheat system you are using: [provider]. Anti-cheat providers are random. Some of them are refreshed after the item shop is updated."

@@ -372,8 +372,8 @@
             "price": "Price",
             "buy": "Buy",
             "vbucks": "[vbucks] V-Bucks",
-            "vbplatform": "V-Bucks Platform",
-            "supported": "Supported Content Creator",
+            "vbplatform": "V-Bucks platform",
+            "supported": "Supported content creator",
             "none": "None",
             "breakdown": "Breakdown",
             "neverbought": "You have never purchased V-Bucks.",
@@ -489,7 +489,10 @@
         "dontuseanother": "Please log in to the bot using only the link provided by the bot.",
         "expiredAuthCode": "An error occurred while logging in. The authorization code may have expired. Please try again.",
         "expiredExchange": "An error occurred while logging in. The Exchange Code may have expired. Please try again.",
-        "noresults": "No results found! Try changing the search and result languages."
+        "noresults": "No results found! Try changing the search and result languages.",
+        "componentsinactive": "This message is now inactive.",
+        "page": "Page",
+        "reachedmax": "You have reached maximum page."
     },
     "global": {
         "yes": "Yes",

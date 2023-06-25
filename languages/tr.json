@@ -275,7 +275,23 @@
             }
         },
         "randomlocation": {
-            "random": "Bu maç atlayacağın konum"
+            "random": "Bu maç atlayacağın konum",
+            "pois": {
+                "MEGA-CITY": "Mega Kent",
+                "SHATTERED-SLABS": "Talan Taşocağı",
+                "SLAPPY-SHORES": "Kabotaj Kıyılar",
+                "SHADY-STILTS": "Köklü Köy",
+                "RUMBLE-RUINS": "Heybetli Harabeler",
+                "LONELY-LABS": "Loş Laboratuvar",
+                "BREAKWATER-BAY": "Korunaklı Koy",
+                "BRUTAL-BASTION": "Ücra Üs",
+                "STEAMY-SPRINGS": "Pembe Pınar",
+                "FRENZY-FIELDS": "Çalışkan Çiftlik",
+                "KENJUTSU-CROSSING": "Kenjutsu Köyü",
+                "KNOTTY-NETS": "Balıkçı Belde",
+                "THE-CITADEL": "Kale",
+                "CREEKY-COMPOUND": "Tenha Tesis"
+            }
         },
         "redeem": {
             "embed1": "Kod okutmanız [seconds] saniye boyunca limitlendi. Lütfen daha sonra tekrar deneyiniz.",

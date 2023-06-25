@@ -275,7 +275,23 @@
             }
         },
         "randomlocation": {
-            "random": "Random location for this match"
+            "random": "Random location for this match",
+            "pois": {
+                "MEGA-CITY": "Mega City",
+                "SHATTERED-SLABS": "Shattered Slabs",
+                "SLAPPY-SHORES": "Slappy Shores",
+                "SHADY-STILTS": "Shady Stilts",
+                "RUMBLE-RUINS": "Rumble Ruins",
+                "LONELY-LABS": "Lonely Labs",
+                "BREAKWATER-BAY": "Breakwater Bay",
+                "BRUTAL-BASTION": "Brutal Bastion",
+                "STEAMY-SPRINGS": "Steamy Springs",
+                "FRENZY-FIELDS": "Frenzy Fields",
+                "KENJUTSU-CROSSING": "Kenjutsu Crossing",
+                "KNOTTY-NETS": "Knotty Nets",
+                "THE-CITADEL": "The Citadel",
+                "CREEKY-COMPOUND": "Creeky Compound"
+            }
         },
         "redeem": {
             "embed1": "Code redeeming has been limited for [seconds] seconds. Please try again later.",

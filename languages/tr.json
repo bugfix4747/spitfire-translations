@@ -461,6 +461,20 @@
                 "title": "Profiliniz Yenilendi [count]",
                 "description": "Battle Royale ve Dünyayı Kurtar profiliniz yenilendi."
             }
+        },
+        "credits": {
+            "embed1": {
+                "title": "Emeği Geçenler",
+                "description": "Bu kişiler botu yapmamıza yardım eden insanlar. Bu bot üzerinde çok emekleri var.",
+                "owner": "Sahip",
+                "admin": "Admin",
+                "contributors": "Katkıda Bulunanlar",
+                "translators": "Çevirmenler",
+                "developers": "Geliştiriciler",
+                "english": "İngilizce",
+                "turkish": "Türkçe",
+                "ad": "Bir çevirmen olmak ister misin? [Buraya tıkla]([url])"
+            }
         }
     },
     "changenickname": {
@@ -1191,6 +1205,11 @@
             "name": "refresh-profile",
             "localizedName": "profil-yenile",
             "localizedDescription": "Battle Royale ve Dünyayı Kurtar profilinizi yeniler"
+        },
+        {
+            "name": "credits",
+            "localizedName": "emeği-geçenler",
+            "localizedDescription": "Botu yapmamıza yardımcı olan kişileri gösterir"
         }
     ]
 }

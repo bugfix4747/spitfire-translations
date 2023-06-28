@@ -461,6 +461,20 @@
                 "title": "Profile Refreshed [count]",
                 "description": "Your Battle Royale and Save the World profile has been refreshed."
             }
+        },
+        "credits": {
+            "embed1": {
+                "title": "Credits",
+                "description": "These are the people who helped us make the bot. They did a lot of work on this bot.",
+                "owner": "Owner",
+                "admin": "Admin",
+                "contributors": "Contributors",
+                "translators": "Translators",
+                "developers": "Developers",
+                "english": "English",
+                "turkish": "Turkish",
+                "ad": "Do you want to become a translator? [Click here]([url])"
+            }
         }
     },
     "changenickname": {
@@ -1190,6 +1204,11 @@
             "name": "refresh-profile",
             "localizedName": "refresh-profile",
             "localizedDescription": "Refreshes your Battle Royale and Save the World profile"
+        },
+        {
+            "name": "credits",
+            "localizedName": "credits",
+            "localizedDescription": "Shows the people who helped us make the bot"
         }
     ]
 }

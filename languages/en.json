@@ -873,7 +873,7 @@
         {
             "name": "daily-quests",
             "localizedName": "daily-quests",
-            "localizedDescription": "View your Daily Save the World quests"
+            "localizedDescription": "View your daily Save the World quests"
         },
         {
             "name": "news",
@@ -1018,7 +1018,7 @@
                     "localizedDescription": "Set the cosmetic search language"
                 },
                 {
-                    "name": "output-languae",
+                    "name": "output-language",
                     "localizedName": "output-language",
                     "localizedDescription": "The language of appearance of the cosmetic's name, description, etc."
                 }

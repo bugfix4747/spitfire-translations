@@ -1209,6 +1209,11 @@
             "name": "credits",
             "localizedName": "credits",
             "localizedDescription": "Shows the people who helped us make the bot"
+        },
+        {
+            "name": "personal-news",
+            "localizedName": "personal-news",
+            "localizedDescription": "View your personal Fortnite news"
         }
     ]
 }

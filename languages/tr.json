@@ -1210,6 +1210,11 @@
             "name": "credits",
             "localizedName": "emeği-geçenler",
             "localizedDescription": "Botu yapmamıza yardımcı olan kişileri gösterir"
+        },
+        {
+            "name": "personal-news",
+            "localizedName": "kişisel-haberler",
+            "localizedDescription": "Kişisel Fortnite haberlerinizi görüntüleyin"
         }
     ]
 }

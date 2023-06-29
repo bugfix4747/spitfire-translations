@@ -504,7 +504,7 @@
         "acceptedtryagain": "Kuralları kabul ettiniz. Devam etmek için butona yeniden tıklayın.",
         "loginbruh": "Lütfen rolünüzü almadan önce Hesabını Bağla düğmesini veya [command] komutunu kullanarak giriş yapın.",
         "norank": "Hesabını bağladın ancak herhangi bir rütbeye sahip değilsin. Rütbe atlamak için şimdi bir maç tamamla! Tamamladıktan sonra, 'Rütbeni Yenile' düğmesi ile rolünü alabilirsin.",
-        "rank": "Hesabını bağladın ve [currentrank] rütbesinde olduğun için [role] rolünü kaptın! Şimdi daha çok rütbe atla ve 'Rütbeni Yenile' düğmesi ile sunucudaki rolünü güncelle.",
+        "rank": "Hesabını bağladın ve [currentRank] rütbesinde olduğun için [role] rolünü kaptın! Şimdi daha çok rütbe atla ve 'Rütbeni Yenile' düğmesi ile sunucudaki rolünü güncelle.",
         "hellouser": "Merhaba, [name]",
         "crank": "Derece",
         "chighestrank": "En Yüksek Derece",

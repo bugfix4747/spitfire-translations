@@ -933,11 +933,6 @@
                             "localizedDescription": "Hatırlatıcına eklenecek kozmetiğin adı"
                         },
                         {
-                            "name": "type",
-                            "localizedName": "çeşit",
-                            "localizedDescription": "Aranacak kozmetik çeşidi"
-                        },
-                        {
                             "name": "search-language",
                             "localizedName": "arama-dili",
                             "localizedDescription": "Kozmetiği arama dilini belirle"
@@ -955,14 +950,9 @@
                             "localizedDescription": "Hatırlatıcımdan kaldırılacak kozmetiğin adı"
                         },
                         {
-                            "name": "type",
-                            "localizedName": "çeşit",
-                            "localizedDescription": "Hatırlatıcından kaldırılacak kozmetik çeşidi"
-                        },
-                        {
-                            "name": "search-language",
-                            "localizedName": "arama-dili",
-                            "localizedDescription": "Kozmetiği arama dilini belirle"
+                            "name": "language",
+                            "localizedName": "dil",
+                            "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vb. görünüm dili."
                         }
                     ]
                 },

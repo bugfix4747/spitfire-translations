@@ -933,9 +933,9 @@
                             "localizedDescription": "Hatırlatıcına eklenecek kozmetiğin adı"
                         },
                         {
-                            "name": "search-language",
-                            "localizedName": "arama-dili",
-                            "localizedDescription": "Kozmetiği arama dilini belirle"
+                            "name": "language",
+                            "localizedName": "dil",
+                            "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vb. görünüm dili."
                         }
                     ]
                 },

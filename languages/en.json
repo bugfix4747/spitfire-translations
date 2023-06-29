@@ -504,7 +504,7 @@
         "acceptedtryagain": "You have accepted the rules. Click the button again to continue.",
         "loginbruh": "Please log in by clicking the 'Connect Your Account' button or using the [command] command before claiming your role.",
         "norank": "You have connected your account, but you don't have any rank yet. Complete a match now to rank up! Once you're done, you can claim your role with the 'Refresh Rank' button.",
-        "rank": "You have connected your account and obtained the [role] role because you are currently at rank [currentrank]! Keep ranking up and update your role on the server with the 'Refresh Rank' button.",
+        "rank": "You have connected your account and obtained the [role] role because you are currently at rank [currentRank]! Keep ranking up and update your role on the server with the 'Refresh Rank' button.",
         "hellouser": "Hello, [name]",
         "crank": "Rank",
         "chighestrank": "Highest Rank",

@@ -932,14 +932,9 @@
                             "localizedDescription": "Cosmetic name to add to your reminder list"
                         },
                         {
-                            "name": "type",
-                            "localizedName": "type",
-                            "localizedDescription": "Cosmetic type to search"
-                        },
-                        {
-                            "name": "search-language",
-                            "localizedName": "search-language",
-                            "localizedDescription": "Set the cosmetic search language"
+                            "name": "language",
+                            "localizedName": "language",
+                            "localizedDescription": "The search language and the language of appearance of the cosmetic's name, description, etc."
                         }
                     ]
                 },
@@ -954,14 +949,9 @@
                             "localizedDescription": "Cosmetic name to remove from your reminder list"
                         },
                         {
-                            "name": "type",
-                            "localizedName": "type",
-                            "localizedDescription": "Cosmetic type to search"
-                        },
-                        {
-                            "name": "search-language",
-                            "localizedName": "search-language",
-                            "localizedDescription": "Set the cosmetic search language"
+                            "name": "language",
+                            "localizedName": "language",
+                            "localizedDescription": "The search language and the language of appearance of the cosmetic's name, description, etc."
                         }
                     ]
                 },

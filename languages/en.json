@@ -497,7 +497,8 @@
     },
     "general": {
         "didntconnectdb": "The command couldn't be executed because the bot couldn't connect to the database. Please try again later and join our [support server]([support]) for more information.",
-        "blacklist": "You can't use the bot. You were blacklisted with reason: [reason].",
+        "blacklist": "You can't use the bot. You were blacklisted with reason: [reason]. Join our [support server]([support]) for more information.",
+        "blacklistguild": "You can't use the bot in this server. This server was blacklisted with reason: [reason]. Join our [support server]([support]) for more information.",
         "disabled": "This command is disabled temporary.",
         "supserveronly": "You can only use this command in [our support server]([support]).",
         "loginreq": "Please login via [command] command to use this command.",

@@ -382,8 +382,7 @@
             "viewableDate": "Görüntülenme Tarihi",
             "effectiveDate": "Etkili Tarih",
             "expiryDate": "Sona Erme Tarihi",
-            "none": "Yok",
-            "footer": "Fortnite Tayfası, sadece oyun-içi paketler vb. satın almak için /teklif satın-al komutunu kullanmanız gerekmektedir."
+            "none": "Yok"
         },
         "vbucks": {
             "price": "Fiyat",
@@ -786,71 +785,9 @@
                     "localizedDescription": "Dolabını bir resim olarak görüntüle",
                     "options": [
                         {
-                            "choices": [
-                                {
-                                    "name": "Outfit",
-                                    "localizedName": "Outfit",
-                                    "value": "character"
-                                },
-                                {
-                                    "name": "Backpack",
-                                    "localizedName": "Backpack",
-                                    "value": "backpack"
-                                },
-                                {
-                                    "name": "Glider",
-                                    "localizedName": "Glider",
-                                    "value": "glider"
-                                },
-                                {
-                                    "name": "Pickaxe",
-                                    "localizedName": "Pickaxe",
-                                    "value": "pickaxe"
-                                },
-                                {
-                                    "name": "Dance",
-                                    "localizedName": "Dance",
-                                    "value": "dance"
-                                },
-                                {
-                                    "name": "Wrap",
-                                    "localizedName": "Wrap",
-                                    "value": "itemwrap"
-                                },
-                                {
-                                    "name": "Toy",
-                                    "localizedName": "Toy",
-                                    "value": "toys"
-                                },
-                                {
-                                    "name": "Loading Screen",
-                                    "localizedName": "Loading Screen",
-                                    "value": "loadingscreen"
-                                },
-                                {
-                                    "name": "Spray",
-                                    "localizedName": "Spray",
-                                    "value": "spray"
-                                },
-                                {
-                                    "name": "Emoji",
-                                    "localizedName": "Emoji",
-                                    "value": "emoji"
-                                },
-                                {
-                                    "name": "Contrail",
-                                    "localizedName": "Contrail",
-                                    "value": "skydivecontrail"
-                                },
-                                {
-                                    "name": "Music",
-                                    "localizedName": "Music",
-                                    "value": "musicpack"
-                                }
-                            ],
                             "name": "type",
-                            "localizedName": "tip",
-                            "localizedDescription": "Görüntülenecek kozmetik tipi"
+                            "localizedName": "tür",
+                            "localizedDescription": "Görüntülenecek kozmetik türü"
                         }
                     ]
                 }
@@ -869,19 +806,7 @@
                 {
                     "name": "auth-type",
                     "localizedName": "yetkilendirme-tipi",
-                    "localizedDescription": "Hesabınıza nasıl giriş yapacağınızı seçin",
-                    "choices": [
-                        {
-                            "name": "Authorization Code (Default)",
-                            "localizedName": "Authorization Code (Default)",
-                            "value": "authorization_code"
-                        },
-                        {
-                            "name": "Exchange Code",
-                            "localizedName": "Exchange Code",
-                            "value": "exchange_code"
-                        }
-                    ]
+                    "localizedDescription": "Hesabınıza nasıl giriş yapacağınızı seçin"
                 }
             ]
         },
@@ -898,17 +823,7 @@
                 {
                     "name": "mode",
                     "localizedName": "mod",
-                    "localizedDescription": "Haberleri görüntülenecek oyun modu",
-                    "choices": [
-                        {
-                            "name": "Battle Royale",
-                            "value": "br"
-                        },
-                        {
-                            "name": "Save the World",
-                            "value": "stw"
-                        }
-                    ]
+                    "localizedDescription": "Haberleri görüntülenecek oyun modu"
                 }
             ]
         },
@@ -1119,31 +1034,12 @@
         {
             "name": "offer",
             "localizedName": "teklif",
-            "localizedDescription": "Offer ID girerek bir teklif satın alın veya aratın",
+            "localizedDescription": "Offer ID girerek bir teklif arayın veya satın alın",
             "options": [
                 {
-                    "name": "search",
-                    "localizedName": "ara",
-                    "localizedDescription": "Bir teklif ara",
-                    "options": [
-                        {
-                            "name": "offer-id",
-                            "localizedName": "offer-id",
-                            "localizedDescription": "Arayacağınız teklifin OfferID'si"
-                        }
-                    ]
-                },
-                {
-                    "name": "buy",
-                    "localizedName": "satın-al",
-                    "localizedDescription": "Bir teklif satın al",
-                    "options": [
-                        {
-                            "name": "offer-id",
-                            "localizedName": "offer-id",
-                            "localizedDescription": "Satın alacağınız teklifin OfferID'si"
-                        }
-                    ]
+                    "name": "offer-id",
+                    "localizedName": "offer-id",
+                    "localizedDescription": "Arayacağınız veya satın alacağınız teklifin Offer ID'si"
                 }
             ]
         },

@@ -474,6 +474,13 @@
                 "turkish": "Turkish",
                 "ad": "Do you want to become a translator? [Click here]([url])"
             }
+        },
+        "launch": {
+            "embed1": {
+                "title": "Launch Fortnite",
+                "description": "**WARNING: Do not share this command with anyone as it may grant access to your account!**\nThis command will expire [expire].\n\n[command]",
+                "launch": "Launch"
+            }
         }
     },
     "changenickname": {
@@ -1100,6 +1107,11 @@
             "name": "personal-news",
             "localizedName": "personal-news",
             "localizedDescription": "View your personal Fortnite news"
+        },
+        {
+            "name": "launch",
+            "localizedName": "launch",
+            "localizedDescription": "Launch Fortnite with a Command Prompt command"
         }
     ]
 }

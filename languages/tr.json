@@ -528,7 +528,8 @@
         "noresults": "Sonuç bulunamadı! Arama ve sonuç dillerini değiştirmeyi deneyin.",
         "componentsinactive": "This message is now inactive.",
         "page": "Sayfa",
-        "reachedmax": "En fazla sayfaya ulaştın."
+        "reachedmax": "En fazla sayfaya ulaştın.",
+        "notactive": "Epic hesabın ([accountId]) Epic Games tarafından devre dışı bırakıldığı için komut çalıştırılamadı. Daha fazla bilgi için lütfen Epic Games ile iletişime geç"
     },
     "global": {
         "yes": "Evet",

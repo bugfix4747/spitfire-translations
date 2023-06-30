@@ -475,7 +475,7 @@
                 "ad": "Do you want to become a translator? [Click here]([url])"
             }
         },
-        "launch": {
+        "launchfortnite": {
             "embed1": {
                 "title": "Launch Fortnite",
                 "description": "**WARNING: Do not share this command with anyone as it may grant access to your account!**\nThis command will expire [expire].\n\n[command]"
@@ -1108,8 +1108,8 @@
             "localizedDescription": "View your personal Fortnite news"
         },
         {
-            "name": "launch",
-            "localizedName": "launch",
+            "name": "launch-fortnite",
+            "localizedName": "launch-fortnite",
             "localizedDescription": "Launch Fortnite with a Command Prompt command"
         }
     ]

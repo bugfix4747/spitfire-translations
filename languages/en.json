@@ -382,8 +382,7 @@
             "viewableDate": "Viewable Date",
             "effectiveDate": "Effective Date",
             "expiryDate": "Expiry Date",
-            "none": "None",
-            "footer": "To purchase in-game packs, Crew Pack, etc., using /offer buy command is required."
+            "none": "None"
         },
         "vbucks": {
             "price": "Price",
@@ -786,68 +785,6 @@
                     "localizedDescription": "View your locker as an image",
                     "options": [
                         {
-                            "choices": [
-                                {
-                                    "name": "Outfit",
-                                    "localizedName": "Outfit",
-                                    "value": "character"
-                                },
-                                {
-                                    "name": "Backpack",
-                                    "localizedName": "Backpack",
-                                    "value": "backpack"
-                                },
-                                {
-                                    "name": "Glider",
-                                    "localizedName": "Glider",
-                                    "value": "glider"
-                                },
-                                {
-                                    "name": "Pickaxe",
-                                    "localizedName": "Pickaxe",
-                                    "value": "pickaxe"
-                                },
-                                {
-                                    "name": "Dance",
-                                    "localizedName": "Dance",
-                                    "value": "dance"
-                                },
-                                {
-                                    "name": "Wrap",
-                                    "localizedName": "Wrap",
-                                    "value": "itemwrap"
-                                },
-                                {
-                                    "name": "Toy",
-                                    "localizedName": "Toy",
-                                    "value": "toys"
-                                },
-                                {
-                                    "name": "Loading Screen",
-                                    "localizedName": "Loading Screen",
-                                    "value": "loadingscreen"
-                                },
-                                {
-                                    "name": "Spray",
-                                    "localizedName": "Spray",
-                                    "value": "spray"
-                                },
-                                {
-                                    "name": "Emoji",
-                                    "localizedName": "Emoji",
-                                    "value": "emoji"
-                                },
-                                {
-                                    "name": "Contrail",
-                                    "localizedName": "Contrail",
-                                    "value": "skydivecontrail"
-                                },
-                                {
-                                    "name": "Music",
-                                    "localizedName": "Music",
-                                    "value": "musicpack"
-                                }
-                            ],
                             "name": "type",
                             "description": "Cosmetic type to view"
                         }
@@ -868,19 +805,7 @@
                 {
                     "name": "auth-type",
                     "localizedName": "auth-type",
-                    "localizedDescription": "Choose how you want to log in to your account",
-                    "choices": [
-                        {
-                            "name": "Authorization Code (Default)",
-                            "localizedName": "Authorization Code (Default)",
-                            "value": "authorization_code"
-                        },
-                        {
-                            "name": "Exchange Code",
-                            "localizedName": "Exchange Code",
-                            "value": "exchange_code"
-                        }
-                    ]
+                    "localizedDescription": "Choose how you want to log in to your account"
                 }
             ]
         },
@@ -897,17 +822,7 @@
                 {
                     "name": "mode",
                     "localizedName": "mode",
-                    "localizedDescription": "Mode to view news of",
-                    "choices": [
-                        {
-                            "name": "Battle Royale",
-                            "value": "br"
-                        },
-                        {
-                            "name": "Save the World",
-                            "value": "stw"
-                        }
-                    ]
+                    "localizedDescription": "Mode to view news of"
                 }
             ]
         },
@@ -1121,28 +1036,9 @@
             "localizedDescription": "Buy or search for an offer by entering Offer ID",
             "options": [
                 {
-                    "name": "search",
-                    "localizedName": "search",
-                    "localizedDescription": "Search an offer",
-                    "options": [
-                        {
-                            "name": "offer-id",
-                            "localizedName": "offer-id",
-                            "localizedDescription": "OfferID of the offer you will search for"
-                        }
-                    ]
-                },
-                {
-                    "name": "buy",
-                    "localizedName": "buy",
-                    "localizedDescription": "Buy an offer",
-                    "options": [
-                        {
-                            "name": "offer-id",
-                            "localizedName": "offer-id",
-                            "localizedDescription": "OfferID of the offer you will buy"
-                        }
-                    ]
+                    "name": "offer-id",
+                    "localizedName": "offer-id",
+                    "localizedDescription": "The Offer ID of the offer you will search or buy"
                 }
             ]
         },

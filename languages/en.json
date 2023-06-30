@@ -528,7 +528,8 @@
         "noresults": "No results found! Try changing the search and result languages.",
         "componentsinactive": "This message is now inactive.",
         "page": "Page",
-        "reachedmax": "You have reached maximum page."
+        "reachedmax": "You have reached maximum page.",
+        "notactive": "The command couldn't be executed because your Epic account ([accountId]) is disabled by Epic Games. Please contact Epic Games for more information."
     },
     "global": {
         "yes": "Yes",

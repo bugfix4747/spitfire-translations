@@ -475,7 +475,7 @@
                 "ad": "Bir çevirmen olmak ister misin? [Buraya tıkla]([url])"
             }
         },
-        "launch": {
+        "launchfortnite": {
             "embed1": {
                 "title": "Fortnite'ı Başlat",
                 "description": "**DİKKAT: Bu komutu kimseyle paylaşmayın, hesabınıza erişim sağlayabilirler!**\nKodun geçerliliği [expire] dolacak.\n\n[command]"
@@ -1109,7 +1109,7 @@
             "localizedDescription": "Kişisel Fortnite haberlerinizi görüntüleyin"
         },
         {
-            "name": "launch",
+            "name": "launch-fortnite",
             "localizedName": "fortnite-başlat",
             "localizedDescription": "Fortnite'ı bir Command Prompt komutu ile başlatın"
         }

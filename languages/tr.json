@@ -497,7 +497,8 @@
     },
     "general": {
         "didntconnectdb": "Veritabanına bağlanılamadığı için bot bu komutu çalıştırılamadı. Lütfen daha sonra tekrar deneyin ve bilgi almak için [destek sunucumuza]([support]) katılın.",
-        "blacklist": "Botu kullanamazsın! [reason] sebebiyle kara listeye alındın.",
+        "blacklist": "Botu kullanamazsın. [reason] sebebiyle kara listeye alındın.",
+        "blacklistguild": "Bu sunucu botu kullanamaz. Bu sunucu [reason] sebebiyle kara listeye alındı.",
         "disabled": "Bu komut kısa süreliğine devre dışı bırakılmıştır.",
         "supserveronly": "Bu komutu sadece [destek sunucumuzda]([support]) kullanabilirsiniz.",
         "loginreq": "Bu komutu kullanmak için lütfen [command] komutunu kullanarak hesabınıza giriş yapın.",

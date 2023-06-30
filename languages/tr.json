@@ -474,6 +474,12 @@
                 "turkish": "Türkçe",
                 "ad": "Bir çevirmen olmak ister misin? [Buraya tıkla]([url])"
             }
+        },
+        "launch": {
+            "embed1": {
+                "title": "Fortnite'ı Başlat",
+                "description": "**DİKKAT: Bu komutu kimseyle paylaşmayın, hesabınıza erişim sağlayabilirler!**\nKodun geçerliliği [expire] dolacak.\n\n[command]"
+            }
         }
     },
     "changenickname": {
@@ -1101,6 +1107,11 @@
             "name": "personal-news",
             "localizedName": "kişisel-haberler",
             "localizedDescription": "Kişisel Fortnite haberlerinizi görüntüleyin"
+        },
+        {
+            "name": "launch",
+            "localizedName": "fortnite-başlat",
+            "localizedDescription": "Fortnite'ı bir Command Prompt komutu ile başlatın"
         }
     ]
 }

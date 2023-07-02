@@ -232,7 +232,8 @@
             "embed12": "An unknown error occurred while sending the gift.",
             "sent": {
                 "title": "Item Gifted",
-                "description": "Successfully gifted [item] to [friendName] for [VBspent]."
+                "description": "Successfully gifted [item] to [friendName] for [price].",
+                "footer": "Supported content creator: [supportCode]"
             },
             "cancelled": {
                 "title": "Gift Cancelled",
@@ -337,7 +338,8 @@
             "embed5": "An unknown error occurred while buying the item.",
             "bought": {
                 "title": "Item Bought",
-                "description": "Successfully bought [item] for [VBspent]."
+                "description": "Successfully bought [item] for [price].",
+                "footer": "Supported content creator: [supportCode]"
             },
             "cancelled": {
                 "title": "Purchase Cancelled",

@@ -1113,7 +1113,7 @@
             "localizedDescription": "Shows the people who helped us make the bot"
         },
         {
-            "name": "personal-news",
+            "name": "motd",
             "localizedName": "personal-news",
             "localizedDescription": "View your personal Fortnite news"
         },

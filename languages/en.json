@@ -215,14 +215,11 @@
             }
         },
         "gift": {
-            "embed1": "Item not found.",
+            "embed1": "[item] was not found in the item shop. Please make sure you typed it correctly.",
             "embed2": "No player found with the name [name].",
             "embed3": "You can't send a gift to yourself.",
             "embed4": "You need to be friends with [friendName] to send a gift.",
-            "embed5": {
-                "description": "Do you want to gift [item] to [friendName] for [price]?",
-                "footer": "You have 30 seconds to decide. - If a special discount is applied to your friend, it will be gifted at that price."
-            },
+            "embed5": "Do you want to gift [item] to [friendName] for [price]?",
             "embed6": "You need to enable 2FA on your account before sending a gift.",
             "embed7": "You can't send a gift to [friendName] as you became friends within the last 2 days. Try again [afterTime].",
             "embed8": "[friendName] doesn't accept gifts.",
@@ -238,7 +235,8 @@
             "cancelled": {
                 "title": "Gift Cancelled",
                 "description": "You cancelled gifting [item] to your friend [friendName]."
-            }
+            },
+            "allcontents": "All Contents"
         },
         "gifthistory": {
             "embed1": "You haven't sent any gifts to anyone.",
@@ -328,11 +326,8 @@
             }
         },
         "buy": {
-            "embed1": "Item not found.",
-            "embed2": {
-                "description": "Do you want to buy [item] for [price]?",
-                "footer": "You have 30 seconds to decide. - If a special discount is applied to you, it will be bought at that price."
-            },
+            "embed1": "[item] was not found in the item shop. Please make sure you typed it correctly.",
+            "embed2": "Do you want to buy [item] for [price]?",
             "embed3": "You need [requiredVB] more to buy this item. You currently have: [currentVB]",
             "embed4": "You already have this item.",
             "embed5": "An unknown error occurred while buying the item.",
@@ -344,7 +339,8 @@
             "cancelled": {
                 "title": "Purchase Cancelled",
                 "description": "You cancelled the purchase of [item]."
-            }
+            },
+            "allcontents": "All Contents"
         },
         "battlepass": {
             "prices": {
@@ -536,11 +532,13 @@
         "dontuseanother": "Please log in to the bot using only the link provided by the bot.",
         "expiredAuthCode": "An error occurred while logging in. The authorization code may have expired. Please try again.",
         "expiredExchange": "An error occurred while logging in. The Exchange Code may have expired. Please try again.",
-        "noresults": "No results found! Try changing the search and result languages.",
+        "noresults": "No results found!",
         "componentsinactive": "This message is now inactive.",
         "page": "Page",
         "reachedmax": "You have reached maximum page.",
-        "notactive": "The command couldn't be executed because your Epic account ([accountId]) is disabled by Epic Games. Please contact Epic Games for more information."
+        "notactive": "The command couldn't be executed because your Epic account ([accountId]) is disabled by Epic Games. Please contact Epic Games for more information.",
+        "yourvbucks": "Your V-Bucks",
+        "supportedcreator": "Supported Creator"
     },
     "global": {
         "yes": "Yes",

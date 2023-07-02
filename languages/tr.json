@@ -232,7 +232,8 @@
             "embed12": "Hediye işlemi gerçekleştirilirken bilinmeyen bir hata oluştu.",
             "sent": {
                 "title": "İçerik Hediye Edildi",
-                "description": "[item], [VBspent] karşılığında başarıyla [friendName] arkadaşına hediye edildi."
+                "description": "[item], [price] karşılığında başarıyla [friendName] arkadaşına hediye edildi.",
+                "footer": "Desteklenen içerik üreticisi: [supportCode]"
             },
             "cancelled": {
                 "title": "Hediye İptal Edildi",
@@ -337,7 +338,8 @@
             "embed5": "İçerik satın alınırken bilinmeyen bir hata oluştu.",
             "bought": {
                 "title": "İçerik Satın Alındı",
-                "description": "[item], [VBspent] karşılığında başarıyla satın alındı."
+                "description": "[item], [price] karşılığında başarıyla satın alındı.",
+                "footer": "Desteklenen içerik üreticisi: [supportCode]"
             },
             "cancelled": {
                 "title": "Satın Alım İptal Edildi",

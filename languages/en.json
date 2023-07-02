@@ -230,9 +230,13 @@
             "embed10": "You need [requiredVB] more to gift this item. You currently have: [currentVB]",
             "embed11": "You can't send this item as a gift.",
             "embed12": "An unknown error occurred while sending the gift.",
-            "embed13": {
+            "sent": {
                 "title": "Item Gifted",
                 "description": "Successfully gifted [item] to [friendName] for [VBspent]."
+            },
+            "cancelled": {
+                "title": "Gift Cancelled",
+                "description": "You cancelled gifting [item] to your friend [friendName]."
             }
         },
         "gifthistory": {
@@ -331,9 +335,13 @@
             "embed3": "You need [requiredVB] more to buy this item. You currently have: [currentVB]",
             "embed4": "You already have this item.",
             "embed5": "An unknown error occurred while buying the item.",
-            "embed6": {
+            "bought": {
                 "title": "Item Bought",
                 "description": "Successfully bought [item] for [VBspent]."
+            },
+            "cancelled": {
+                "title": "Purchase Cancelled",
+                "description": "You cancelled the purchase of [item]."
             }
         },
         "battlepass": {

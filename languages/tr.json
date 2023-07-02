@@ -230,9 +230,13 @@
             "embed10": "Bu içeriği hediye etmeniz için size [requiredVB] daha gerekiyor. Sizde olan: [currentVB]",
             "embed11": "Bu içeriği hediye olarak gönderemezsiniz.",
             "embed12": "Hediye işlemi gerçekleştirilirken bilinmeyen bir hata oluştu.",
-            "embed13": {
+            "sent": {
                 "title": "İçerik Hediye Edildi",
-                "description": "[item], [VBspent] karşılığında başarıyla **[friendName]** arkadaşına hediye edildi."
+                "description": "[item], [VBspent] karşılığında başarıyla [friendName] arkadaşına hediye edildi."
+            },
+            "cancelled": {
+                "title": "Hediye İptal Edildi",
+                "description": "[item] içeriğini [friendName] arkadaşına göndermekten vazgeçtin."
             }
         },
         "gifthistory": {
@@ -331,9 +335,13 @@
             "embed3": "Bu içeriği almak için size [requiredVB] gerekiyor. Sizde olan: [currentVB]",
             "embed4": "Bu içeriğe zaten sahipsin.",
             "embed5": "İçerik satın alınırken bilinmeyen bir hata oluştu.",
-            "embed6": {
+            "bought": {
                 "title": "İçerik Satın Alındı",
-                "description": "[item], [VBspent] karşılığında satın alındı."
+                "description": "[item], [VBspent] karşılığında başarıyla satın alındı."
+            },
+            "cancelled": {
+                "title": "Satın Alım İptal Edildi",
+                "description": "[item] içeriğini satın almaktan vazgeçtiniz."
             }
         },
         "battlepass": {

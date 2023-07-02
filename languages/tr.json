@@ -215,14 +215,11 @@
             }
         },
         "gift": {
-            "embed1": "İçerik bulunamadı.",
+            "embed1": "[item] içerik mağazasında bulunamadı. Lütfen doğru yazdığınızdan emin olun.",
             "embed2": "[name] ismiyle herhangi bir oyuncu bulunamadı.",
             "embed3": "Kendine hediye gönderemezsin.",
             "embed4": "Hediye göndermek için öncelikle [friendName] arkadaş olmanız gerekir.",
-            "embed5": {
-                "description": "[item] içeriğini [price] karşılığında **[friendName]** arkadaşına hediye etmek istiyor musun?",
-                "footer": "Karar vermek için 30 saniyeniz var. - Eğer arkadaşınıza özel bir indirim uygulandıysa o fiyattan hediye edilecektir."
-            },
+            "embed5": "[item] içeriğini [price] karşılığında [friendName] arkadaşına hediye etmek istiyor musun?",
             "embed6": "Hediye göndermek için ilk önce hesabında 2 Aşamalı Doğrulamayı aktif etmelisin.",
             "embed7": "[friendName] ile 2 günden yeni bir sürede arkadaş olduğunuz için hediye gönderilemiyor. [afterTime] tekrar deneyin",
             "embed8": "[friendName] hediyeleri kabul etmiyor.",
@@ -238,7 +235,8 @@
             "cancelled": {
                 "title": "Hediye İptal Edildi",
                 "description": "[item] içeriğini [friendName] arkadaşına göndermekten vazgeçtin."
-            }
+            },
+            "allcontents": "Tüm İçerikler"
         },
         "gifthistory": {
             "embed1": "Kimseye hediye göndermedin.",
@@ -328,11 +326,8 @@
             }
         },
         "buy": {
-            "embed1": "İçerik bulunamadı.",
-            "embed2": {
-                "description": "[item] içeriğini [price] karşılığında satın almak istiyor musunuz?",
-                "footer": "Karar vermek için 30 saniyeniz var. - Eğer size özel bir indirim uygulandıysa o fiyattan alınacaktır."
-            },
+            "embed1": "[item] içerik mağazasında bulunamadı. Lütfen doğru yazdığınızdan emin olun.",
+            "embed2": "[item] içeriğini [price] karşılığında satın almak istiyor musunuz?",
             "embed3": "Bu içeriği almak için size [requiredVB] gerekiyor. Sizde olan: [currentVB]",
             "embed4": "Bu içeriğe zaten sahipsin.",
             "embed5": "İçerik satın alınırken bilinmeyen bir hata oluştu.",
@@ -344,7 +339,8 @@
             "cancelled": {
                 "title": "Satın Alım İptal Edildi",
                 "description": "[item] içeriğini satın almaktan vazgeçtiniz."
-            }
+            },
+            "allcontents": "Tüm İçerikler"
         },
         "battlepass": {
             "prices": {
@@ -536,11 +532,13 @@
         "dontuseanother": "Lütfen bota sadece botun size verdiği bağlantıyı kullanarak giriş yapın.",
         "expiredAuthCode": "Giriş yaparken bir sorun oluştu. Yetkilendirme kodu geçerliliğini yitirmiş olabilir. Lütfen tekrar deneyin.",
         "expiredExchange": "Giriş yaparken bir sorun oluştu. Exchange Code geçerliliğini yitirmiş olabilir. Lütfen tekrar deneyin.",
-        "noresults": "Sonuç bulunamadı! Arama ve sonuç dillerini değiştirmeyi deneyin.",
+        "noresults": "Sonuç bulunamadı!",
         "componentsinactive": "This message is now inactive.",
         "page": "Sayfa",
         "reachedmax": "En fazla sayfaya ulaştın.",
-        "notactive": "Epic hesabın ([accountId]) Epic Games tarafından devre dışı bırakıldığı için komut çalıştırılamadı. Daha fazla bilgi için lütfen Epic Games ile iletişime geç"
+        "notactive": "Epic hesabın ([accountId]) Epic Games tarafından devre dışı bırakıldığı için komut çalıştırılamadı. Daha fazla bilgi için lütfen Epic Games ile iletişime geç",
+        "yourvbucks": "V-Papelin",
+        "supportedcreator": "Desteklenilen Üretici"
     },
     "global": {
         "yes": "Evet",

@@ -486,6 +486,14 @@
                 "title": "Fortnite'ı Başlat",
                 "description": "**DİKKAT: Bu komutu kimseyle paylaşmayın, hesabınıza erişim sağlayabilirler!**\nKodun geçerliliği [expire] dolacak.\n\n[command]"
             }
+        },
+        "preferences": {
+            "language": "Tercih edilen bot dili [language] olarak ayarlandı.",
+            "replyType": "Tercih edilen cevap tipi [type] olarak ayarlandı.\n\nNot: Sadece başarılı, hata ve uyarı mesajları bu ayardan etkilenir.",
+            "replyTypes": {
+                "embed": "Embed",
+                "plaintext": "Düz Metin"
+            }
         }
     },
     "changenickname": {
@@ -1122,6 +1130,37 @@
             "name": "launch-fortnite",
             "localizedName": "fortnite-başlat",
             "localizedDescription": "Fortnite'ı bir Command Prompt komutu ile başlatın"
+        },
+        {
+            "name": "preferences",
+            "localizedName": "tercihler",
+            "localizedDescription": "Bot tercihlerinizi değiştirin",
+            "options": [
+                {
+                    "name": "language",
+                    "localizedName": "dil",
+                    "localizedDescription": "Bot dilinizi değiştirin",
+                    "options": [
+                        {
+                            "name": "language",
+                            "localizedName": "dil",
+                            "localizedDescription": "Yeni dil"
+                        }
+                    ]
+                },
+                {
+                    "name": "reply-type",
+                    "localizedName": "yanıt-tipi",
+                    "localizedDescription": "Bot yanıt tipini değiştirin",
+                    "options": [
+                        {
+                            "name": "type",
+                            "localizedName": "tip",
+                            "localizedDescription": "Yeni yanıt tipi"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -253,7 +253,7 @@
         "cosmetic": {
             "embed1": "[name] ismiyle herhangi bir kozmetik bulunamadı.",
             "partofset": "[set] setinin bir parçası.",
-            "intro": "[chapter]. Bölüm [season]. Sezon'da tanıtıldı.",
+            "intro": "[chapter]\\. Bölüm [season]. Sezon'da tanıtıldı.",
             "lastSeen": "Son görülme: [lastSeen]",
             "notpublished": "Yayınlanmadı",
             "placeholder": "Bir tarz seç",

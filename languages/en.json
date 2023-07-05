@@ -494,6 +494,12 @@
                 "embed": "Embed",
                 "plaintext": "Plain Text"
             }
+        },
+        "missionalerts": {
+            "missionAlerts": "Mission Alerts",
+            "noAlerts": "There are no V-Bucks mission alerts today :(",
+            "total": "Total V-Bucks",
+            "vbucks": "V-Bucks"
         }
     },
     "changenickname": {
@@ -1160,6 +1166,11 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "mission-alerts",
+            "localizedName": "mission-alerts",
+            "localizedDescription": "View the Save the World mission alerts"
         }
     ]
 }

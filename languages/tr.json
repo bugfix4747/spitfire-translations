@@ -494,6 +494,12 @@
                 "embed": "Embed",
                 "plaintext": "Düz Metin"
             }
+        },
+        "missionalerts": {
+            "missionAlerts": "Görev Uyarıları",
+            "noAlerts": "Bugün hiçbir V-Papel görev uyarısı yok :(",
+            "total": "Toplam V-Papel",
+            "vbucks": "V-Papel"
         }
     },
     "changenickname": {
@@ -1161,6 +1167,11 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "mission-alerts",
+            "localizedName": "görev-uyarıları",
+            "localizedDescription": "Dünyayı Kurtar görev uyarılarını görüntüleyin"
         }
     ]
 }

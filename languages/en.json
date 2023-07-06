@@ -526,7 +526,7 @@
         "loginreq": "Please login via [command] command to use this command.",
         "dataerror": "We had to log you out of your account because your data was not properly processed in the database. Please log in again, and if the issue persists, join our [support server]([support]) for assistance.",
         "servererror": "This command could not be executed due to an error. The common reason for this error is that the Fortnite servers are offline.",
-        "hadtologout": "Your session has been terminated! It could be due to one of the following reasons:\n• Session timeout.\n• Epic Games or yourself revoked all authorizations.\n\nYou have been automatically logged out of your account. You can log in again",
+        "hadtologout": "Your session has been terminated! It could be due to one of the following reasons:\n• Your session timed out.\nYour account's password has changed.\n• Epic Games or you revoked all authorizations.\n\nYou have been automatically logged out of your account. You can log in again",
         "missingperms": "This command couldn't be executed because of missing permissions on your account.",
         "error": "An unexpected error occurred while executing this command, and the error has been reported to the developers. Please join our [support server]([support]) for assistance.",
         "acceptedtryagain": "You have accepted the rules. Click the button again to continue.",

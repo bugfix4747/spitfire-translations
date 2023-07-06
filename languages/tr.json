@@ -199,6 +199,7 @@
             "embed7": "[cosmetic] başarıyla hatırlatıcınızdan kaldırıldı.",
             "embed8": "Hatırlatıcı Listesi",
             "embed9": "Hatırlatıcında herhangi bir içerik bulunmuyor.",
+            "embed10": "Hatırlatıcı listeniz başarıyla sıfırlandı.",
             "types": {
                 "outfit": "Kostümler",
                 "pickaxe": "Toplama Aletleri",
@@ -493,7 +494,8 @@
             "replyTypes": {
                 "embed": "Embed",
                 "plaintext": "Düz Metin"
-            }
+            },
+            "auto": "Tercih ettiğin bot dili otomatik olarak [language] olarak ayarlandı."
         },
         "missionalerts": {
             "missionAlerts": "Görev Uyarıları",
@@ -880,7 +882,7 @@
                         {
                             "name": "language",
                             "localizedName": "dil",
-                            "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vb. görünüm dili."
+                            "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vs. görünüm dili."
                         }
                     ]
                 },
@@ -897,9 +899,14 @@
                         {
                             "name": "language",
                             "localizedName": "dil",
-                            "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vb. görünüm dili."
+                            "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vs. görünüm dili."
                         }
                     ]
+                },
+                {
+                    "name": "clear",
+                    "localizedName": "temizle",
+                    "localizedDescription": "Hatırlatıcındaki tüm kozmetikleri kaldır"
                 },
                 {
                     "name": "list",
@@ -970,7 +977,7 @@
                 {
                     "name": "output-language",
                     "localizedName": "sonuç-dili",
-                    "localizedDescription": "Kozmetiğin adının, açıklamasının vb. görünüm dili"
+                    "localizedDescription": "Kozmetiğin adının, açıklamasının vs. görünüm dili"
                 }
             ]
         },

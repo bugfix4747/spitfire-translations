@@ -1,0 +1,1209 @@
+{
+    "language": "Deutsch",
+    "languageCode": "de",
+    "commands": {
+        "help": {
+            "embed1": {
+                "title": "Hilfe-Menü",
+                "Beschreibung": "[Name] ist ein einfacher Fortnite Bot \n\n**Links**\n[Datenschutzerklärung]([website]/privacy-policy)\n[Nutzungsbedingungen]([website]/tos )\n[Support-Server]([supportServer])\n[Einladungslink]([invite])"
+            },
+            "notfound": "Es wurden keine Kommandos gefunden.",
+            "command": "Kommando",
+            "description": "Beschreibung",
+            "category": "Kategorie",
+            "loginreq": "Ist eine Anmeldung erforderlich?",
+            "slowmode": "Langsam-Modus",
+            "slowmode2": "[seconds] Sekunden",
+            "disabled": "Deaktiviert ist?"
+        },
+        "2fa": {
+            "embed1": "Beim Erhalt der Belohnung ist ein unbekannter Fehler aufgetreten.",
+            "embed2": {
+                "title": "Beanspruchte Belohnungen",
+                "description": "Erfolgreich Battle Royale-Belohnungen beansprucht.",
+                "description2": "Erfolgreich die Belohnungen \"Battle Royale\" und \"Rettet die Welt\" erhalten."
+            }
+        },
+        "island": {
+            "invalid": "[code] ist kein gültiger Code.",
+            "embed1": "Bei der Suche nach der Insel ist ein unbekannter Fehler aufgetreten.",
+            "description": "Beschreibung",
+            "no_description": "Keine Beschreibung",
+            "version": "Version",
+            "creator": "Ersteller",
+            "creation": "Erstellung:",
+            "tags": "Tags",
+            "no_tags": "Keine Tags",
+            "footer": "Unterstützungscode: [code]",
+            "embed2": "Beim Hinzufügen der Insel zu Ihren Favoriten ist ein unbekannter Fehler aufgetreten.",
+            "embed3": {
+                "title": "Insel zu Ihren Favoriten hinzugefügt",
+                "description": "[Insel] wurde zu Ihren Favoriten hinzugefügt.",
+                "footer": "Hinweis: Das Spielen bestimmter verbotener Spielmods kann Ihr Konto einschränken. Bitte beachten Sie dieses Risiko."
+            },
+            "notallowed": "[Code] darf derzeit kein Matchmaking durchführen."
+        },
+        "anticheat": {
+            "embed1": "Anti-Cheat-System, das Sie verwenden: [Anbieter]. Anti-Cheat-Anbieter sind zufällig. Einige von ihnen werden aktualisiert, nachdem der Item-Shop aktualisiert wurde."
+        },
+        "friends": {
+            "global": {
+                "accept": "Akzeptieren",
+                "deny": "Ablehnen",
+                "block": "Blockieren",
+                "unblock": "Entsperren",
+                "remove": "Freund entfernen",
+                "add": "Freund hinzufügen",
+                "back": "Anfrage zurückziehen",
+                "backed": "Anfrage zurückgezogen",
+                "incoming": "Eingehende Freundschaftsanfrage",
+                "outgoing": "Ausgehende Freundschaftsanfrage",
+                "friends": "Freunde mit [Name]",
+                "notfriends": "Keine Freunde mit [Name]",
+                "blocked": "Blockiert [Name]",
+                "accepted": "Anfrage angenommen",
+                "sent": "Anfrage gesendet",
+                "sentdate": "Datum der Freundschaftsanfrage",
+                "denied": "Anfrage abgelehnt",
+                "blocked2": "[Name] blockiert",
+                "blockdate": "Sperrdatum",
+                "nickname": "Spitzname",
+                "frienddate": "Freundschaftsdatum",
+                "changenickname": "Spitznamen ändern",
+                "removed": "[Name] aus Deinen Freunden entfernt",
+                "removef": "Freund entfernen",
+                "addfriend": "Freund hinzufügen",
+                "sent_w_name": "Anfrage an [Name] gesendet"
+            },
+            "embed1": "Kein Spieler mit dem Namen [Name] gefunden",
+            "embed2": "Du kannst dich nicht als Freund hinzufügen.",
+            "embed3": "Bitte entfernen Sie den Player mit dem Befehl \",Friend :Unblock\" oder \"Friend User\" aus Ihrer Blockierungsliste, bevor Sie diese Aktion ausführen.",
+            "embed4": "Freundschaftsanfrage kann aufgrund der Benutzereinstellungen nicht gesendet werden.",
+            "embed5": "Freundschaftsanfrage konnte nicht gesendet werden, da der Benutzer das Limit für eingehende Freundschaftsanfragen überschritten hat.",
+            "embed6": "Beim Senden der Freundschaftsanfrage ist ein unbekannter Fehler aufgetreten.",
+            "embed7": "Freundschaftsanfrage von [Name] wurde angenommen.",
+            "embed8": "Sie haben bereits eine Freundschaftsanfrage an [Name] gesendet. Um die Anfrage zurückzuziehen, verwenden Sie den Benutzerbefehl \",Friend.\" ",
+            "embed9": "Sie sind bereits mit [Name] befreundet. Um die Anfrage zurückzuziehen, verwenden Sie den Freund-Benutzer oder den Freund-Entfernungsbefehl.",
+            "embed10": "Freundschaftsanfrage wurde an [Name] gesendet",
+            "embed11": "Du kannst dich nicht als Freund entfernen.",
+            "embed12": "[Name] wurde aus Ihrer Freundesliste entfernt.",
+            "embed13": "Du bist nicht mit [Name] befreundet",
+            "embed14": "Du kannst dich nicht selbst blockieren.",
+            "embed15": "[Name] wurde blockiert.",
+            "embed16": "[Name] ist bereits in Ihrer Liste blockiert. Um die Blockierung aufzuheben, verwenden Sie den Befehl \",friend unblock\" oder \"friend user\".",
+            "embed17": "Der Block von [Name] wurde entfernt.",
+            "embed18": "[Name] ist nicht in Ihrer Sperrliste.",
+            "embed19": "Du hast keine Freunde.",
+            "embed20": {
+                "title": "Deine Freundesliste wurde gelöscht",
+                "Beschreibung": "[gelöschte] Benutzer, deren Konten gesperrt, gesperrt oder geschlossen wurden, wurden aus Ihrer Freundesliste entfernt."
+            },
+            "modal": {
+                "title": "Spitznamen ändern",
+                "label": "Neuer Spitzname"
+            },
+            "embed21": "Alle Freunde wurden erfolgreich entfernt.",
+            "embed22": "Beim Abrufen Ihrer Freundesliste ist ein unbekannter Fehler aufgetreten.",
+            "embed23": {
+                "title": "Deine Freunde",
+                "description": ":x: = Nicht zum Verschenken geeignet",
+                "footer": "Gesamtanzahl [Freunde] Freunde"
+            }
+        },
+        "battleroyale": {
+            "embed1": {
+                "konto": "Konto",
+                "creation": "Zuerst gespielt",
+                "account_level": "Kontoebene",
+                "mfa": "2FA-Belohnungen",
+                "claimed": "Beansprucht [Emoji]",
+                "notclaimed": "Nicht beansprucht [Emoji]",
+                "br": "Battle Royale",
+                "wins": "Gewinnt",
+                "allwins": "Alle gewinnen",
+                "battlepass": "Kampfpass",
+                "bp_active": "Aktiv [Emoji]",
+                "bp_notactive": "Nicht aktiv [Emoji]",
+                "level": "Level",
+                "superchargedxp": "Supercharged XP",
+                "xp": "XP",
+                "multiplier": "Multiplikator",
+                "season_resources": "Saisonressourcen",
+                "battlestars": "Kampfsterne",
+                "gold": "Gold",
+                "crown": "Krone",
+                "yescrown": "Im Besitz von [Emoji]",
+                "nocrown": "Nicht im Besitz von [Emoji]",
+                "wins_with_crown": "Siegt mit Krone",
+                "lastmatch": "Letzte Spielzeit"
+            }
+        },
+        "whoaim": {
+            "embed1": "Ihr Profil wurde nicht gefunden.",
+            "embed2": "Bei der Suche nach Ihrem Profil ist ein unbekannter Fehler aufgetreten.",
+            "embed3": {
+                "Fields": {
+                    "displayname": "Anzeigename",
+                    "connections": "Verbindungen",
+                    "noconnection": "Keine Verbindung",
+                    "isparent": "Ist ein übergeordnetes Konto?",
+                    "isparentverified": "Ist das Elternteil verifiziert?"
+                }
+            }
+        },
+        "cloudstorage": {
+            "embed1": "Keine Datei mit dem Namen [Datei] gefunden",
+            "name": "Name",
+            "uploaded": "Hochgeladen",
+            "size": "Größe"
+        },
+        "logout": {
+            "embed1": {
+                "title": "Abgemeldet",
+                "description": "Ihr Konto wurde erfolgreich aus dem System entfernt und abgemeldet."
+            }
+        },
+        "ranked": {
+            "current": "Aktueller Rang",
+            "highest": "Höchster Rang",
+            "progress": "Fortschritt: **[progress]%**",
+            "br": "Rang-Battle Royale",
+            "zb": "Null-Builds mit Rang"
+        },
+        "locker": {
+            "nocosmetics": "Du hast keine Skins.",
+            "toolong": "Dein Spind konnte nicht geladen werden, weil die URL zu lang war.",
+            "locker": "Spind",
+            "viewonfngg": "Sehen Sie sich Ihren spind auf Fortnite.GG an",
+            "noselectedcosmetics": "Sie haben keine Skins dieser Art."
+        },
+        "Exchangecode": {
+            "expireNotification": "**WARNUNG: Geben Sie diesen Code nicht an Dritte weiter, da er möglicherweise Zugriff auf Ihr Konto gewährt!**\nDer Code läuft am [Datum] ab",
+            "logintoepicgames": "Bei Epic Games anmelden"
+        },
+        "news": {
+            "no_br": "Es gibt keine Neuigkeiten zum Battle Royale-Modus.",
+            "no_stw": "Es gibt keine Neuigkeiten zum Rette die Welt-Modus."
+        },
+        "map": {
+            "randomlocation": "Zufälliger Ort",
+            "embed1": "Battle Royale-Karte – [Version]"
+        },
+        "reminder": {
+            "embed1": "Kein Kosmetikum namens [cosmetic] gefunden.",
+            "embed2": "Sie können diese Kosmetik nicht zu Ihren Erinnerungen hinzufügen.",
+            "embed3": "Sie haben Ihr Erinnerungslimit ([Limit]) erreicht",
+            "embed4": "Diese Kosmetik ist bereits in Ihren Erinnerungen.",
+            "embed5": "[Kosmetik] wurde erfolgreich zu Ihren Erinnerungen hinzugefügt. Sie erhalten eine DM-Nachricht und einen Ping in [Kanal], sobald es wieder im Shop ist.",
+            "embed6": "Diese Kosmetik ist noch nicht in Ihren Erinnerungen.",
+            "embed7": "[Kosmetik] wurde erfolgreich aus Ihren Erinnerungen entfernt.",
+            "embed8": "Erinnerungsliste",
+            "embed9": "In Ihren Erinnerungen wurde kein Kosmetikprodukt gefunden.",
+            "types": {
+                "outfit": "Outfits",
+                "pickaxe": "Spitzhacken",
+                "backpack": "Rucksäcke",
+                "glider": "Gleider",
+                "emote": "Emotes",
+                "loadingscreen": "Ladebildschirme",
+                "emoji": "Emojis",
+                "wrap": "Wraps",
+                "spray": "Sprays",
+                "contrail": "Kondensstreifen",
+                "music": "Musik",
+                "toy": "Spielzeug"
+            }
+        },
+        "gift": {
+            "embed1": "Element nicht gefunden.",
+            "embed2": "Kein Spieler mit dem Namen [Name] gefunden",
+            "embed3": "Sie können sich selbst kein Geschenk schicken.",
+            "embed4": "Du musst mit [friendName] befreundet sein, um ein Geschenk zu senden.",
+            "embed5": {
+                "description": "Möchten Sie [Artikel] an [FreundName] für [Preis] verschenken?",
+                "footer": "Sie haben 30 Sekunden Zeit, sich zu entscheiden. – Wenn Ihrem Freund ein Sonderrabatt gewährt wird, wird er ihm zu diesem Preis geschenkt."
+            },
+            "embed6": "Sie müssen 2FA auf Ihrem Konto aktivieren, bevor Sie ein Geschenk senden können.",
+            "embed7": "Sie können [friendName] kein Geschenk senden, da Sie in den letzten 2 Tagen Freunde geworden sind. Versuchen Sie es erneut [afterTime].",
+            "embed8": "[friendName] nimmt keine Geschenke an.",
+            "embed9": "Geschenk konnte nicht gesendet werden. [friendName] hat diesen Artikel möglicherweise bereits.",
+            "embed10": "Sie benötigen mehr [requiredVB], um diesen Artikel zu verschenken. Sie haben derzeit: [currentVB]",
+            "embed11": "Sie können diesen Artikel nicht als Geschenk versenden.",
+            "embed12": "Beim Senden des Geschenks ist ein unbekannter Fehler aufgetreten.",
+            "embed13": {
+                "title": "Geschenkartikel",
+                "description": "[Gegenstand] erfolgreich an [friendName] für [VBspent] verschenkt."
+            }
+        },
+        "gifthistory": {
+            "embed1": "Sie haben niemandem Geschenke geschickt.",
+            "embed2": "Verlauf der gesendeten Geschenke",
+            "embed3": "Sie haben von niemandem Geschenke erhalten.",
+            "embed4": "Verlauf erhaltener Geschenke"
+        },
+        "shop": {
+            "embed1": "Item-Shop ([Datum])"
+        },
+        "progress": {
+            "embed1": "Kapitel 4, Staffel 3 ist um [Prozent] % abgeschlossen. Bis zum Ende verbleiben noch [daysLeft] Tage."
+        },
+        "cosmetic": {
+            "embed1": "Keine Kosmetik namens [Name] gefunden.",
+            "partofset": "Teil der [Satz]-Menge.",
+            "intro": "Eingeführt in Kapitel [Kapitel] Staffel [Saison]",
+            "lastSeen": "Zuletzt gesehen: [lastSeen]",
+            "notpublished": "Nie gesehen",
+            "placeholder": "Wählen Sie einen Stil aus",
+            "style": "Stil: [Stil]",
+            "shophistory": "Shop-Historie [gesamt]",
+            "firstseen": "Zum ersten Mal gesehen",
+            "lastseen": "Zuletzt gesehen"
+        },
+        "creativexp": {
+            "embed1": {
+                "title": "Creative XP",
+                "fields": {
+                    "daily": "Täglich",
+                    "gameplay": "Gameplay",
+                    "gainedXp": "XP gewonnen",
+                    "dailyMultiplier": "Täglicher Überschussmultiplikator",
+                    "bankXp": "Bank XP",
+                    "bankXpMultiplier": "Bank-XP-Multiplikator",
+                    "bucketXp": "Bucket XP"
+                },
+                "resetdate": "Datum zurücksetzen"
+            }
+        },
+        "randomlocation": {
+            "random": "Zufälliger Ort für dieses Spiel",
+            "pois": {
+                "MEGA-CITY": "Mega-Stadt",
+                "SHATTERED-SLABS": "Shattered Slabs",
+                "SLAPPY-SHORES": "Slappy Shores",
+                "SHADY-STILTS": "Shady Stilts",
+                "RUMBLE-RUINS": "Rumble Ruins",
+                "LONELY-LABS": "Lonely Labs",
+                "BREAKWATER-BAY": "Breakwater Bay",
+                "BRUTAL-BASTION": "Brutale Bastion",
+                "STEAMY-SPRINGS": "Steamy Springs",
+                "FRENZY-FIELDS": "Frenzy Fields",
+                "KENJUTSU-CROSSING": "Kenjutsu Crossing",
+                "KNOTTY-NETS": "Knotty Nets",
+                "THE-CITADEL": "Die Zitadelle",
+                "CREEKY-COMPOUND": "Creeky Compound"
+            }
+        },
+        "redeem": {
+            "embed1": "Das Einlösen des Codes wurde für [Sekunden] Sekunden eingeschränkt. Bitte versuchen Sie es später erneut.",
+            "embed2": "[Code] ist kein gültiger Code.",
+            "embed3": "Sie haben diesen Code bereits eingelöst.",
+            "embed4": "Ein unbekannter Fehler ist aufgetreten. Wenn das Problem weiterhin besteht, versuchen Sie es bitte mit einem anderen Code.",
+            "embed5": "Code eingelöst",
+            "by": "Von [codeSeller]"
+        },
+        "sac": {
+            "embed1": "Dies ist kein gültiger Code.",
+            "embed2": "Ein unbekannter Fehler ist aufgetreten. Wenn das Problem weiterhin besteht, versuchen Sie es bitte mit einem anderen Code.",
+            "embed3": "[supporting] unterstützt jetzt.",
+            "supported": "Unterstützter Inhaltsersteller",
+            "none": "Keine",
+            "supportDate": "Supportdatum",
+            "expire": "Ablaufdatum",
+            "embed4": "Für diesen Code wurden keine Informationen gefunden. Bitte stellen Sie sicher, dass Sie ihn richtig eingegeben haben.",
+            "embed5": "Ein unbekannter Fehler ist aufgetreten.",
+            "active": "Aktiv",
+            "disabled": "Deaktiviert",
+            "embed6": {
+                "title": "Code-Info",
+                "codeinfo": "Code-Info",
+                "code": "Code",
+                "status": "Status",
+                "creatorinfo": "Informationen zum Inhaltsersteller",
+                "displayname": "Anzeigename"
+            }
+        },
+        "buy": {
+            "embed1": "Element nicht gefunden.",
+            "embed2": {
+                "description": "Möchten Sie [Artikel] für [Preis] kaufen?",
+                "footer": "Sie haben 30 Sekunden Zeit, sich zu entscheiden. – Wenn für Sie ein Sonderrabatt gilt, wird es zu diesem Preis gekauft."
+            },
+            "embed3": "Sie benötigen mehr [requiredVB], um diesen Artikel zu kaufen. Sie haben derzeit: [currentVB]",
+            "embed4": "Sie haben diesen Artikel bereits.",
+            "embed5": "Beim Kauf des Artikels ist ein unbekannter Fehler aufgetreten.",
+            "embed6": {
+                "title": "Gekaufter Artikel",
+                "description": "[Artikel] erfolgreich für [VBspent] gekauft."
+            }
+        },
+        "Battlepass": {
+            "prices": {
+                "bp": "950 • Battle Pass",
+                "b2800pack": "2800 • Battle Pass-Bundle",
+                "atier": "150 • 1 Stufe",
+                "b25tier": "1850 • 25 Stufen"
+            },
+            "embed1": {
+                "title": "Kapitel 4 Staffel 3 Battle Pass",
+                "yourinfo": "Ihre Informationen",
+                "vbucks": "V-Bucks",
+                "level": "Dein Level"
+            },
+            "embed2": "Sie benötigen [requiredVB], um den Battle Pass zu kaufen. Sie haben derzeit: [currentVB]",
+            "embed3": "Du hast den Battle Pass bereits gekauft.",
+            "embed4": "Während der Kaufabwicklung ist ein unbekannter Fehler aufgetreten.",
+            "embed5": "Battle Pass erfolgreich gekauft.",
+            "embed6": "Sie benötigen [requiredVB], um das Battle Pass Bundle zu kaufen. Sie haben derzeit: [currentVB]",
+            "embed7": "Sie haben das Battle Pass Bundle bereits gekauft.",
+            "embed8": "Battle Pass Bundle erfolgreich gekauft.",
+            "embed9": "Sie benötigen [requiredVB], um das 25-Stufen-Bundle zu kaufen. Sie haben derzeit: [currentVB]",
+            "embed10": "Sie haben das 25-Stufen-Paket bereits gekauft.",
+            "embed11": "25-Stufen-Bundle erfolgreich gekauft.",
+            "modal": {
+                "title": "Kaufstufe",
+                "label": "Anzahl der zu kaufenden Stufen"
+            }
+        },
+        "stats": {
+            "embed1": "Kein Epic Games-Konto mit dem Namen [Name] gefunden",
+            "embed2": "Statistiken für Spieler [Name] sind privat.",
+            "embed3": "Statistiken für Spieler [Name] konnten nicht abgerufen werden."
+        },
+        "offer": {
+            "embed1": "Kein Angebot im Zusammenhang mit der angegebenen Angebots-ID gefunden.",
+            "embed2": "Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie es erneut mit einer anderen Angebots-ID.",
+            "price": "Preis",
+            "free": "Kostenlos",
+            "buy": "Kaufen",
+            "status": "Status",
+            "unknown": "unbekannt",
+            "by": "Von [sellerName]",
+            "releaseDate": "Veröffentlichungsdatum",
+            "viewableDate": "Sichtbares Datum",
+            " EffectiveDate": "Datum des Inkrafttretens",
+            "expiryDate": "Ablaufdatum",
+            "none": "Keine",
+            "footer": "Um In-Game-Pakete, Crew-Pakete usw. zu kaufen, ist der Befehl \",offer buy\" erforderlich."
+        },
+        "vbucks": {
+            "price": "Preis",
+            "buy": "Kaufen",
+            "vbucks": "[vbucks] V-Bucks",
+            "vbplatform": "V-Bucks-Plattform",
+            "supported": "Unterstützter Inhaltsersteller",
+            "none": "Keine",
+            "breakdown": "Zusammenbruch",
+            "neverbought": "Du hast noch nie V-Bucks gekauft.",
+            "embed1": {
+                "description": "Sie haben seit [Datum] insgesamt [gekaufte] V-Bucks gekauft",
+                "field": "[vbucks]: [count] Mal"
+            }
+        },
+        "botinfo": {
+            "botinfo": "Bot-Informationen",
+            "servercount": "Serveranzahl",
+            "usercount": "Benutzeranzahl",
+            "ping": "Ping",
+            "uptime": "Betriebszeit",
+            "ram": "RAM-Nutzung",
+            "invite": "Einladen",
+            "click": "Click",
+            "userinfo": "Benutzerinformationen",
+            "totalregistered": "Gesamtzahl der registrierten Benutzer",
+            "totalregisteredaccounts": "Gesamtzahl der registrierten Konten",
+            "blacklistcount": "Anzahl der Benutzer auf der schwarzen Liste",
+            "times": {
+                "week": "week",
+                "day": "Tage",
+                "Stunde": "Stunde",
+                "Minute": "Minute",
+                "second": "Sekunde"
+            }
+        },
+        "login": {
+            "embed1": {
+                "title": "📲 Melden Sie sich bei Ihrem Epic Games-Konto an",
+                "description": "**:Warnung: Wir empfehlen, sich bei Konten anzumelden, die nur E-Mail-Zugriff haben!**\n1. Besuchen Sie den Link oben und suchen Sie den Schlüssel \"authorizationCode\".\n2. Kopieren Sie den gesamten Wert neben dem Schlüssel. Der Code ist 30 Sekunden lang gültig. Aktualisieren Sie die Seite, um einen neuen Code zu erhalten.\n3. Klicken Sie unten auf die Schaltfläche \"Senden \" und fügen Sie den Code in das dafür vorgesehene Feld ein. Wenn der Code"
+            },
+            "selectmenu1": {
+                "Platzhalter": "Konto oder Login auswählen",
+                "loginanother": "Mit einem anderen Konto anmelden",
+                "loginnew": "Mit einem neuen Konto anmelden"
+            },
+            "unknown": "Unbekannt",
+            "selectaccount": "Wählen Sie unten ein Konto aus.",
+            "Absenden Absenden": "",
+            "changed": "Konto geändert",
+            "switchedto": "Zu Spieler [Name] gewechselt",
+            "declinedrules": "Du hast die Regeln abgelehnt.",
+            "reachedlimit": "Sie haben Ihr registriertes Kontolimit ([Limit]) erreicht",
+            "login": "Einloggen",
+            "code": "Code"
+        },
+        "dailyquests": {
+            "embed1": {
+                "title": "Tägliche Quests",
+                "gold": "[Emoji] [Betrag] × Gold",
+                "vbucks": "[Emoji] [Betrag] × V-Bucks",
+                "xray": "[Emoji] [Betrag] × Röntgentickets",
+                "battlepassxp": "[Emoji] [Betrag] × Battle Pass XP"
+            },
+            "embed2": "Du hast keine tägliche Quest.",
+            "reroll": "Erneut eine tägliche Quest ausführen"
+        },
+        "banned": {
+            "message1": "Ein unbekannter Fehler ist aufgetreten.",
+            "message2": "Du bist nicht gesperrt!",
+            "message3": "Sie sind gesperrt."
+        },
+        "refreshprofile": {
+            "embed1": {
+                "title": "Profil aktualisiert [Anzahl]",
+                "description": "Ihr Battle Royale- und Save the World-Profil wurde aktualisiert."
+            }
+        },
+        "Credits": {
+            "embed1": {
+                "title": "Credits",
+                "description": "Das sind die Leute, die uns bei der Entwicklung des Bots geholfen haben. Sie haben viel an diesem Bot gearbeitet.",
+                "owner": "Eigentümer",
+                "admin": "Admin",
+                "contributors": "Mitwirkende",
+                "translators": "Übersetzer",
+                "developers": "Entwickler",
+                "englisch": "Englisch",
+                "turkish": "Türkisch",
+                "ad": "Möchten Sie Übersetzer werden? [Hier klicken]([url])"
+            }
+        }
+    },
+    "changenickname": {
+        "error": "Beim Ändern des Spitznamens ist ein unbekannter Fehler aufgetreten.",
+        "okay": "Der neue Spitzname Ihres Freundes wurde als [Name] festgelegt."
+    },
+    "buytiers": {
+        "invalid": "Bitte geben Sie eine gültige Nummer ein.",
+        "notenough": "Sie benötigen [requiredVB] mehr, um [amount] Stufen zu kaufen. Sie haben derzeit: [currentVB]",
+        "unknown": "Während des Kaufs ist ein unbekannter Fehler aufgetreten.",
+        "Okay": {
+            "title": "Gekaufte Stufen",
+            "description": "[Anzahl] Stufen wurden erfolgreich für [spentVB] gekauft."
+        }
+    },
+    "general": {
+        "didntconnectdb": "Der Befehl konnte nicht ausgeführt werden, da der Bot keine Verbindung zur Datenbank herstellen konnte. Bitte versuchen Sie es später noch einmal und treten Sie unserem [Support-Server]([support]) bei, um weitere Informationen zu erhalten.",
+        "blacklist": "Sie können den Bot nicht verwenden. Sie wurden mit dem Grund auf die schwarze Liste gesetzt: [Grund]",
+        "disabled": "Dieser Befehl ist vorübergehend deaktiviert.",
+        "supserveronly": "Sie können diesen Befehl nur in [unserem Support-Server]([support]) verwenden.",
+        "loginreq": "Bitte melden Sie sich über den Befehl [command] an, um diesen Befehl zu verwenden.",
+        "dataerror": "Wir mussten Sie aus Ihrem Konto abmelden, da Ihre Daten in der Datenbank nicht ordnungsgemäß verarbeitet wurden. Bitte melden Sie sich erneut an. Wenn das Problem weiterhin besteht, wenden Sie sich an unseren [Support-Server] ([Support]), um Hilfe zu erhalten. ",
+        "servererror": "Dieser Befehl konnte aufgrund eines Fehlers nicht ausgeführt werden. Der häufigste Grund für diesen Fehler ist, dass die Fortnite-Server offline sind.",
+        "hadtologout": "Ihre Sitzung wurde beendet! Dies könnte einen der folgenden Gründe haben:\n• Zeitüberschreitung der Sitzung.\n• Epic Games oder Sie selbst haben alle Berechtigungen widerrufen.\n\nSie wurden automatisch von Ihrem abgemeldet Konto. Sie können sich erneut anmelden",
+        "missingperms": "Dieser Befehl konnte aufgrund fehlender Berechtigungen für Ihr Konto nicht ausgeführt werden.",
+        "error": "Beim Ausführen dieses Befehls ist ein unerwarteter Fehler aufgetreten und der Fehler wurde den Entwicklern gemeldet. Bitte treten Sie unserem [Support-Server]([Support]) bei, um Hilfe zu erhalten.",
+        "acceptedtryagain": "Sie haben die Regeln akzeptiert. Klicken Sie erneut auf die Schaltfläche, um fortzufahren.",
+        "loginbruh": "Bitte melden Sie sich an, indem Sie auf die Schaltfläche \",Konto-verbinden\" klicken oder den Befehl [command] verwenden, bevor Sie Ihre Rolle beanspruchen.",
+        "norank": "Sie haben Ihr Konto verbunden, aber noch keinen Rang. Schließen Sie jetzt ein Match ab, um einen höheren Rang zu erreichen! Sobald Sie fertig sind, können Sie Ihre Rolle mit der Schaltfläche ‚Rang aktualisieren‘ beanspruchen.",
+        "rank": "Sie haben Ihr Konto verbunden und die Rolle [Rolle] erhalten, da Sie sich derzeit auf Rang [currentRank] befinden! Steigern Sie Ihren Rang und aktualisieren Sie Ihre Rolle auf dem Server mit der Schaltfläche \"Rang aktualisieren\".",
+        "hellouser": "Hallo, [Name]",
+        "crank": "Rang",
+        "chighestrank": "Höchster Rang",
+        "alreadyloggedin": "Sie haben sich bereits mit diesem Konto angemeldet.",
+        "welcomeuser": "Willkommen, [Name]!",
+        "help": "Wenn Sie Hilfe benötigen, treten Sie unserem [Support-Server]([Support]) bei",
+        "deviceidcreated": {
+            "title": "Geräteauthentifizierung erstellt",
+            "deviceId": "Geräte-ID",
+            "secret": "Geheim (nicht teilen!)",
+            "footer": "Um sich abzumelden und Ihre Kontoinformationen vom Bot zu löschen, verwenden Sie den Befehl /logout."
+        },
+        "dontuseanother": "Bitte melden Sie sich beim Bot an, indem Sie nur den vom Bot bereitgestellten Link verwenden.",
+        "expiredAuthCode": "Beim Anmelden ist ein Fehler aufgetreten. Der Autorisierungscode ist möglicherweise abgelaufen. Bitte versuchen Sie es erneut.",
+        "expiredExchange": "Beim Anmelden ist ein Fehler aufgetreten. Der Exchange-Code ist möglicherweise abgelaufen. Bitte versuchen Sie es erneut.",
+        "noresults": "Keine Ergebnisse gefunden! Versuchen Sie, die Such- und Ergebnissprachen zu ändern.",
+        "componentsinactive": "Diese Nachricht ist jetzt inaktiv.",
+        "page": "Seite",
+        "reachedmax": "Sie haben die maximale Seitenzahl erreicht."
+    },
+    "global": {
+        "yes": "ja",
+        "no": "Nein",
+        "account_id": "Konto-ID",
+        "successTitles": [
+            "Großartig!",
+            "Erfolgreich"
+        ],
+        "errorTitles": [
+            ":warnung: Fehler!",
+            ":warnung: Wir stoßen auf eine Straßensperre!",
+            ":Warnung: Nicht das Lama, das Sie suchen!"
+        ],
+        "warningTitles": [
+            "Warnung"
+        ],
+        "ranked": [
+            "Nicht gerankt",
+            "Bronze I",
+            "Bronze II",
+            "Bronze III",
+            "Silber I",
+            "Silber II",
+            "Silber III",
+            "Gold I",
+            "Gold II",
+            "Gold III",
+            "Diamant I",
+            "Diamant II",
+            "Diamant III",
+            "Platin I",
+            "Platin II",
+            "Platin III",
+            "Elite",
+            "Champion",
+            "Unwirklich"
+        ],
+        "rules": {
+            "title": "Bitte vor dem Anmelden lesen:",
+            "Beschreibung": "Bitte vor dem Anmelden lesen:\n\n1. Wir geben Ihre Benutzerdaten an niemanden weiter und zeigen sie auch nicht an wir nehmen die Sicherheit Ihres Kontos sehr ernst!\n2. Bitte verwenden Sie diesen Bot nur, wenn Sie das Potenzial vollständig akzeptieren Risiken, die damit verbunden sein können.\n3. Wir übernehmen keine Verantwortung für Maßnahmen, die gegen Ihr Konto ergriffen werden, einschließlich, aber nicht beschränkt auf Einschränkungen, Schließungen oder Sperren. Diese Situationen können durch die Verwendung oder den Missbrauch von Befehlen entstehen.\n **Wenn Sie diesen Bedingungen zustimmen, klicken Sie unten auf die Schaltfläche \"Ich akzeptiere\"!**\n\n[Datenschutzerklärung]([website]/privacy-policy) – [Nutzungsbedingungen]([website]/tos)",
+            "accept": "Ich akzeptiere",
+            "deny": "Ich Lehne ab"
+        }
+    },
+    "commandData": [
+        {
+            "name": "ping",
+            "localizedName": "ping",
+            "localizedDescription": "Gibt Bot- und API-Latenz zurück"
+        },
+        {
+            "name": "help",
+            "localizedName": "hilfe",
+            "localizedDescription": "Gibt Informationen über den Bot",
+            "options": [
+                {
+                    "name": "command",
+                    "localizedName": "befehl",
+                    "localizedDescription": "Informationen zu einem Befehl abrufen"
+                }
+            ]
+        },
+        {
+            "name": "claim2fa",
+            "localizedName": "claim-2fa-rewards",
+            "localizedDescription": "Fordern Sie Ihre 2FA-Belohnungen an",
+            "options": [
+                {
+                    "name": "stw",
+                    "localizedName": "stw",
+                    "localizedDescription": "Fordern Sie die Rette die Welt-Belohnungen an oder nicht. Standard: True (Anspruch)"
+                }
+            ]
+        },
+        {
+            "name": "island",
+            "localizedName": "insel",
+            "localizedDescription": "Eine kreative Insel durchsuchen oder zu Ihren Favoriten hinzufügen",
+            "options": [
+                {
+                    "name": "suche",
+                    "localizedName": "suche",
+                    "localizedDescription": "Eine Insel suchen",
+                    "options": [
+                        {
+                            "name": "code",
+                            "localizedName": "code",
+                            "localizedDescription": "Inselcode"
+                        }
+                    ]
+                },
+                {
+                    "name": "favorit",
+                    "description": "Eine Insel zu Ihren Favoriten hinzufügen",
+                    "localizedName": "favorit",
+                    "localizedDescription": "Eine Insel zu Ihren Favoriten hinzufügen",
+                    "options": [
+                        {
+                            "name": "code",
+                            "description": "Inselcode",
+                            "localizedName": "code",
+                            "localizedDescription": "Inselcode"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "anti-cheat",
+            "localizedName": "anti-cheat",
+            "localizedDescription": "Zeigt den Anti-Cheat-Anbieter an, den Sie verwenden"
+        },
+        {
+            "name": "friends",
+            "localizedName": "freunde",
+            "localizedDescription": "Verwalte deine Freundesliste",
+            "options": [
+                {
+                    "name": "user",
+                    "localizedName": "benutzer",
+                    "localizedDescription": "Überprüfe den Freundschaftsstatus mit einem Spieler",
+                    "options": [
+                        {
+                            "name": "name" ,
+                            "localizedName": "name",
+                            "localizedDescription": "Anzeigename des Spielers"
+                        }
+                    ]
+                },
+                {
+                    "name": "remove-all",
+                    "localizedName": "alle entfernen",
+                    "localizedDescription": "Alle deine Freunde entfernen"
+                },
+                {
+                    "name": "list",
+                    "localizedName": "liste",
+                    "localizedDescription": "Deine Freundesliste anzeigen"
+                },
+                {
+                    "name": "cleanup",
+                    "localizedName": "bereinigung",
+                    "localizedDescription": "Entferne Spieler, deren Konten geschlossen wurden, aus deiner Freundesliste."
+                },
+                {
+                    "name": "add",
+                    "localizedName": "hinzufügen",
+                    "localizedDescription": "Füge einen Freund zu deiner Freundesliste hinzu",
+                    "options": [
+                        {
+                            "name": "name",
+                            "localizedName": "Name",
+                            "localizedDescription": "Anzeigename des Spielers"
+                        }
+                    ]
+                },
+                {
+                    "name": "remove",
+                    "localizedName": "entfernen",
+                    "localizedDescription": "Entferne einen Freund aus deiner Freundesliste",
+                    "options": [
+                        {
+                            "name": "name",
+                            "localizedName": "Name",
+                            "localizedDescription": "Anzeigename des Spielers"
+                        }
+                    ]
+                },
+                {
+                    "name": "block",
+                    "localizedName": "blockieren",
+                    "localizedDescription": "Einen Spieler blockieren",
+                    "options": [
+                        {
+                            "name":"name",
+                            "localizedName": "name",
+                            "localizedDescription": "Anzeigename des Spielers"
+                        }
+                    ]
+                },
+                {
+                    "name": "unblock",
+                    "localizedName": "entsperren",
+                    "localizedDescription": "Spieler entsperren",
+                    "options": [
+                        {
+                            "name": "name",
+                            "localizedName": "name",
+                            "localizedDescription": "Anzeigename des Spielers"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "battle-royale",
+            "localizedName": "battle-royale",
+            "localizedDescription": "Gibt Ihre Battle-Royale-Informationen an"
+        },
+        {
+            "name": "whoami",
+            "localizedName": "whoami",
+            "localizedDescription": "Ihre Kontoinformationen anzeigen"
+        },
+        {
+            "name": "cloud-speicher",
+            "localizedName": "cloud-speicher",
+            "localizedDescription": "Ihren Cloud-Speicher anzeigen",
+            "options": [
+                {
+                    "name": "download",
+                    "localizedName": "herunterladen",
+                    "localizedDescription": "Laden Sie eine Datei aus Ihren Spieldateien herunter",
+                    "options": [
+                        {
+                            "name": "file-name",
+                            "localizedName": "dateiname",
+                            "localizedDescription": "Name der herunterzuladenden Datei"
+                        }
+                    ]
+                },
+                {
+                    "name": "list",
+                    "localizedName": "liste",
+                    "localizedDescription": "Listen Sie Ihre Spieledateien auf"
+                }
+            ]
+        },
+        {
+            "name": "logout",
+            "localizedName": "abmelden",
+            "localizedDescription": "Meldet Sie vom Bot ab"
+        },
+        {
+            "name": "ranked",
+            "localizedName": "ranked",
+            "localizedDescription": "Ihren Ranglistenstatus anzeigen",
+            "options": [
+                {
+                    "name": "mode",
+                    "localizedName": "modus",
+                    "localizedDescription": "Modus zum Abrufen Ihrer Statistiken"
+                }
+            ]
+        },
+        {
+            "name": "locker",
+            "localizedName": "spind-locker",
+            "localizedDescription": "Sehen Sie sich Ihr Schließfach an",
+            "options": [
+                {
+                    "name": "fortnitegg",
+                    "localizedName": "fortnitegg",
+                    "localizedDescription": "Sehen Sie sich Ihr spind-locker auf Fortnite.GG an."
+                },
+                {
+                    "name": "image",
+                    "localizedName": "bild",
+                    "localizedDescription": "Sehen Sie sich Ihr Schließfach als Bild an",
+                    "options": [
+                        {
+                            "Auswahl": [
+                                {
+                                    "name": "outfit",
+                                    "localizedName": "Outfit",
+                                    "Wert": "Zeichen"
+                                },
+                                {
+                                    "name": "backpack",
+                                    "localizedName": "Rucksack",
+                                    "value": "backpack"
+                                },
+                                {
+                                    "name": "glider",
+                                    "localizedName": "Glider",
+                                    "value": "glider"
+                                },
+                                {
+                                    "name": "Spitzhacke",
+                                    "localizedName": "Spitzhacke",
+                                    "value": "Spitzhacke"
+                                },
+                                {
+                                    "name": "Tanz",
+                                    "localizedName": "Tanz",
+                                    "Wert": "Tanz"
+                                },
+                                {
+                                    "name": "Wrap",
+                                    "localizedName": "Wrap",
+                                    "value": "itemwrap"
+                                },
+                                {
+                                    "name": "Spielzeug",
+                                    "localizedName": "Spielzeug",
+                                    "Wert": "Spielzeug"
+                                },
+                                {
+                                    "name": "Ladebildschirm",
+                                    "localizedName": "Ladebildschirm",
+                                    "value": "loadingscreen"
+                                },
+                                {
+                                    "name": "Spray",
+                                    "localizedName": "Spray",
+                                    "value": "spray"
+                                },
+                                {
+                                    "name": "Emoji",
+                                    "localizedName": "Emoji",
+                                    "Wert": "Emoji"
+                                },
+                                {
+                                    "name": "Kondensstreifen",
+                                    "localizedName": "Kondensstreifen",
+                                    "value": "skydivecontrail"
+                                },
+                                {
+                                    "name": "Musik",
+                                    "localizedName": "Musik",
+                                    "value": "musicpack"
+                                }
+                            ],
+                            "name": "Typ",
+                            "description": "Anzuzeigender Kosmetiktyp"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "exchange-code",
+            "localizedName": "exchange-code",
+            "localizedDescription": "Generiert einen Austauschcode, um sich von einem anderen Standort aus anzumelden"
+        },
+        {
+            "name": "login",
+            "localizedName": "anmelden",
+            "localizedDescription": "Melden Sie sich bei Ihrem Epic Games-Konto an",
+            "options": [
+                {
+                    "name": "auth-type",
+                    "localizedName": "auth-type",
+                    "localizedDescription": "Wählen Sie aus, wie Sie sich bei Ihrem Konto anmelden möchten",
+                    "Auswahl": [
+                        {
+                            "name": "Autorisierungscode (Standard)",
+                            "localizedName": "Autorisierungscode (Standard)",
+                            "value": "authorization_code"
+                        },
+                        {
+                            "name": "Börsencode",
+                            "localizedName": "Exchange-Code",
+                            "value": "exchange_code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "daily-quests",
+            "localizedName": "tages-quests",
+            "localizedDescription": "Sehen Sie sich Ihre täglichen \"Rette die Welt\"-Quests an."
+        },
+        {
+            "name": "news",
+            "localizedName": "news",
+            "localizedDescription": "Neueste Battle Royale-Nachrichten anzeigen",
+            "options": [
+                {
+                    "name": "mode",
+                    "localizedName": "mode",
+                    "localizedDescription": "Modus zum Anzeigen von Nachrichten von",
+                    "Auswahl": [
+                        {
+                            "name": "battle royale",
+                            "Wert": "br"
+                        },
+                        {
+                            "name": "rette die welt",
+                            "Wert": "stw"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "map",
+            "localizedName": "karte",
+            "localizedDescription": "Fortnite-Karte anzeigen"
+        },
+        {
+            "name": "reminder",
+            "localizedName": "erinnerung",
+            "localizedDescription": "Benachrichtigt werden, wenn ein Kosmetikprodukt im Item-Shop erscheint",
+            "options": [
+                {
+                    "name": "add",
+                    "localizedName": "hinzufügen",
+                    "localizedDescription": "Fügen Sie eine Kosmetik zu Ihrer Erinnerungsliste hinzu",
+                    "options": [
+                        {
+                            "name": "cosmetic",
+                            "localizedName": "kosmetik",
+                            "localizedDescription": "Kosmetischer Name zum Hinzufügen zu Ihrer Erinnerungsliste"
+                        },
+                        {
+                            "name": "language",
+                            "localizedName": "sprache",
+                            "localizedDescription": "Die Suchsprache und die Sprache, in der der Name, die Beschreibung usw. des Kosmetikums angezeigt werden."
+                        }
+                    ]
+                },
+                {
+                    "name": "remove",
+                    "localizedName": "entfernen",
+                    "localizedDescription": "Entfernen Sie ein Kosmetikum aus Ihrer Erinnerungsliste",
+                    "options": [
+                        {
+                            "name": "cosmetic",
+                            "localizedName": "kosmetik",
+                            "localizedDescription": "Kosmetischer Name, der aus Ihrer Erinnerungsliste entfernt werden soll"
+                        },
+                        {
+                            "name": "language",
+                            "localizedName": "sprache",
+                            "localizedDescription": "Die Suchsprache und die Sprache, in der der Name, die Beschreibung usw. des Kosmetikums angezeigt werden."
+                        }
+                    ]
+                },
+                {
+                    "name": "list",
+                    "localizedName": "liste",
+                    "localizedDescription": "Deine Erinnerungsliste anzeigen"
+                }
+            ]
+        },
+        {
+            "name": "gift",
+            "localizedName": "geschenk",
+            "localizedDescription": "Sende ein Geschenk an deine Freunde",
+            "options": [
+                {
+                    "name": "friend-name",
+                    "localizedName": "freundesname",
+                    "localizedDescription": "Der Anzeigename Ihres Freundes"
+                },
+                {
+                    "name": "item",
+                    "localizedName": "artikel",
+                    "localizedDescription": "Die Nummer oder der Artikelname unten links, der im Item-Shop-Bild erscheint"
+                }
+            ]
+        },
+        {
+            "name": "gift-history",
+            "localizedName": "gift-history",
+            "localizedDescription": "Zeigen Sie Ihren Geschenkverlauf an",
+            "options": [
+                {
+                    "name": "received",
+                    "localizedName": "erhalten",
+                    "localizedDescription": "Sehen Sie, wer Ihnen Geschenke geschickt hat"
+                },
+                {
+                    "name": "sent",
+                    "localizedName": "gesendet",
+                    "localizedDescription": "Geschenke anzeigen, die Sie gesendet haben"
+                }
+            ]
+        },
+        {
+            "name": "shop",
+            "localizedName": "shop",
+            "localizedDescription": "Sendet ein Bild des heutigen Item-Shops"
+        },
+        {
+            "name": "progress",
+            "localizedName": "fortschritt",
+            "localizedDescription": "Sendet den Saisonfortschritt"
+        },
+        {
+            "name": "kosmetik",
+            "localizedName": "kosmetik",
+            "localizedDescription": "Eine Kosmetik suchen",
+            "options": [
+                {
+                    "name": "cosmetic",
+                    "localizedName": "Name",
+                    "localizedDescription": "Zu suchender kosmetischer Name"
+                },
+                {
+                    "name": "search-language",
+                    "localizedName": "suchsprache",
+                    "localizedDescription": "Legen Sie die Sprache für die kosmetische Suche fest"
+                },
+                {
+                    "name": "output-language",
+                    "localizedName": "ausgabesprache",
+                    "localizedDescription": "Die Sprache, in der der Name, die Beschreibung usw. des Kosmetikums erscheinen."
+                }
+            ]
+        },
+        {
+            "name": "creative-xp",
+            "localizedName": "creative-xp",
+            "localizedDescription": "Zeigen Sie Ihre täglichen Creative XP-Limits und -Nutzung an."
+        },
+        {
+            "name": "random-location",
+            "localizedName": "random-location",
+            "localizedDescription": "Gibt Ihnen einen zufälligen Ort, zu dem Sie springen können"
+        },
+        {
+            "name": "redeem",
+            "localizedName": "einlösen",
+            "localizedDescription": "Einen Code für Epic Games einlösen",
+            "options": [
+                {
+                    "name": "code",
+                    "localizedName": "code",
+                    "localizedDescription": "Zu scannender Code"
+                }
+            ]
+        },
+        {
+            "name": "sac",
+            "localizedName": "sac",
+            "localizedDescription": "Verwalten Sie den von Ihnen unterstützten Inhaltsersteller",
+            "options": [
+                {
+                    "name": "change",
+                    "localizedName": "ändern",
+                    "localizedDescription": "Ändern Sie den von Ihnen unterstützten Inhaltsersteller",
+                    "options": [
+                        {
+                            "name": "code",
+                            "localizedName": "kod",
+                            "localizedDescription": "Zu unterstützender Erstellercode"
+                        }
+                    ]
+                },
+                {
+                    "name": "supported",
+                    "localizedName": "unterstützt",
+                    "localizedDescription": "Den von Ihnen unterstützten Inhaltsersteller anzeigen"
+                },
+                {
+                    "name": "search",
+                    "localizedName": "suche",
+                    "localizedDescription": "Eigentümer und Informationen eines Codes anzeigen",
+                    "options": [
+                        {
+                            "name": "code",
+                            "localizedName": "code",
+                            "localizedDescription": "Zu scannender Code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "buy",
+            "localizedName": "kaufen",
+            "localizedDescription": "Einen Artikel im Item-Shop kaufen",
+            "options": [
+                {
+                    "name": "item",
+                    "localizedName": "artikel",
+                    "localizedDescription": "Die Nummer oder der Artikelname unten links, der im Item-Shop-Bild erscheint"
+                }
+            ]
+        },
+        {
+            "name": "battle-pass",
+            "localizedName": "Battle-Pass",
+            "localizedDescription": "Kaufe den Battle Pass oder andere Pakete"
+        },
+        {
+            "name": "stats",
+            "localizedName": "stats",
+            "localizedDescription": "Statistiken eines Fortnite-Spielers anzeigen",
+            "options": [
+                {
+                    "name": "name",
+                    "localizedName": "name",
+                    "localizedDescription": "Epic-Anzeigename des Spielers"
+                }
+            ]
+        },
+        {
+            "mame": "offer",
+            "localizedName": "angebot",
+            "localizedDescription": "Ein Angebot kaufen oder durch Eingabe der Angebots-ID suchen",
+            "options": [
+                {
+                    "name": "search",
+                    "localizedName": "suche",
+                    "localizedDescription": "Ein Angebot suchen",
+                    "options": [
+                        {
+                            "name": "offer-id",
+                            "localizedName": "angebots-id",
+                            "localizedDescription": "OfferID des Angebots, nach dem Sie suchen werden"
+                        }
+                    ]
+                },
+                {
+                    "name": "buy",
+                    "localizedName": "kaufen",
+                    "localizedDescription": "Ein Angebot kaufen",
+                    "options": [
+                        {
+                            "name": "angebots-id",
+                            "localizedName": "Angebots-ID",
+                            "localizedDescription": "OfferID des Angebots, das Sie kaufen möchten"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "vbucks",
+            "localizedName": "vbucks",
+            "localizedDescription": "Erstellen Sie einen V-Bucks-Kauflink für einen bestimmten Betrag, sehen Sie sich Ihr Guthaben oder Ihre Kaufhistorie an",
+            "options": [
+                {
+                    "name": "buy",
+                    "localizedName": "kaufen",
+                    "localizedDescription": "Erstellt einen Link zum Kauf einer bestimmten Menge an V-Bucks",
+                    "options": [
+                        {
+                            "name": "amount",
+                            "localizedName": "betrag",
+                            "localizedDescription": "Zu generierender Betrag"
+                        }
+                    ]
+                },
+                {
+                    "name": "balance",
+                    "localizedName": "guthaben",
+                    "localizedDescription": "Zeigen Sie an, wie viel V-Bucks Sie haben"
+                },
+                {
+                    "name": "history",
+                    "localizedName": "verlauf",
+                    "localizedDescription": "Deine V-Bucks-Kaufhistorie anzeigen"
+                }
+            ]
+        },
+        {
+            "name": "bot-info",
+            "localizedName": "bot-info",
+            "localizedDescription": "Gibt Informationen über den Bot"
+        },
+        {
+            "name": "banned",
+            "localizedName": "banned",
+            "localizedDescription": "Überprüfen Sie, ob Ihr Konto gesperrt ist oder nicht"
+        },
+        {
+            "name": "creative-xp",
+            "localizedName": "creative-xp",
+            "localizedDescription": "Zeigen Sie Ihre täglichen Creative XP-Limits und -Nutzung an."
+        },
+        {
+            "name": "refresh-profile",
+            "localizedName": "refresh-profile",
+            "localizedDescription": "Aktualisiert Ihr Battle Royale- und Save the World-Profil"
+        },
+        {
+            "name": "credits",
+            "localizedName": "credits",
+            "localizedDescription": "Zeigt die Personen, die uns bei der Erstellung des Bots geholfen haben"
+        },
+        {
+            "name": "motd",
+            "localizedName": "personal-news",
+            "localizedDescription": "Sehen Sie sich Ihre persönlichen Fortnite-Neuigkeiten an"
+        }
+    ]
+}

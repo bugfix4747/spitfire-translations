@@ -199,6 +199,7 @@
             "embed7": "[cosmetic] is successfully removed from your reminders.",
             "embed8": "Reminder List",
             "embed9": "No cosmetic found in your reminders.",
+            "embed10": "Successfully reset your reminder list.",
             "types": {
                 "outfit": "Outfits",
                 "pickaxe": "Pickaxes",
@@ -493,7 +494,8 @@
             "replyTypes": {
                 "embed": "Embed",
                 "plaintext": "Plain Text"
-            }
+            },
+            "auto": "Your preferred bot language is automatically set to [language]."
         },
         "missionalerts": {
             "missionAlerts": "Mission Alerts",
@@ -899,6 +901,11 @@
                             "localizedDescription": "The search language and the language of appearance of the cosmetic's name, description, etc."
                         }
                     ]
+                },
+                {
+                    "name": "clear",
+                    "localizedName": "clear",
+                    "localizedDescription": "Clear your reminder list"
                 },
                 {
                     "name": "list",

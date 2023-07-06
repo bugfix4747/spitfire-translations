@@ -526,7 +526,7 @@
         "loginreq": "Bu komutu kullanmak için lütfen [command] komutunu kullanarak hesabınıza giriş yapın.",
         "dataerror": "Verileriniz veri tabanına düzgün işlenmediği için hesabınızdan çıkış yapmak zorunda kaldık. Lütfen tekrar giriş yapın ve sorun devam ederse yardım almak için [destek sunucumuza]([support]) katılın.",
         "servererror": "Bu komut bir hata nedeniyle çalıştırılamadı. Bu hatanın genel nedeni, Fortnite sunucularının devre dışı olmasıdır.",
-        "hadtologout": "Oturumunuz Kapatıldı! Aşağıdaki nedenlerden biri bunun sebebi olabilir:\n• Session süresi doldu.\n• Epic Games veya siz tüm yetkilendirmeleri sildiniz.\n\nHesabınızdan otomatik olarak çıkış yapıldı. Tekrar giriş yapabilirsiniz.",
+        "hadtologout": "Oturumunuz Kapatıldı! Aşağıdaki nedenlerden biri bunun sebebi olabilir:\n• Session süresi doldu.\nHesabınızın şifresi değişti.\n• Epic Games veya siz tüm yetkilendirmeleri sildiniz.\n\nHesabınızdan otomatik olarak çıkış yapıldı. Tekrar giriş yapabilirsiniz.",
         "missingperms": "Botun hesabınızda yetersiz yetki olmasından dolayı işlem gerçekleştirilemedi.",
         "error": "Bu komut çalıştırılırken beklenmedik bir hata oluştu ve hata geliştiricilere bildirildi. Yardım almak için [destek sunucumuza]([support]) katılın.",
         "acceptedtryagain": "Kuralları kabul ettiniz. Devam etmek için butona yeniden tıklayın.",

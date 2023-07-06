@@ -21,7 +21,7 @@
         "embed2": {
         "title": "Beanspruchte Belohnungen",
         "description": "Erfolgreich Battle Royale-Belohnungen beansprucht.",
-        "description2": "Erfolgreich die Belohnungen "Battle Royale" und "Rettet die Welt" erhalten."
+        "description2": "Erfolgreich die Belohnungen \"Battle Royale\" und \"Rettet die Welt\" erhalten."
         }
     },
     "island": {
@@ -77,20 +77,20 @@
     },
     "embed1": "Kein Spieler mit dem Namen [Name] gefunden",
     "embed2": "Du kannst dich nicht als Freund hinzufügen.",
-    "embed3": "Bitte entfernen Sie den Player mit dem Befehl ",Friend :Unblock" oder "Friend User" aus Ihrer Blockierungsliste, bevor Sie diese Aktion ausführen.",
+    "embed3": "Bitte entfernen Sie den Player mit dem Befehl \",Friend :Unblock\" oder \"Friend User\" aus Ihrer Blockierungsliste, bevor Sie diese Aktion ausführen.",
     "embed4": "Freundschaftsanfrage kann aufgrund der Benutzereinstellungen nicht gesendet werden.",
     "embed5": "Freundschaftsanfrage konnte nicht gesendet werden, da der Benutzer das Limit für eingehende Freundschaftsanfragen überschritten hat.",
     "embed6": "Beim Senden der Freundschaftsanfrage ist ein unbekannter Fehler aufgetreten.",
     "embed7": "Freundschaftsanfrage von [Name] wurde angenommen.",
-    "embed8": "Sie haben bereits eine Freundschaftsanfrage an [Name] gesendet. Um die Anfrage zurückzuziehen, verwenden Sie den Benutzerbefehl ",Friend:".
-    ,"embed9": "Sie sind bereits mit [Name] befreundet. Um die Anfrage zurückzuziehen, verwenden Sie den Freund-Benutzer oder den Freund-Entfernungsbefehl.",
+    "embed8": "Sie haben bereits eine Freundschaftsanfrage an [Name] gesendet. Um die Anfrage zurückzuziehen, verwenden Sie den Benutzerbefehl \",Friend.\" ",
+    "embed9": "Sie sind bereits mit [Name] befreundet. Um die Anfrage zurückzuziehen, verwenden Sie den Freund-Benutzer oder den Freund-Entfernungsbefehl.",
     "embed10": "Freundschaftsanfrage wurde an [Name] gesendet",
     "embed11": "Du kannst dich nicht als Freund entfernen.",
     "embed12": "[Name] wurde aus Ihrer Freundesliste entfernt.",
     "embed13": "Du bist nicht mit [Name] befreundet",
     "embed14": "Du kannst dich nicht selbst blockieren.",
     "embed15": "[Name] wurde blockiert.",
-    "embed16": "[Name] ist bereits in Ihrer Liste blockiert. Um die Blockierung aufzuheben, verwenden Sie den Befehl ",friend :unblock" oder "friend user".",
+    "embed16": "[Name] ist bereits in Ihrer Liste blockiert. Um die Blockierung aufzuheben, verwenden Sie den Befehl \",friend unblock\" oder \"friend user\".",
     "embed17": "Der Block von [Name] wurde entfernt.",
     "embed18": "[Name] ist nicht in Ihrer Sperrliste.",
     "embed19": "Du hast keine Freunde.",
@@ -385,7 +385,7 @@
     " EffectiveDate": "Datum des Inkrafttretens",
     "expiryDate": "Ablaufdatum",
     "none": "Keine",
-    "footer": "Um In-Game-Pakete, Crew-Pakete usw. zu kaufen, ist der Befehl ",/:offer buy" erforderlich."
+    "footer": "Um In-Game-Pakete, Crew-Pakete usw. zu kaufen, ist der Befehl \",offer buy\" erforderlich."
     },
     "vbucks": {
     "price": "Preis",
@@ -425,7 +425,7 @@
     "login": {
     "embed1": {
     "title": "📲 Melden Sie sich bei Ihrem Epic Games-Konto an",
-    "description": "**:Warnung: Wir empfehlen, sich bei Konten anzumelden, die nur E-Mail-Zugriff haben!**\n1. Besuchen Sie den Link oben und suchen Sie den Schlüssel ",authorizationCode:".\n2. Kopieren Sie den gesamten Wert neben dem Schlüssel. Der Code ist 30 Sekunden lang gültig. Aktualisieren Sie die Seite, um einen neuen Code zu erhalten.\n3. Klicken Sie unten auf die Schaltfläche ",Senden:" und fügen Sie den Code in das dafür vorgesehene Feld ein. Wenn der Code ",null" ist, melden Sie sich bei Ihren Epic Games an Konto unter https://epicgames.com/login und versuchen Sie es erneut.\n\n**Müssen Sie das Konto wechseln?**\n[Hier klicken]([loginurl])"
+    "description": "**:Warnung: Wir empfehlen, sich bei Konten anzumelden, die nur E-Mail-Zugriff haben!**\n1. Besuchen Sie den Link oben und suchen Sie den Schlüssel \",authorizationCode:\".\n2. Kopieren Sie den gesamten Wert neben dem Schlüssel. Der Code ist 30 Sekunden lang gültig. Aktualisieren Sie die Seite, um einen neuen Code zu erhalten.\n3. Klicken Sie unten auf die Schaltfläche ",Senden:" und fügen Sie den Code in das dafür vorgesehene Feld ein. Wenn der Code ",null" ist, melden Sie sich bei Ihren Epic Games an Konto unter https://epicgames.com/login und versuchen Sie es erneut.\n\n**Müssen Sie das Konto wechseln?**\n[Hier klicken]([loginurl])"
     },
     "selectmenu1": {
     "Platzhalter": "Konto oder Login auswählen",
@@ -504,7 +504,7 @@
     "missingperms": "Dieser Befehl konnte aufgrund fehlender Berechtigungen für Ihr Konto nicht ausgeführt werden.",
     "error": "Beim Ausführen dieses Befehls ist ein unerwarteter Fehler aufgetreten und der Fehler wurde den Entwicklern gemeldet. Bitte treten Sie unserem [Support-Server]([Support]) bei, um Hilfe zu erhalten.",
     "acceptedtryagain": "Sie haben die Regeln akzeptiert. Klicken Sie erneut auf die Schaltfläche, um fortzufahren.",
-    "loginbruh": "Bitte melden Sie sich an, indem Sie auf die Schaltfläche ",Konto :verbinden" klicken oder den Befehl [command] verwenden, bevor Sie Ihre Rolle beanspruchen.",
+    "loginbruh": "Bitte melden Sie sich an, indem Sie auf die Schaltfläche \",Konto-verbinden\" klicken oder den Befehl [command] verwenden, bevor Sie Ihre Rolle beanspruchen.",
     "norank": "Sie haben Ihr Konto verbunden, aber noch keinen Rang. Schließen Sie jetzt ein Match ab, um einen höheren Rang zu erreichen! Sobald Sie fertig sind, können Sie Ihre Rolle mit der Schaltfläche ‚Rang aktualisieren‘ beanspruchen.",
     "rank": "Sie haben Ihr Konto verbunden und die Rolle [Rolle] erhalten, da Sie sich derzeit auf Rang [currentRank] befinden! Steigern Sie Ihren Rang und aktualisieren Sie Ihre Rolle auf dem Server mit der Schaltfläche ",Rang :aktualisieren".",
     "hellouser": "Hallo, [Name]",
@@ -566,7 +566,7 @@
     ],
     "rules": {
     "title": "Bitte vor dem Anmelden lesen:",
-    "Beschreibung": "Bitte vor dem Anmelden lesen:\n\n1. Wir geben Ihre Benutzerdaten an niemanden weiter und zeigen sie auch nicht an; wir nehmen die Sicherheit Ihres Kontos sehr ernst!\n2. Bitte verwenden Sie diesen Bot nur, wenn Sie das Potenzial vollständig akzeptieren Risiken, die damit verbunden sein können.\n3. Wir übernehmen keine Verantwortung für Maßnahmen, die gegen Ihr Konto ergriffen werden, einschließlich, aber nicht beschränkt auf Einschränkungen, Schließungen oder Sperren. Diese Situationen können durch die Verwendung oder den Missbrauch von Befehlen entstehen.\n\ n**Wenn Sie diesen Bedingungen zustimmen, klicken Sie unten auf die Schaltfläche ",Ich :akzeptiere"!**\n\n[Datenschutzerklärung]([website]/privacy-policy) – [Nutzungsbedingungen]([website]/tos )",
+    "Beschreibung": "Bitte vor dem Anmelden lesen:\n\n1. Wir geben Ihre Benutzerdaten an niemanden weiter und zeigen sie auch nicht an; wir nehmen die Sicherheit Ihres Kontos sehr ernst!\n2. Bitte verwenden Sie diesen Bot nur, wenn Sie das Potenzial vollständig akzeptieren Risiken, die damit verbunden sein können.\n3. Wir übernehmen keine Verantwortung für Maßnahmen, die gegen Ihr Konto ergriffen werden, einschließlich, aber nicht beschränkt auf Einschränkungen, Schließungen oder Sperren. Diese Situationen können durch die Verwendung oder den Missbrauch von Befehlen entstehen.\n\ n**Wenn Sie diesen Bedingungen zustimmen, klicken Sie unten auf die Schaltfläche \",Ich :akzeptiere\"!**\n\n[Datenschutzerklärung]([website]/privacy-policy) – [Nutzungsbedingungen]([website]/tos )",
     "accept": "Ich akzeptiere",
     "deny": "Ich Lehne ab"
     }
@@ -889,7 +889,7 @@
     {
     "name": "Tagesquests",
     "localizedName": "Tagesquests",
-    "localizedDescription": "Sehen Sie sich Ihre täglichen ",Rette :die Welt"-Quests an."
+    "localizedDescription": "Sehen Sie sich Ihre täglichen \"Rette die Welt\"-Quests an."
     },
     {
     "name": "Neuigkeiten",
